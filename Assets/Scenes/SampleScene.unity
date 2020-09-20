@@ -339,6 +339,7 @@ GameObject:
   - component: {fileID: 1460939459}
   - component: {fileID: 1460939462}
   - component: {fileID: 1460939461}
+  - component: {fileID: 1460939463}
   m_Layer: 0
   m_Name: partywitch
   m_TagString: Untagged
@@ -448,6 +449,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1460939463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460939458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 588dc30818cc4e34687bb1424d31f361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1779966679
 GameObject:
   m_ObjectHideFlags: 0

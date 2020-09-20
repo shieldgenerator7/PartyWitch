@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Scripts : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     Vector2 inputDir;
     PlayerControls playerControls;

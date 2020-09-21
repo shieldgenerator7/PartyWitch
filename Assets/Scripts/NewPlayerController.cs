@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class NewPlayerController : MonoBehaviour
 {
     private PlayerActionControls playerActionControls;
     [SerializeField] private float speed, jumpSpeed;
@@ -12,20 +11,14 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col2d;
 
-    //Vector2 inputDir;
-    //PlayerControls playerControls;
-
-    //Rigidbody2D rb2d;
-    //Vector2 walkInput;
-    //Vector2 crouchInput;
-    //Vector2 jumpInput;
-
+    // Runs before Start
     private void Awake()
     {
         playerActionControls = new PlayerActionControls();
         rb = GetComponent<Rigidbody2D>();
         col2d = GetComponent<Collider2D>();
     }
+
 
     private void OnEnable()
     {
@@ -40,12 +33,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //playerControls = new PlayerControls();
-        //playerControls.Player.Movement.performed += movePlayer;
-        //playerControls.Enable();
-
-        //rb2d = GetComponent<Rigidbody2D>();
-
+        // Don't want to pass in anything into the Jump function so we use an underscore
         playerActionControls.Player.Jump.performed += _ => Jump();
     }
 
@@ -67,11 +55,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //this where you decide which direction to move based on input dir
-        //float speedYouWant = 5.1f;
-        //rb2d.AddForce(Vector2.right * rb2d.mass * speedYouWant);
-        //rb2d.velocity = new Vector2(speedYouWant, rb2d.velocity.y);
-
         // Read the movement value
         float movementInput = playerActionControls.Player.Movement.ReadValue<float>();
         // Move the player
@@ -79,9 +62,4 @@ public class PlayerController : MonoBehaviour
         currentPosition.x += movementInput * speed * Time.deltaTime;
         transform.position = currentPosition;
     }
-
-    //private void movePlayer(InputAction.CallbackContext obj)
-    //{
-    //    inputDir = obj.ReadValue<Vector2>();
-    //}
 }

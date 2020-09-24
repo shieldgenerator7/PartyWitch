@@ -111,6 +111,27 @@
           "text": "hooray!"
         }
       ]
+    },
+    {
+      "title": "Dialogue Title",
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "another new thing"
+        },
+        {
+          "characterName": "Plant",
+          "text": "whooo!"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "here you go"
+        },
+        {
+          "characterName": "Plant",
+          "text": "it tastes like dirt"
+        }
+      ]
     }
   ]
 }

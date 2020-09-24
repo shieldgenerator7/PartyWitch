@@ -19,31 +19,8 @@ namespace Assets.Scripts.Dialogue
         private void Awake()
         {
             string jsonString = Resources.Load<TextAsset>("dialogues").text;
-            Debug.Log(jsonString);
             dialogueData = JsonUtility.FromJson<DialogueData>(jsonString);
             dialogueData.dialogues.ForEach(d => d.inflate());
-            Debug.Log("dialogueData: " + dialogueData);
-            Debug.Log("dialogueData.chars: ");
-            dialogueData.dialogues[2].Characters.ForEach(
-            chr => Debug.Log("  >>  " + chr)
-            );
-            int i = 0;
-            //testUnityJSON();
-        }
-
-        private void testUnityJSON()
-        {
-            dialogueData = new DialogueData();
-            List<DialoguePath> dialogues = dialogueData.dialogues;
-            DialoguePath d = new DialoguePath();
-            d.quotes.Add(new Quote("Jubilee", "Hello there!"));
-            d.quotes.Add(new Quote("Grim", "Hi, I guess."));
-            dialogues.Add(d);
-            dialogues.Add(new DialoguePath());
-            dialogues.Add(new DialoguePath());
-            //dialogueData.prepareForJSON();
-            string jsonString = JsonUtility.ToJson(dialogueData, true);
-            Debug.Log("JSON: " + jsonString);
         }
 
         public void playDialogue(string title = null)

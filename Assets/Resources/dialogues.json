@@ -1,1 +1,83 @@
-{"dialogues":[{"title":"Meeting Scarecrow","quotes":[{"characterName":"Jubilee","text":"Hello wanna come to a party?"},{"characterName":"Scarecrow","text":"Sure, but all these crows are cramping my field"},{"characterName":"Jubilee","text":"Ok ill take care of them for you"},{"characterName":"Scarecrow","text":"THank you"}]},{"title":"Dialogue Title","quotes":[{"characterName":"Jubilee","text":"Hello, how are you today?"},{"characterName":"Grim","text":"Good, how are you?"},{"characterName":"Jubilee","text":"Fantastic, thanks for asking"},{"characterName":"Grim","text":"No problem, anytime, just come talk to me and I'll do you the grand favor of asking how you're doing."},{"characterName":"Jubilee","text":"Great, thanks"}]}]}
+{
+  "dialogues": [
+    {
+      "title": "Meeting Scarecrow",
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Hello wanna come to a party?"
+        },
+        {
+          "characterName": "Scarecrow",
+          "text": "Sure, but all these crows are cramping my field"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Ok ill take care of them for you"
+        },
+        {
+          "characterName": "Scarecrow",
+          "text": "THank you"
+        }
+      ]
+    },
+    {
+      "title": "Dialogue Title",
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Hello, how are you today?"
+        },
+        {
+          "characterName": "Grim",
+          "text": "Good, how are you?"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Fantastic, thanks for asking"
+        },
+        {
+          "characterName": "Grim",
+          "text": "No problem, anytime, just come talk to me and I'll do you the grand favor of asking how you're doing."
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Great, thanks"
+        }
+      ]
+    },
+    {
+      "title": "Group Huddle",
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Are you guys ready?"
+        },
+        {
+          "characterName": "Vamp",
+          "text": "What's the plan?"
+        },
+        {
+          "characterName": "Werewolf",
+          "text": "I'm ready."
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "You get the streamers, you get the balloons, and I'll get the guests."
+        },
+        {
+          "characterName": "Werewolf",
+          "text": "Got it."
+        },
+        {
+          "characterName": "Vamp",
+          "text": "Sounds like a plan."
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Alright! Let's do this!"
+        }
+      ]
+    }
+  ]
+}

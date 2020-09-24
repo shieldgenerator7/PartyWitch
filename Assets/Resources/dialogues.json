@@ -78,6 +78,39 @@
           "text": "Alright! Let's do this!"
         }
       ]
+    },
+    {
+      "title": "New guy i guess",
+      "quotes": [
+        {
+          "characterName": "new guy",
+          "text": "hello"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "hi there"
+        },
+        {
+          "characterName": "new guy",
+          "text": "whats this"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "a party!"
+        },
+        {
+          "characterName": "new guy",
+          "text": "can i join?"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "yeah sure why not?"
+        },
+        {
+          "characterName": "new guy",
+          "text": "hooray!"
+        }
+      ]
     }
   ]
 }

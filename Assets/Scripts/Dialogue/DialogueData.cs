@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 [Serializable]
 public class DialogueData
@@ -13,5 +14,15 @@ public class DialogueData
         {
             this.dialogues = new List<DialoguePath>();
         }
+    }
+
+    public DialoguePath getDialoguePath(string title)
+    {
+        return dialogues.FirstOrDefault(d => d.title == title);
+    }
+
+    public DialoguePath getDialoguePath(List<string> characters)
+    {
+        return dialogues.FirstOrDefault(d => d.allCharactersPresent(characters));
     }
 }

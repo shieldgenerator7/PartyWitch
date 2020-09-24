@@ -10,9 +10,11 @@ namespace Assets.Scripts.Dialogue
     /// <summary>
     /// Determines which dialogue happens when you want to trigger a dialogue
     /// </summary>
-    class DialogueManager: MonoBehaviour
+    class DialogueManager : MonoBehaviour
     {
-        public DialogueData dialogueData;
+        private DialogueData dialogueData;
+        [SerializeField]
+        private DialoguePlayer dialoguePlayer;
 
         private void Awake()
         {
@@ -21,6 +23,10 @@ namespace Assets.Scripts.Dialogue
             dialogueData = JsonUtility.FromJson<DialogueData>(jsonString);
             dialogueData.dialogues.ForEach(d => d.inflate());
             Debug.Log("dialogueData: " + dialogueData);
+            Debug.Log("dialogueData.chars: ");
+            dialogueData.dialogues[2].Characters.ForEach(
+            chr => Debug.Log("  >>  " + chr)
+            );
             int i = 0;
             //testUnityJSON();
         }
@@ -28,7 +34,7 @@ namespace Assets.Scripts.Dialogue
         private void testUnityJSON()
         {
             dialogueData = new DialogueData();
-            List<DialoguePath> dialogues =  dialogueData.dialogues;
+            List<DialoguePath> dialogues = dialogueData.dialogues;
             DialoguePath d = new DialoguePath();
             d.quotes.Add(new Quote("Jubilee", "Hello there!"));
             d.quotes.Add(new Quote("Grim", "Hi, I guess."));
@@ -37,7 +43,36 @@ namespace Assets.Scripts.Dialogue
             dialogues.Add(new DialoguePath());
             //dialogueData.prepareForJSON();
             string jsonString = JsonUtility.ToJson(dialogueData, true);
-            Debug.Log("JSON: "+jsonString);
+            Debug.Log("JSON: " + jsonString);
+        }
+
+        public void playDialogue(string title = null)
+        {
+            DialoguePath path = null;
+            if (title == null || title == "")
+            {
+                //2020-09-24: TODO: make it search for characters
+                //path = dialogueData.selectSuitableDialoguePath();
+
+                //can't do anything (for now)
+                throw new NullReferenceException("Title must be non-null and must not be the empty string! title: " + title);
+            }
+            else
+            {
+                path = dialogueData.getDialoguePath(title);
+            }
+            playDialogue(path);
+        }
+
+        public void playDialogue(List<string> characters)
+        {
+            DialoguePath path = dialogueData.getDialoguePath(characters);
+            playDialogue(path);
+        }
+
+        public void playDialogue(DialoguePath path)
+        {
+            dialoguePlayer.playDialogue(path);
         }
     }
 }

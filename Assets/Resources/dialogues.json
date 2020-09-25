@@ -5,44 +5,53 @@
       "quotes": [
         {
           "characterName": "Jubilee",
-          "text": "Hello wanna come to a party?"
+          "text": "Hello wanna come to a party?",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Scarecrow",
-          "text": "Sure, but all these crows are cramping my field"
+          "text": "Sure, but all these crows are cramping my field",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "Ok ill take care of them for you"
+          "text": "Ok ill take care of them for you",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
         },
         {
           "characterName": "Scarecrow",
-          "text": "THank you"
+          "text": "THank you",
+          "imageFileName": null
         }
       ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "Morning Greeting",
       "quotes": [
         {
           "characterName": "Jubilee",
-          "text": "Hello, how are you today?"
+          "text": "Hello, how are you today?",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Grim",
-          "text": "Good, how are you?"
+          "text": "Good, how are you?",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "Fantastic, thanks for asking"
+          "text": "Fantastic, thanks for asking",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Grim",
-          "text": "No problem, anytime, just come talk to me and I'll do you the grand favor of asking how you're doing."
+          "text": "No problem, anytime, just come talk to me and I'll do you the grand favor of asking how you're doing.",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "Great, thanks"
+          "text": "Great, thanks",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ]
     },
@@ -51,31 +60,38 @@
       "quotes": [
         {
           "characterName": "Jubilee",
-          "text": "Are you guys ready?"
+          "text": "Are you guys ready?",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Vamp",
-          "text": "What's the plan?"
+          "text": "What's the plan?",
+          "imageFileName": null
         },
         {
           "characterName": "Werewolf",
-          "text": "I'm ready."
+          "text": "I'm ready.",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "You get the streamers, you get the balloons, and I'll get the guests."
+          "text": "You get the streamers, you get the balloons, and I'll get the guests.",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Werewolf",
-          "text": "Got it."
+          "text": "Got it.",
+          "imageFileName": null
         },
         {
           "characterName": "Vamp",
-          "text": "Sounds like a plan."
+          "text": "Sounds like a plan.",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "Alright! Let's do this!"
+          "text": "Alright! Let's do this!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ]
     },
@@ -84,52 +100,78 @@
       "quotes": [
         {
           "characterName": "new guy",
-          "text": "hello"
+          "text": "hello",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "hi there"
+          "text": "hi there",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "new guy",
-          "text": "whats this"
+          "text": "whats this",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "a party!"
+          "text": "a party!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "new guy",
-          "text": "can i join?"
+          "text": "can i join?",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "yeah sure why not?"
+          "text": "yeah sure why not?",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "new guy",
-          "text": "hooray!"
+          "text": "hooray!",
+          "imageFileName": null
         }
       ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "Feeding the Plant",
       "quotes": [
         {
           "characterName": "Jubilee",
-          "text": "another new thing"
+          "text": "another new thing",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Plant",
-          "text": "whooo!"
+          "text": "whooo!",
+          "imageFileName": null
         },
         {
           "characterName": "Jubilee",
-          "text": "here you go"
+          "text": "here you go",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Plant",
-          "text": "it tastes like dirt"
+          "text": "it tastes like dirt",
+          "imageFileName": null
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "THat's great!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
+        },
+        {
+          "characterName": "Plant",
+          "text": "hmm.... i like it",
+          "imageFileName": null
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "glad to hear!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
         }
       ]
     }

@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col2d;
 
+    private bool crouch = false;
+
     //Vector2 inputDir;
     //PlayerControls playerControls;
 
@@ -57,6 +59,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Crouch()
+    {
+        print("Crouching");
+    }
+
     private bool isGrounded()
     {
         Vector2 feetPos = transform.position;
@@ -66,11 +73,11 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        //this where you decide which direction to move based on input dir
-        //float speedYouWant = 5.1f;
-        //rb2d.AddForce(Vector2.right * rb2d.mass * speedYouWant);
-        //rb2d.velocity = new Vector2(speedYouWant, rb2d.velocity.y);
+    {   
+        if (playerActionControls.Player.Crouch.triggered)
+        {
+            print("Is crouching");
+        }
 
         // Read the movement value
         float movementInput = playerActionControls.Player.Movement.ReadValue<float>();

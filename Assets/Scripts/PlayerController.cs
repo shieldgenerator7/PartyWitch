@@ -8,19 +8,18 @@ public class PlayerController : MonoBehaviour
 {
     private PlayerActionControls playerActionControls;
     [SerializeField] private float speed, jumpSpeed;
-    [SerializeField] private LayerMask ground;
+    [SerializeField] private LayerMask groundLayer;
     private Rigidbody2D rb;
     private Collider2D col2d;
+    private bool enableExtraJumps = false;
 
-    private bool crouch = false;
+    public Transform groundCheck;
+    public float checkRadius;
+    private bool isGrounded;
+    private int extraJumps;
+    public int extraJumpsValue;
 
-    //Vector2 inputDir;
-    //PlayerControls playerControls;
-
-    //Rigidbody2D rb2d;
-    //Vector2 walkInput;
-    //Vector2 crouchInput;
-    //Vector2 jumpInput;
+    private bool jumpBtnDown = false;
 
     private void Awake()
     {
@@ -32,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         playerActionControls.Enable();
+        playerActionControls.Player.Jump.performed += ctx => jumpBtnDown = true;
+        playerActionControls.Player.Jump.canceled += ctx => jumpBtnDown = false;
     }
 
     private void OnDisable()
@@ -42,41 +43,46 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //playerControls = new PlayerControls();
-        //playerControls.Player.Movement.performed += movePlayer;
-        //playerControls.Enable();
-
-        //rb2d = GetComponent<Rigidbody2D>();
-
-        playerActionControls.Player.Jump.performed += _ => Jump();
+        extraJumps = extraJumpsValue;
     }
 
-    private void Jump()
-    {
-        if (isGrounded())
-        {
-            rb.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
-        }
-    }
+    //private void Jump()
+    //{
+    //    if (onGround)
+    //    {
+    //        rb.velocity = Vector2.up * jumpSpeed;
+    //        canDoubleJump = true;
+    //    }
+    //}
 
-    private void Crouch()
-    {
-        print("Crouching");
-    }
+    //private bool isGrounded()
+    //{
+    //    Vector2 feetPos = transform.position;
+    //    feetPos.y -= col2d.bounds.extents.y;
+    //    return Physics2D.OverlapCircle(feetPos, .1f, ground);
+    //}
 
-    private bool isGrounded()
+    private void FixedUpdate()
     {
-        Vector2 feetPos = transform.position;
-        feetPos.y -= col2d.bounds.extents.y;
-        return Physics2D.OverlapCircle(feetPos, .1f, ground);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
     }
 
     // Update is called once per frame
     void Update()
-    {   
-        if (playerActionControls.Player.Crouch.triggered)
+    {
+        if(isGrounded)
         {
-            print("Is crouching");
+            extraJumps = extraJumpsValue;
+        }
+
+        if (jumpBtnDown && extraJumps > 0)
+        {
+            rb.velocity = Vector2.up * jumpSpeed;
+            extraJumps--;
+        }
+        else if (jumpBtnDown && extraJumps == 0 && isGrounded)
+        {
+            rb.velocity = Vector2.up * jumpSpeed;
         }
 
         // Read the movement value
@@ -87,8 +93,4 @@ public class PlayerController : MonoBehaviour
         transform.position = currentPosition;
     }
 
-    //private void movePlayer(InputAction.CallbackContext obj)
-    //{
-    //    inputDir = obj.ReadValue<Vector2>();
-    //}
 }

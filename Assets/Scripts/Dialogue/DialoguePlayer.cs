@@ -45,19 +45,18 @@ public class DialoguePlayer : MonoBehaviour
             && Time.time > lastQuoteTime + delayBetweenQuotes)
         {
             lastQuoteTime = Time.time;
-            displayQuote(path.quotes[index]);
-            index++;
             if (index >= path.quotes.Count)
             {
                 stopDialogue();
             }
+            displayQuote(path.quotes[index]);
+            index++;
         }
     }
 
     private void displayQuote(Quote quote)
     {
-        Debug.Log(quote.characterName + ": " + quote.text);
-        //charPortrait.sprite = 
+        charPortrait.sprite = Resources.Load<Sprite>("DialogueFaces/" + quote.imageName);
         charName.text = quote.characterName;
         charQuote.text = quote.text;
     }

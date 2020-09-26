@@ -6,21 +6,25 @@
         {
           "characterName": "Jubilee",
           "text": "Hello wanna come to a party?",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Scarecrow",
           "text": "Sure, but all these crows are cramping my field",
+          "imageName": "scarecrow_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\scarecrow_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Ok ill take care of them for you",
+          "imageName": "jubilee_asleep",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
         },
         {
           "characterName": "Scarecrow",
           "text": "THank you",
+          "imageName": "scarecrow_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\scarecrow_happy.png"
         }
       ]
@@ -31,26 +35,31 @@
         {
           "characterName": "Jubilee",
           "text": "Hello, how are you today?",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Grim",
           "text": "Good, how are you?",
+          "imageName": "grim",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Fantastic, thanks for asking",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Grim",
           "text": "No problem, anytime, just come talk to me and I'll do you the grand favor of asking how you're doing.",
+          "imageName": "grim",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Great, thanks",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ]
@@ -61,36 +70,43 @@
         {
           "characterName": "Jubilee",
           "text": "Are you guys ready?",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Vamp",
           "text": "What's the plan?",
+          "imageName": "vampire_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\vampire_happy.png"
         },
         {
           "characterName": "Werewolf",
           "text": "I'm ready.",
+          "imageName": "werewolf_wolf_sly",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\werewolf_wolf_sly.png"
         },
         {
           "characterName": "Jubilee",
           "text": "You get the streamers, you get the balloons, and I'll get the guests.",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Werewolf",
           "text": "Got it.",
+          "imageName": "werewolf_wolf_sly",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\werewolf_wolf_sly.png"
         },
         {
           "characterName": "Vamp",
           "text": "Sounds like a plan.",
+          "imageName": "vampire_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\vampire_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Alright! Let's do this!",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ]
@@ -101,36 +117,43 @@
         {
           "characterName": "new guy",
           "text": "hello",
+          "imageName": "werewolf_human_crazy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\werewolf_human_crazy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "hi there",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "new guy",
           "text": "whats this",
+          "imageName": "werewolf_human_crazy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\werewolf_human_crazy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "a party!",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "new guy",
           "text": "can i join?",
+          "imageName": "werewolf_human_crazy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\werewolf_human_crazy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "yeah sure why not?",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "new guy",
           "text": "hooray!",
+          "imageName": "werewolf_human_crazy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\werewolf_human_crazy.png"
         }
       ]
@@ -141,36 +164,43 @@
         {
           "characterName": "Jubilee",
           "text": "another new thing",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Plant",
           "text": "whooo!",
+          "imageName": "whale_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\whale_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "here you go",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Plant",
           "text": "it tastes like dirt",
+          "imageName": "whale_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\whale_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "THat's great!",
+          "imageName": "jubilee_asleep",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
         },
         {
           "characterName": "Plant",
           "text": "hmm.... i like it",
+          "imageName": "whale_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\whale_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "glad to hear!",
+          "imageName": "jubilee_asleep",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
         }
       ]
@@ -181,71 +211,85 @@
         {
           "characterName": "Jubilee",
           "text": "Hello",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Swamp Thing",
           "text": "Um, hi",
+          "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "What are you doing tonight?",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Swamp Thing",
           "text": "Me? Oh, uh, nothing...",
+          "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Great! I want to invite you--",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Swamp Thing",
           "text": "On a date??",
+          "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Huh? Uh, no... a party!",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Swamp Thing",
           "text": "Oh sure thing! Where at?",
+          "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Grim's house",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Swamp Thing",
           "text": "Oh its that time of year. I, uh, got lilypads to harvest",
+          "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Oh come on, it'll be fun!",
+          "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Swamp Thing",
           "text": "Ok, for you, Jubilee, I will go.",
+          "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Yeee! *hugs him*",
+          "imageName": "jubilee_asleep",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
         },
         {
           "characterName": "Swamp Thing",
           "text": "See you there *blushes*",
+          "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         }
       ]

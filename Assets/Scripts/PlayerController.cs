@@ -77,11 +77,13 @@ public class PlayerController : MonoBehaviour
 
         if (jumpBtnDown && extraJumps > 0)
         {
+            print("In first jump");
             rb.velocity = Vector2.up * jumpSpeed;
             extraJumps--;
         }
         else if (jumpBtnDown && extraJumps == 0 && isGrounded)
         {
+            print("in second jump");
             rb.velocity = Vector2.up * jumpSpeed;
         }
 

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace Assets.Scripts.Dialogue
@@ -10,6 +7,7 @@ namespace Assets.Scripts.Dialogue
     /// <summary>
     /// Determines which dialogue happens when you want to trigger a dialogue
     /// </summary>
+    [RequireComponent(typeof(DialoguePlayer))]
     class DialogueManager : MonoBehaviour
     {
         private DialogueData dialogueData;

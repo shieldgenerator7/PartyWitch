@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Plays dialogue
@@ -9,38 +11,54 @@ public class DialoguePlayer : MonoBehaviour
 {
     public float delayBetweenQuotes = 1;
 
+    public Canvas dialogueCanvas;
+    public Image charPortrait;
+    public TMP_Text charName;
+    public TMP_Text charQuote;
+
     private int index = 0;
     private DialoguePath path;
     private float lastQuoteTime = -1;
-    
+
     public void playDialogue(DialoguePath path)
     {
         index = 0;
         this.path = path;
         lastQuoteTime = Time.time;
+        //UI
+        dialogueCanvas.gameObject.SetActive(true);
+        //Show the first quote
+        displayQuote(path.quotes[0]);
     }
 
     public void stopDialogue()
     {
         lastQuoteTime = -1;
+        //UI
+        dialogueCanvas.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (lastQuoteTime >= 0 
+        if (lastQuoteTime >= 0
             && Time.time > lastQuoteTime + delayBetweenQuotes)
         {
             lastQuoteTime = Time.time;
-            Debug.Log(
-                path.quotes[index].characterName + ": "
-                + path.quotes[index].text
-                );
+            displayQuote(path.quotes[index]);
             index++;
             if (index >= path.quotes.Count)
             {
                 stopDialogue();
             }
         }
+    }
+
+    private void displayQuote(Quote quote)
+    {
+        Debug.Log(quote.characterName + ": " + quote.text);
+        //charPortrait.sprite = 
+        charName.text = quote.characterName;
+        charQuote.text = quote.text;
     }
 }

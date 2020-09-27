@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+
 public class PlayerController : MonoBehaviour
 {
     private PlayerActionControls playerActionControls;
@@ -46,25 +48,30 @@ public class PlayerController : MonoBehaviour
         extraJumps = extraJumpsValue;
     }
 
-    //private void Jump()
-    //{
-    //    if (onGround)
-    //    {
-    //        rb.velocity = Vector2.up * jumpSpeed;
-    //        canDoubleJump = true;
-    //    }
-    //}
-
-    //private bool isGrounded()
-    //{
-    //    Vector2 feetPos = transform.position;
-    //    feetPos.y -= col2d.bounds.extents.y;
-    //    return Physics2D.OverlapCircle(feetPos, .1f, ground);
-    //}
-
     private void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == groundLayer)
+        {
+            isGrounded = true;
+        }
+    }
+
+    public void OnCollisionExit2D(Collision collision)
+    {
+        if (collision.gameObject.layer == groundLayer)
+        {
+            isGrounded = false;
+        }
+    }
+
+    public void TestFunction()
+    {
+        print("This is a test");
     }
 
     // Update is called once per frame
@@ -77,13 +84,11 @@ public class PlayerController : MonoBehaviour
 
         if (jumpBtnDown && extraJumps > 0)
         {
-            print("In first jump");
             rb.velocity = Vector2.up * jumpSpeed;
             extraJumps--;
         }
         else if (jumpBtnDown && extraJumps == 0 && isGrounded)
         {
-            print("in second jump");
             rb.velocity = Vector2.up * jumpSpeed;
         }
 

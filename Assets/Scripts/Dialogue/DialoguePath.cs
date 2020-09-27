@@ -7,15 +7,23 @@ using System.Linq;
 public class DialoguePath
 {
     public string title = "Dialogue Title";
+    public List<Condition> conditions = new List<Condition>();
     public List<Quote> quotes = new List<Quote>();
+    public List<Action> actions = new List<Action>();
 
     /// <summary>
     /// Restores temp variables after being read in
     /// </summary>
     public void inflate()
     {
+        conditions.ForEach(
+            c => c.path = this
+            );
         quotes.ForEach(
             q => q.path = this
+            );
+        actions.ForEach(
+            a => a.path = this
             );
     }
 
@@ -45,5 +53,21 @@ public class DialoguePath
         }
         //All characters present
         return true;
+    }
+
+    public void remove(DialogueComponent dc)
+    {
+        if (dc is Condition)
+        {
+            conditions.Remove((Condition)dc);
+        }
+        else if (dc is Quote)
+        {
+            quotes.Remove((Quote)dc);
+        }
+        else if (dc is Action)
+        {
+            actions.Remove((Action)dc);
+        }
     }
 }

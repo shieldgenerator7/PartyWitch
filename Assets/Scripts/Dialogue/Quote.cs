@@ -1,7 +1,7 @@
 ﻿using System;
 
 [Serializable]
-public class Quote
+public class Quote : DialogueComponent
 {
 
     public string characterName = "";
@@ -11,9 +11,6 @@ public class Quote
     /// </summary>
     public string imageName = "";
     public string imageFileName = "";
-
-    [NonSerialized]
-    public DialoguePath path;
 
     public int Index => path.quotes.IndexOf(this);
 
@@ -26,6 +23,13 @@ public class Quote
         string[] split = imageFileName.Split(new char[] { '\\', '/' });
         string name = split[split.Length - 1];
         int lastDotIndex = name.LastIndexOf('.');
-        this.imageName = name.Substring(0, lastDotIndex);
+        if (lastDotIndex >= 0)
+        {
+            this.imageName = name.Substring(0, lastDotIndex);
+        }
+        else
+        {
+            this.imageName = name;
+        }
     }
 }

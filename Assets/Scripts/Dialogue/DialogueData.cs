@@ -7,7 +7,7 @@ public class DialogueData
 {
     public List<DialoguePath> dialogues;
 
-	public DialogueData(List<DialoguePath> dialogues = null)
+    public DialogueData(List<DialoguePath> dialogues = null)
     {
         this.dialogues = dialogues;
         if (this.dialogues == null)

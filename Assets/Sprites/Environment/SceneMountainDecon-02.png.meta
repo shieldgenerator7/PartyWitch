@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: b5190d64518d31b4d9fdc91698c83cbb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3076066770472698485
+    second: MountainTrees
+  - first:
+      213: 3807231466950842962
+    second: MountainBoulder01
+  - first:
+      213: -8022825687145201591
+    second: MountainBoulder02
+  - first:
+      213: -1604980360667898437
+    second: MountainBoulder03
+  - first:
+      213: -603381222404774628
+    second: MountainBoulder04
+  - first:
+      213: -1597853011534950970
+    second: MountainBoulder05
+  - first:
+      213: -2161323239508863165
+    second: MountainRange02
+  - first:
+      213: 8916945063268866629
+    second: MountainGround
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +87,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +111,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: MountainTrees
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2179
+        width: 2820
+        height: 1876
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d7798e19d9f45d0800000000000000
+      internalID: -3076066770472698485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainBoulder01
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 2998
+        width: 1210
+        height: 1070
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a5b4df8d006d430800000000000000
+      internalID: 3807231466950842962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainBoulder02
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 1990
+        width: 485
+        height: 891
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940c4d65b8239a090800000000000000
+      internalID: -8022825687145201591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainBoulder03
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 2585
+        width: 544
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd59e29dd6f9b9e0800000000000000
+      internalID: -1604980360667898437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainBoulder04
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 2196
+        width: 532
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c152c6e99fb50a7f0800000000000000
+      internalID: -603381222404774628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainBoulder05
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 1965
+        width: 210
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdcb2cd62943d9e0800000000000000
+      internalID: -1597853011534950970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainRange02
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 531
+        width: 4046
+        height: 1188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347174007ff6102e0800000000000000
+      internalID: -2161323239508863165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MountainGround
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 45
+        width: 3937
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a50d18a4a5fbb70800000000000000
+      internalID: 8916945063268866629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

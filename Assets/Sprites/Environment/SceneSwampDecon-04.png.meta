@@ -1,7 +1,127 @@
 fileFormatVersion: 2
 guid: 425bdbe1c860bbe44afc8b77c17373b6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1575274064361206995
+    second: SwampTree04
+  - first:
+      213: -1635487484802019799
+    second: SwampTree05
+  - first:
+      213: 4850759454632887169
+    second: SceneSwampDecon-04_2
+  - first:
+      213: -8241120193059897914
+    second: SceneSwampDecon-04_3
+  - first:
+      213: 8115286991443065293
+    second: SwampFloater07
+  - first:
+      213: -5604445002762647092
+    second: SceneSwampDecon-04_5
+  - first:
+      213: 3225054767162138190
+    second: SceneSwampDecon-04_6
+  - first:
+      213: 6910174535174278000
+    second: SceneSwampDecon-04_7
+  - first:
+      213: -4454803582976662931
+    second: SwampZombie01
+  - first:
+      213: 5796305107601365149
+    second: SwampZombie02
+  - first:
+      213: -2198667422614178565
+    second: SwampZombie03
+  - first:
+      213: 654290577041139270
+    second: SwampWaterBranch
+  - first:
+      213: -1398458771075668916
+    second: SceneSwampDecon-04_12
+  - first:
+      213: 2077021405774656703
+    second: SwampCattails
+  - first:
+      213: 7463137504432652425
+    second: SwampZombie04
+  - first:
+      213: 7689331105348517182
+    second: SwampLeaf01
+  - first:
+      213: -9049127818058948798
+    second: SwampFerns01
+  - first:
+      213: 4886450080393450878
+    second: SceneSwampDecon-04_17
+  - first:
+      213: 5716590669562231385
+    second: SceneSwampDecon-04_18
+  - first:
+      213: 4243804287581359385
+    second: SceneSwampDecon-04_19
+  - first:
+      213: -242760637406848139
+    second: SwampZombie05
+  - first:
+      213: -7705708803105774284
+    second: SceneSwampDecon-04_21
+  - first:
+      213: 4887110201400991272
+    second: SceneSwampDecon-04_22
+  - first:
+      213: 4827902412213258905
+    second: SceneSwampDecon-04_23
+  - first:
+      213: 1293048993915852091
+    second: SceneSwampDecon-04_24
+  - first:
+      213: 1431152378176553023
+    second: SwampLeaf02
+  - first:
+      213: 4651232149495421905
+    second: SceneSwampDecon-04_26
+  - first:
+      213: 3745562665655397303
+    second: SceneSwampDecon-04_27
+  - first:
+      213: -620057564275740689
+    second: SceneSwampDecon-04_28
+  - first:
+      213: 2136246677565401783
+    second: SceneSwampDecon-04_29
+  - first:
+      213: -5787580168409322257
+    second: SceneSwampDecon-04_30
+  - first:
+      213: -305613186507987903
+    second: SwampZombie06
+  - first:
+      213: 7082583690130928474
+    second: SceneSwampDecon-04_32
+  - first:
+      213: -4562321411249781729
+    second: SwampFern02
+  - first:
+      213: 1593388128375092267
+    second: SceneSwampDecon-04_34
+  - first:
+      213: -785241634868460838
+    second: SceneSwampDecon-04_35
+  - first:
+      213: -824487699782768300
+    second: SceneSwampDecon-04_36
+  - first:
+      213: -8131554681369506700
+    second: SceneSwampDecon-04_37
+  - first:
+      213: 6860763045353508494
+    second: SceneSwampDecon-04_38
+  - first:
+      213: -7655927843173816208
+    second: SceneSwampDecon-04_39
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +161,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +183,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +207,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SwampTree04
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1467
+        width: 1149
+        height: 2574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b4dd9a590832ae0800000000000000
+      internalID: -1575274064361206995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTree05
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1467
+        width: 2032
+        height: 2576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e47c93cc49d49e0800000000000000
+      internalID: -1635487484802019799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampFloater07
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 3695
+        width: 738
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9ff47a58a4f9070800000000000000
+      internalID: 8115286991443065293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampZombie01
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 3063
+        width: 337
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62e98c6ebb5d22c0800000000000000
+      internalID: -4454803582976662931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampZombie02
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 2446
+        width: 244
+        height: 570
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d989c5409cc907050800000000000000
+      internalID: 5796305107601365149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampZombie03
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 1856
+        width: 242
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4bbdfc0a3cc71e0800000000000000
+      internalID: -2198667422614178565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampWaterBranch
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 64
+        width: 1219
+        height: 1355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6462c6030d1841900800000000000000
+      internalID: 654290577041139270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampCattails
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 64
+        width: 617
+        height: 1402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4b41ac6ff03dc10800000000000000
+      internalID: 2077021405774656703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampZombie04
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 1286
+        width: 230
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9808a95d404629760800000000000000
+      internalID: 7463137504432652425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampLeaf01
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 877
+        width: 380
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3df8a686edf5ba60800000000000000
+      internalID: 7689331105348517182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampFerns01
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 830
+        width: 913
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f9d7d913a0b6280800000000000000
+      internalID: -9049127818058948798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampZombie05
+      rect:
+        serializedVersion: 2
+        x: 3796
+        y: 639
+        width: 245
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bdae98c7a81acf0800000000000000
+      internalID: -242760637406848139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampLeaf02
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 99
+        width: 632
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f304ba061897cd310800000000000000
+      internalID: 1431152378176553023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampZombie06
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 18
+        width: 344
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14424831d6e32cbf0800000000000000
+      internalID: -305613186507987903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampFern02
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 116
+        width: 596
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f144c4349d06fa0c0800000000000000
+      internalID: -4562321411249781729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

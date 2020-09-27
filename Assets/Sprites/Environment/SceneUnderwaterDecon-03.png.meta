@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: d4cbb33dca366804a8d965d1d4557856
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8400762601459295750
+    second: UnderwaterRadiosity
+  - first:
+      213: -5526407983701852279
+    second: UnderwaterGreen01
+  - first:
+      213: -5142658693546493677
+    second: UnderwaterReef02
+  - first:
+      213: -6866345512918668704
+    second: UnderwaterTubers
+  - first:
+      213: 8916939960665406538
+    second: UnderwaterReef03
+  - first:
+      213: -7481809046721918613
+    second: SceneUnderwaterDecon-03_5
+  - first:
+      213: 4818067110185043394
+    second: SceneUnderwaterDecon-03_6
+  - first:
+      213: 4010042874996838479
+    second: UnderwaterGreen02
+  - first:
+      213: 5449832506178228194
+    second: UnderwaterTuber
+  - first:
+      213: 8151911136399664720
+    second: UnderwaterBubble
+  - first:
+      213: -8507379574532188915
+    second: UnderwaterStone
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +74,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +96,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +120,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UnderwaterRadiosity
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1583
+        width: 4059
+        height: 2503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9d1a15cee7a6b80800000000000000
+      internalID: -8400762601459295750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterReef02
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 525
+        width: 1170
+        height: 594
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319361a4a2b91a8b0800000000000000
+      internalID: -5142658693546493677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterTubers
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 31
+        width: 258
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aa26da227d5b0a0800000000000000
+      internalID: -6866345512918668704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterReef03
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 380
+        width: 1204
+        height: 819
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c72f676a55fbb70800000000000000
+      internalID: 8916939960665406538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SceneUnderwaterDecon-03_5
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 396
+        width: 1421
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6906d4ff464b2890800000000000000
+      internalID: -7481809046721918613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterGreen02
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 74
+        width: 193
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40d54aafb886a730800000000000000
+      internalID: 4010042874996838479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterTuber
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 46
+        width: 151
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef41283ac1b1ab40800000000000000
+      internalID: 5449832506178228194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterBubble
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 46
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05627a5ecf7612170800000000000000
+      internalID: 8151911136399664720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterStone
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 18
+        width: 529
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05589ad957bfe980800000000000000
+      internalID: -8507379574532188915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterGreen01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 480
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f719f08314e43b0800000000000000
+      internalID: -5526407983701852279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

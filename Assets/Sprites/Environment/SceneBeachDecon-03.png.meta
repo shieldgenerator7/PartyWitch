@@ -1,7 +1,49 @@
 fileFormatVersion: 2
 guid: 7e8df833dc1a57b4f821fd26d8d25c61
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6315071351465878444
+    second: BeachFronds
+  - first:
+      213: -1844483745092287621
+    second: SceneBeachDecon-03_1
+  - first:
+      213: -4825185303985807967
+    second: BeachCloud01
+  - first:
+      213: 5791432723396784798
+    second: BeachCloud02
+  - first:
+      213: 6157599118883231310
+    second: BeachCloud03
+  - first:
+      213: 703586611190392878
+    second: BeachCloud04
+  - first:
+      213: -4646179792028288364
+    second: BeachTree01
+  - first:
+      213: 1050741079715981893
+    second: BeachCloud05
+  - first:
+      213: 3287231517925590492
+    second: BeachTree02
+  - first:
+      213: -6918949319599012686
+    second: BeachCloud06
+  - first:
+      213: 8367172625053414377
+    second: BeachCloud07
+  - first:
+      213: -1084604095633746881
+    second: BeachMountain
+  - first:
+      213: 7354312756978372418
+    second: BeachCloudHwy
+  - first:
+      213: -5847889155804898444
+    second: BeachCloudFence
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +83,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +105,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +129,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BeachFronds
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2695
+        width: 1387
+        height: 1377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3ae5b7fe3a3a750800000000000000
+      internalID: 6315071351465878444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SceneBeachDecon-03_1
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3036
+        width: 761
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73cacb6ec31766e0800000000000000
+      internalID: -1844483745092287621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloud01
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 3687
+        width: 1240
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad9d7ce78f790db0800000000000000
+      internalID: -4825185303985807967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloud02
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 3367
+        width: 1218
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9273aaa06d4f5050800000000000000
+      internalID: 5791432723396784798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloud03
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 3143
+        width: 1247
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e461b4636cf247550800000000000000
+      internalID: 6157599118883231310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloud04
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 2798
+        width: 1347
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2869bc8b44a3c900800000000000000
+      internalID: 703586611190392878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachTree01
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1047
+        width: 1547
+        height: 1543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a3e8d7814758fb0800000000000000
+      internalID: -4646179792028288364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloud05
+      rect:
+        serializedVersion: 2
+        x: 2768
+        y: 2361
+        width: 1283
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aa167e17bf49e00800000000000000
+      internalID: 1050741079715981893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachTree02
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1105
+        width: 877
+        height: 1091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd54c6826a79e9d20800000000000000
+      internalID: 3287231517925590492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloud06
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 2062
+        width: 1232
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4ce528044faff90800000000000000
+      internalID: -6918949319599012686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloud07
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 1649
+        width: 1228
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e37eaadb2b2e1470800000000000000
+      internalID: 8367172625053414377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachMountain
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 17
+        width: 2438
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3411dd4256b2f0f0800000000000000
+      internalID: -1084604095633746881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloudHwy
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 636
+        width: 1556
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fc1d6dc74cf0660800000000000000
+      internalID: 7354312756978372418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BeachCloudFence
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 36
+        width: 1544
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bd366dbcf18dea0800000000000000
+      internalID: -5847889155804898444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

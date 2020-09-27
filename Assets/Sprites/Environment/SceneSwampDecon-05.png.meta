@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: c97f5cb2af5e79349966786b823bb780
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8498847355893989350
+    second: SwampTreeGroupGreen
+  - first:
+      213: 4037219105777112428
+    second: SwampTreeBrown01
+  - first:
+      213: 7649273373997151524
+    second: SwampTreeBrown02
+  - first:
+      213: 242739749428694475
+    second: SwampTreeDead
+  - first:
+      213: -5614772078162764456
+    second: SwampTreeTan01
+  - first:
+      213: -664764314866367138
+    second: SwampTreeTan02
+  - first:
+      213: -758915780637007188
+    second: SwampTreeTan03
+  - first:
+      213: -978389892653801939
+    second: SwampTreeTan04
+  - first:
+      213: -9071716720624452615
+    second: SwampTreeTan05
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +68,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +90,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +114,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SwampTreeGroupGreen
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 2059
+        width: 1694
+        height: 2010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef345034a8f1f570800000000000000
+      internalID: 8498847355893989350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeBrown01
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 2057
+        width: 917
+        height: 2001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65d348f265170830800000000000000
+      internalID: 4037219105777112428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeBrown02
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2057
+        width: 616
+        height: 1984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42534f62b9da72a60800000000000000
+      internalID: 7649273373997151524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeDead
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 1257
+        height: 2018
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd809914826e5300800000000000000
+      internalID: 242739749428694475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeTan01
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 556
+        height: 2024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d93521b825412b0800000000000000
+      internalID: -5614772078162764456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeTan02
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 0
+        width: 351
+        height: 2029
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55c801b06846c6f0800000000000000
+      internalID: -664764314866367138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeTan03
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 17
+        width: 378
+        height: 1990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca261b05e1ac775f0800000000000000
+      internalID: -758915780637007188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeTan04
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 0
+        width: 673
+        height: 2007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e998c839f0c62f0800000000000000
+      internalID: -978389892653801939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTreeTan05
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 12
+        width: 483
+        height: 1978
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb3534e4b9ca1280800000000000000
+      internalID: -9071716720624452615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

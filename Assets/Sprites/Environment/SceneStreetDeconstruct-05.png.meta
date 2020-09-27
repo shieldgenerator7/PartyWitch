@@ -1,7 +1,622 @@
 fileFormatVersion: 2
 guid: 44f5bda4889835049b6fa7b62d361944
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4733371944569738161
+    second: StreetStars
+  - first:
+      213: 6103134733904489254
+    second: StreetMeteor
+  - first:
+      213: -1205225236252714574
+    second: StreetSpider
+  - first:
+      213: -2348655250819111131
+    second: StreetTrash
+  - first:
+      213: -8595467068981167374
+    second: StreetHauntedTower
+  - first:
+      213: -6212793997982090765
+    second: StreetRotIron
+  - first:
+      213: -6591625644256821918
+    second: StreetRotIronGate
+  - first:
+      213: -4832597611558150599
+    second: StreetGrave01
+  - first:
+      213: 5349740295625995933
+    second: StreetGrave02
+  - first:
+      213: 1712878865063161052
+    second: StreetGrave03
+  - first:
+      213: 2412207777182071199
+    second: StreetGrave04
+  - first:
+      213: 3066451769746509646
+    second: StreetCoffin
+  - first:
+      213: -16045713000703879
+    second: StreetBat
+  - first:
+      213: 6058856813871934093
+    second: StreetSkelton01
+  - first:
+      213: 2906992761264923448
+    second: StreetSkeleton02
+  - first:
+      213: -2619346851591689179
+    second: StreetCow03
+  - first:
+      213: -7942354265133427103
+    second: StreetCow02
+  - first:
+      213: -1872410230033164990
+    second: StreetCow01
+  - first:
+      213: 7159204998331757383
+    second: SceneStreetDeconstruct-05_18
+  - first:
+      213: -80078828369172050
+    second: SceneStreetDeconstruct-05_19
+  - first:
+      213: -947453050412404352
+    second: SceneStreetDeconstruct-05_20
+  - first:
+      213: -1021850257018691091
+    second: SceneStreetDeconstruct-05_21
+  - first:
+      213: 7613233798657177142
+    second: SceneStreetDeconstruct-05_22
+  - first:
+      213: 6701235958931200891
+    second: SceneStreetDeconstruct-05_23
+  - first:
+      213: 1490470668268045875
+    second: SceneStreetDeconstruct-05_24
+  - first:
+      213: -4104668076498024012
+    second: SceneStreetDeconstruct-05_25
+  - first:
+      213: 1437901603175863565
+    second: SceneStreetDeconstruct-05_26
+  - first:
+      213: 8018699218488806003
+    second: SceneStreetDeconstruct-05_27
+  - first:
+      213: -5689837209615598163
+    second: SceneStreetDeconstruct-05_28
+  - first:
+      213: 1436515082179655704
+    second: SceneStreetDeconstruct-05_29
+  - first:
+      213: 2975566187928650843
+    second: SceneStreetDeconstruct-05_30
+  - first:
+      213: 6273457572769569886
+    second: SceneStreetDeconstruct-05_31
+  - first:
+      213: -3822878627909377130
+    second: SceneStreetDeconstruct-05_32
+  - first:
+      213: -4999976671895643046
+    second: SceneStreetDeconstruct-05_33
+  - first:
+      213: 5635546876196648555
+    second: SceneStreetDeconstruct-05_34
+  - first:
+      213: -4671590175133531164
+    second: SceneStreetDeconstruct-05_35
+  - first:
+      213: 1779111617309056102
+    second: SceneStreetDeconstruct-05_36
+  - first:
+      213: -1066443549077174779
+    second: SceneStreetDeconstruct-05_37
+  - first:
+      213: 179495022309087042
+    second: SceneStreetDeconstruct-05_38
+  - first:
+      213: 2467537248677136573
+    second: SceneStreetDeconstruct-05_39
+  - first:
+      213: -1696794119412848665
+    second: SceneStreetDeconstruct-05_40
+  - first:
+      213: 7671699942985822780
+    second: SceneStreetDeconstruct-05_41
+  - first:
+      213: 8745298126790373261
+    second: SceneStreetDeconstruct-05_42
+  - first:
+      213: -1586151069796856934
+    second: SceneStreetDeconstruct-05_43
+  - first:
+      213: 5192811232170955995
+    second: SceneStreetDeconstruct-05_44
+  - first:
+      213: -6145032069459126165
+    second: SceneStreetDeconstruct-05_45
+  - first:
+      213: -5485988536189727669
+    second: SceneStreetDeconstruct-05_46
+  - first:
+      213: 4867281697666520178
+    second: SceneStreetDeconstruct-05_47
+  - first:
+      213: -1759256378698700802
+    second: SceneStreetDeconstruct-05_48
+  - first:
+      213: -3341859621260086314
+    second: SceneStreetDeconstruct-05_49
+  - first:
+      213: -2180557576627109437
+    second: SceneStreetDeconstruct-05_50
+  - first:
+      213: -1462172071954820755
+    second: SceneStreetDeconstruct-05_51
+  - first:
+      213: -7672416640261012201
+    second: SceneStreetDeconstruct-05_52
+  - first:
+      213: -5646546607868655446
+    second: SceneStreetDeconstruct-05_53
+  - first:
+      213: -2028843861174238903
+    second: SceneStreetDeconstruct-05_54
+  - first:
+      213: -5647310193997184356
+    second: SceneStreetDeconstruct-05_55
+  - first:
+      213: -1186095434335913276
+    second: SceneStreetDeconstruct-05_56
+  - first:
+      213: -8016825184476305681
+    second: SceneStreetDeconstruct-05_57
+  - first:
+      213: 5438397060400078670
+    second: SceneStreetDeconstruct-05_58
+  - first:
+      213: 811877040899974667
+    second: SceneStreetDeconstruct-05_59
+  - first:
+      213: -1328571245714764799
+    second: SceneStreetDeconstruct-05_60
+  - first:
+      213: 7021507718150221327
+    second: SceneStreetDeconstruct-05_61
+  - first:
+      213: -1337785106859453990
+    second: SceneStreetDeconstruct-05_62
+  - first:
+      213: 8689753839272555891
+    second: SceneStreetDeconstruct-05_63
+  - first:
+      213: 6975809881480557449
+    second: SceneStreetDeconstruct-05_64
+  - first:
+      213: -8932993029649436022
+    second: SceneStreetDeconstruct-05_65
+  - first:
+      213: 4135499206187651335
+    second: SceneStreetDeconstruct-05_66
+  - first:
+      213: -1707057002760979827
+    second: SceneStreetDeconstruct-05_67
+  - first:
+      213: -5163775752076657940
+    second: SceneStreetDeconstruct-05_68
+  - first:
+      213: -1029327769599125691
+    second: SceneStreetDeconstruct-05_69
+  - first:
+      213: -6176322426578287863
+    second: SceneStreetDeconstruct-05_70
+  - first:
+      213: -2051176998430841783
+    second: SceneStreetDeconstruct-05_71
+  - first:
+      213: 3867669554752962563
+    second: SceneStreetDeconstruct-05_72
+  - first:
+      213: -3546447490578057370
+    second: SceneStreetDeconstruct-05_73
+  - first:
+      213: 401668934203428013
+    second: SceneStreetDeconstruct-05_74
+  - first:
+      213: -5932277139562523551
+    second: SceneStreetDeconstruct-05_75
+  - first:
+      213: -5825419821354890662
+    second: SceneStreetDeconstruct-05_76
+  - first:
+      213: 3893407072628398965
+    second: SceneStreetDeconstruct-05_77
+  - first:
+      213: 3284348255850787488
+    second: SceneStreetDeconstruct-05_78
+  - first:
+      213: 5736514785306928997
+    second: SceneStreetDeconstruct-05_79
+  - first:
+      213: 8721138653076268661
+    second: SceneStreetDeconstruct-05_80
+  - first:
+      213: 137296386173703157
+    second: SceneStreetDeconstruct-05_81
+  - first:
+      213: 2722169718088632611
+    second: SceneStreetDeconstruct-05_82
+  - first:
+      213: -5241219634496033499
+    second: SceneStreetDeconstruct-05_83
+  - first:
+      213: 7350502129219209289
+    second: SceneStreetDeconstruct-05_84
+  - first:
+      213: 8282727496390081828
+    second: SceneStreetDeconstruct-05_85
+  - first:
+      213: 1378012506490116476
+    second: SceneStreetDeconstruct-05_86
+  - first:
+      213: -147755313016420515
+    second: SceneStreetDeconstruct-05_87
+  - first:
+      213: 2325359948593151904
+    second: SceneStreetDeconstruct-05_88
+  - first:
+      213: 8866384531671798299
+    second: SceneStreetDeconstruct-05_89
+  - first:
+      213: 8068510367007467185
+    second: SceneStreetDeconstruct-05_90
+  - first:
+      213: -5365893056204976537
+    second: SceneStreetDeconstruct-05_91
+  - first:
+      213: -7454145748472955109
+    second: SceneStreetDeconstruct-05_92
+  - first:
+      213: -6139490368239284197
+    second: SceneStreetDeconstruct-05_93
+  - first:
+      213: 3532701641814426633
+    second: SceneStreetDeconstruct-05_94
+  - first:
+      213: -3990977423380618497
+    second: SceneStreetDeconstruct-05_95
+  - first:
+      213: 8785393826723443524
+    second: SceneStreetDeconstruct-05_96
+  - first:
+      213: -7346851630872900122
+    second: SceneStreetDeconstruct-05_97
+  - first:
+      213: 589231163710893127
+    second: SceneStreetDeconstruct-05_98
+  - first:
+      213: -5169517125140824901
+    second: SceneStreetDeconstruct-05_99
+  - first:
+      213: -6513425619455093536
+    second: SceneStreetDeconstruct-05_100
+  - first:
+      213: -4460750579624579176
+    second: SceneStreetDeconstruct-05_101
+  - first:
+      213: -781502219051900610
+    second: SceneStreetDeconstruct-05_102
+  - first:
+      213: 5945314090774137110
+    second: SceneStreetDeconstruct-05_103
+  - first:
+      213: -5910223459063883444
+    second: SceneStreetDeconstruct-05_104
+  - first:
+      213: 8437363053475784868
+    second: SceneStreetDeconstruct-05_105
+  - first:
+      213: -495477072855323988
+    second: SceneStreetDeconstruct-05_106
+  - first:
+      213: -2873567599748483501
+    second: SceneStreetDeconstruct-05_107
+  - first:
+      213: 2272556202900309972
+    second: SceneStreetDeconstruct-05_108
+  - first:
+      213: 5293006589094458363
+    second: SceneStreetDeconstruct-05_109
+  - first:
+      213: 855242955189971808
+    second: SceneStreetDeconstruct-05_110
+  - first:
+      213: 661686213501725010
+    second: SceneStreetDeconstruct-05_111
+  - first:
+      213: 9112073734429260549
+    second: SceneStreetDeconstruct-05_112
+  - first:
+      213: 2215939753056594804
+    second: SceneStreetDeconstruct-05_113
+  - first:
+      213: 5876580622376765411
+    second: SceneStreetDeconstruct-05_114
+  - first:
+      213: -8959209220177937405
+    second: SceneStreetDeconstruct-05_115
+  - first:
+      213: -3485301645415604788
+    second: SceneStreetDeconstruct-05_116
+  - first:
+      213: -7047495276995250238
+    second: SceneStreetDeconstruct-05_117
+  - first:
+      213: -33767371510816954
+    second: SceneStreetDeconstruct-05_118
+  - first:
+      213: 4304028057893038872
+    second: SceneStreetDeconstruct-05_119
+  - first:
+      213: -5148107995206525915
+    second: SceneStreetDeconstruct-05_120
+  - first:
+      213: -570523905283638318
+    second: SceneStreetDeconstruct-05_121
+  - first:
+      213: -3996438617429852049
+    second: SceneStreetDeconstruct-05_122
+  - first:
+      213: -1099038254198750744
+    second: SceneStreetDeconstruct-05_123
+  - first:
+      213: -3291617722790834061
+    second: SceneStreetDeconstruct-05_124
+  - first:
+      213: 4859631297527434891
+    second: SceneStreetDeconstruct-05_125
+  - first:
+      213: -215864567875768071
+    second: SceneStreetDeconstruct-05_126
+  - first:
+      213: -7461396360098229434
+    second: SceneStreetDeconstruct-05_127
+  - first:
+      213: -7075238878403371429
+    second: SceneStreetDeconstruct-05_128
+  - first:
+      213: -6962305606510334583
+    second: SceneStreetDeconstruct-05_129
+  - first:
+      213: -9035561483414111266
+    second: SceneStreetDeconstruct-05_130
+  - first:
+      213: -11691057473778586
+    second: SceneStreetDeconstruct-05_131
+  - first:
+      213: 1866047918898310214
+    second: SceneStreetDeconstruct-05_132
+  - first:
+      213: 4685692573587886821
+    second: SceneStreetDeconstruct-05_133
+  - first:
+      213: -3478898848904718109
+    second: SceneStreetDeconstruct-05_134
+  - first:
+      213: -5158843907097022372
+    second: SceneStreetDeconstruct-05_135
+  - first:
+      213: -2373686638777223515
+    second: SceneStreetDeconstruct-05_136
+  - first:
+      213: 3455384917141113889
+    second: SceneStreetDeconstruct-05_137
+  - first:
+      213: -1518099954793057623
+    second: SceneStreetDeconstruct-05_138
+  - first:
+      213: -3339412878585997255
+    second: SceneStreetDeconstruct-05_139
+  - first:
+      213: -6631605624326988974
+    second: SceneStreetDeconstruct-05_140
+  - first:
+      213: -1171192947843211210
+    second: SceneStreetDeconstruct-05_141
+  - first:
+      213: -7433293691482263267
+    second: SceneStreetDeconstruct-05_142
+  - first:
+      213: 1376834898222875359
+    second: SceneStreetDeconstruct-05_143
+  - first:
+      213: -2990939477187892770
+    second: SceneStreetDeconstruct-05_144
+  - first:
+      213: 8928493657950297793
+    second: SceneStreetDeconstruct-05_145
+  - first:
+      213: -1088735631783642517
+    second: SceneStreetDeconstruct-05_146
+  - first:
+      213: -1772698700906915454
+    second: SceneStreetDeconstruct-05_147
+  - first:
+      213: 3723465661895693345
+    second: SceneStreetDeconstruct-05_148
+  - first:
+      213: 8901650800226355803
+    second: SceneStreetDeconstruct-05_149
+  - first:
+      213: 6420142559427720677
+    second: SceneStreetDeconstruct-05_150
+  - first:
+      213: -8732015614280916290
+    second: SceneStreetDeconstruct-05_151
+  - first:
+      213: -6707386613986129870
+    second: SceneStreetDeconstruct-05_152
+  - first:
+      213: 7613924622512440326
+    second: SceneStreetDeconstruct-05_153
+  - first:
+      213: 1618871298856419790
+    second: SceneStreetDeconstruct-05_154
+  - first:
+      213: 5565497901487543970
+    second: SceneStreetDeconstruct-05_155
+  - first:
+      213: -7699777674918835075
+    second: SceneStreetDeconstruct-05_156
+  - first:
+      213: 7148994770222509554
+    second: SceneStreetDeconstruct-05_157
+  - first:
+      213: 2151666350208174854
+    second: SceneStreetDeconstruct-05_158
+  - first:
+      213: 7039699496864259641
+    second: SceneStreetDeconstruct-05_159
+  - first:
+      213: 2706791460912413895
+    second: SceneStreetDeconstruct-05_160
+  - first:
+      213: -432619984652565483
+    second: SceneStreetDeconstruct-05_161
+  - first:
+      213: 264070099818398256
+    second: SceneStreetDeconstruct-05_162
+  - first:
+      213: 232101648747358563
+    second: SceneStreetDeconstruct-05_163
+  - first:
+      213: 7785657470513544534
+    second: SceneStreetDeconstruct-05_164
+  - first:
+      213: 5645874256995225864
+    second: SceneStreetDeconstruct-05_165
+  - first:
+      213: 1027710460945697423
+    second: SceneStreetDeconstruct-05_166
+  - first:
+      213: 1161420793119269695
+    second: SceneStreetDeconstruct-05_167
+  - first:
+      213: -7809968561220183060
+    second: SceneStreetDeconstruct-05_168
+  - first:
+      213: -3753077761348658104
+    second: SceneStreetDeconstruct-05_169
+  - first:
+      213: 4181055044938138573
+    second: SceneStreetDeconstruct-05_170
+  - first:
+      213: 174849917867398516
+    second: SceneStreetDeconstruct-05_171
+  - first:
+      213: -561657935852434754
+    second: SceneStreetDeconstruct-05_172
+  - first:
+      213: -2665992260387696995
+    second: SceneStreetDeconstruct-05_173
+  - first:
+      213: -7586104745583059644
+    second: SceneStreetDeconstruct-05_174
+  - first:
+      213: -5149853649399181804
+    second: SceneStreetDeconstruct-05_175
+  - first:
+      213: -4648081051466720844
+    second: SceneStreetDeconstruct-05_176
+  - first:
+      213: 2791316556535171368
+    second: SceneStreetDeconstruct-05_177
+  - first:
+      213: 2790604258470799096
+    second: SceneStreetDeconstruct-05_178
+  - first:
+      213: -3729713483563320620
+    second: SceneStreetDeconstruct-05_179
+  - first:
+      213: 517926966902663328
+    second: SceneStreetDeconstruct-05_180
+  - first:
+      213: 877565799358211509
+    second: SceneStreetDeconstruct-05_181
+  - first:
+      213: -6008136748753770508
+    second: SceneStreetDeconstruct-05_182
+  - first:
+      213: -590158403484489019
+    second: SceneStreetDeconstruct-05_183
+  - first:
+      213: 3689050547389128624
+    second: SceneStreetDeconstruct-05_184
+  - first:
+      213: 482447098848501596
+    second: SceneStreetDeconstruct-05_185
+  - first:
+      213: 5524678484848197740
+    second: SceneStreetDeconstruct-05_186
+  - first:
+      213: 1058740547979322370
+    second: SceneStreetDeconstruct-05_187
+  - first:
+      213: 7492427386834397556
+    second: StreetMeteor
+  - first:
+      213: 532987299081206926
+    second: StreetSpider
+  - first:
+      213: 5265688040852954741
+    second: StreetTrash
+  - first:
+      213: 8958745703106326413
+    second: StreetHauntedTower
+  - first:
+      213: -489921464052748911
+    second: StreetRotIron
+  - first:
+      213: 7098534926007392639
+    second: StreetRotIronGate
+  - first:
+      213: 4952195301719090770
+    second: StreetGrave01
+  - first:
+      213: -6588783307887670856
+    second: StreetGrave02
+  - first:
+      213: 572459809418851264
+    second: StreetGrave03
+  - first:
+      213: 7324976057184946683
+    second: StreetGrave04
+  - first:
+      213: -758136118607549210
+    second: StreetCoffin
+  - first:
+      213: 6291809215697044759
+    second: StreetBat
+  - first:
+      213: 1515940758259136097
+    second: StreetSkelton01
+  - first:
+      213: -2748577744735465577
+    second: StreetSkeleton02
+  - first:
+      213: 8656802804103220352
+    second: StreetCow03
+  - first:
+      213: -5976461935244535725
+    second: StreetCow02
+  - first:
+      213: -1926416549629999522
+    second: StreetCow01
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +656,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +678,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +702,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: StreetStars
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2930
+        width: 4096
+        height: 1166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b311e184b050b140800000000000000
+      internalID: 4733371944569738161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetMeteor
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1808
+        width: 1586
+        height: 1088
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4792ca103037af760800000000000000
+      internalID: 7492427386834397556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetSpider
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1866
+        width: 507
+        height: 1046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cb787ef1d856700800000000000000
+      internalID: 532987299081206926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTrash
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 2096
+        width: 486
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e1015df5b731940800000000000000
+      internalID: 5265688040852954741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetHauntedTower
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 2047
+        width: 524
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fa5b260cbd35c70800000000000000
+      internalID: 8958745703106326413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetRotIron
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 11
+        width: 614
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19deb4f26037339f0800000000000000
+      internalID: -489921464052748911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetRotIronGate
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 15
+        width: 622
+        height: 1212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79df52d7ef038260800000000000000
+      internalID: 7098534926007392639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetGrave01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1255
+        width: 273
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2562359936bb9b440800000000000000
+      internalID: 4952195301719090770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetGrave02
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1247
+        width: 268
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b905578d70ff84a0800000000000000
+      internalID: -6588783307887670856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetGrave03
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1249
+        width: 481
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c33994e929c1f700800000000000000
+      internalID: 572459809418851264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetGrave04
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1239
+        width: 482
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf900c42aea87a560800000000000000
+      internalID: 7324976057184946683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetCoffin
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 921
+        width: 315
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ece007873f8a75f0800000000000000
+      internalID: -758136118607549210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetBat
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1421
+        width: 345
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715c620752ff05750800000000000000
+      internalID: 6291809215697044759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetSkelton01
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 711
+        width: 539
+        height: 1193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166729c7614b90510800000000000000
+      internalID: 1515940758259136097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetSkeleton02
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 788
+        width: 698
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f8f7f8a171bd9d0800000000000000
+      internalID: -2748577744735465577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetCow03
+      rect:
+        serializedVersion: 2
+        x: 3630
+        y: 43
+        width: 441
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c8d2dd844232870800000000000000
+      internalID: 8656802804103220352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetCow02
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 8
+        width: 1048
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3581b18d8875f0da0800000000000000
+      internalID: -5976461935244535725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetCow01
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 21
+        width: 1128
+        height: 722
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56ceddca5ef345e0800000000000000
+      internalID: -1926416549629999522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

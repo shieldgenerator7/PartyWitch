@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: b776741eccf6f6f4c962fcf9b05569f7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3317296424460829678
+    second: UnderwaterRock
+  - first:
+      213: -6632223532025538545
+    second: UnderwaterMountainThin
+  - first:
+      213: 7411917159044708509
+    second: UnderwaterCoral01
+  - first:
+      213: 1131214325768813411
+    second: UnderwaterReef
+  - first:
+      213: 7470544375224901812
+    second: UnderwaterCoral02
+  - first:
+      213: 7284567794497366525
+    second: UnderwaterCoral03
+  - first:
+      213: -6919897209764801775
+    second: UnderwaterRockSlab
+  - first:
+      213: -2027051374062373565
+    second: UnderwaterSeaweedCity
+  - first:
+      213: 1732762016866636663
+    second: UnderwaterCoral04
+  - first:
+      213: 5528424520178826673
+    second: UnderwaterCoral05
+  - first:
+      213: -7555406517384011202
+    second: UnderwaterMountain
+  - first:
+      213: 701535844965100017
+    second: UnderwaterCoral06
+  - first:
+      213: 3097516331909112206
+    second: UnderwaterSeaweed01
+  - first:
+      213: 4415231750949393478
+    second: UnderwaterSeaweed02
+  - first:
+      213: 5558867567448821349
+    second: UnderwaterSeaweed03
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +86,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +108,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +132,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UnderwaterRock
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2779
+        width: 3067
+        height: 1286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cb65d4a7896f1d0800000000000000
+      internalID: -3317296424460829678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterMountainThin
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 2766
+        width: 701
+        height: 1317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0891ae26db95f3a0800000000000000
+      internalID: -6632223532025538545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterCoral01
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2082
+        width: 639
+        height: 663
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d987b79d26b6cd660800000000000000
+      internalID: 7411917159044708509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterReef
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 2234
+        width: 777
+        height: 529
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b78449f61e2bf00800000000000000
+      internalID: 1131214325768813411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterCoral02
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 1953
+        width: 706
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0a2145784bca760800000000000000
+      internalID: 7470544375224901812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterCoral03
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 1958
+        width: 589
+        height: 708
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9244550dbf71560800000000000000
+      internalID: 7284567794497366525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterRockSlab
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1488
+        width: 1090
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11390c1a62697ff90800000000000000
+      internalID: -6919897209764801775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterSeaweedCity
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1464
+        width: 573
+        height: 729
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3457b8bd3877ed3e0800000000000000
+      internalID: -2027051374062373565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterCoral04
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 1071
+        width: 783
+        height: 718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77310afafd10c0810800000000000000
+      internalID: 1732762016866636663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterCoral05
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 826
+        width: 701
+        height: 928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd71dc6fc8e8bc40800000000000000
+      internalID: 5528424520178826673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterMountain
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 17
+        width: 1984
+        height: 1414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32a7ad7dcdc52790800000000000000
+      internalID: -7555406517384011202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterCoral06
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 38
+        width: 653
+        height: 883
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f92954522b5cb900800000000000000
+      internalID: 701535844965100017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterSeaweed01
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 47
+        width: 344
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81e96941b69cfa20800000000000000
+      internalID: 3097516331909112206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterSeaweed02
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 49
+        width: 344
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6445d5472ed064d30800000000000000
+      internalID: 4415231750949393478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnderwaterSeaweed03
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 37
+        width: 344
+        height: 565
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e0a37b990152d40800000000000000
+      internalID: 5558867567448821349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

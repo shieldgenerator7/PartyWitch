@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: add46a35cce2f9848820d91f876cac97
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9217913590614999225
+    second: StreetAura
+  - first:
+      213: 3105447877377208810
+    second: StreetMoon
+  - first:
+      213: -1321440017249136312
+    second: StreetHauntedHouse
+  - first:
+      213: 152065448482756446
+    second: StreetGhostTown
+  - first:
+      213: 4426496595411205751
+    second: SceneStreetDeconstruct-04_4
+  - first:
+      213: -4524080829661450981
+    second: SceneStreetDeconstruct-04_5
+  - first:
+      213: -2555648341331568914
+    second: SceneStreetDeconstruct-04_6
+  - first:
+      213: 5266659360500096829
+    second: StreetPumpkin
+  - first:
+      213: 9126535048516337891
+    second: StreetHauntedHut
+  - first:
+      213: 7815235032362963470
+    second: StreetTreeGroup
+  - first:
+      213: 805516455075934012
+    second: StreetTree02
+  - first:
+      213: 1902925164826719302
+    second: StreetTree05
+  - first:
+      213: 817748934890599033
+    second: StreetTree
+  - first:
+      213: 3155202068965689146
+    second: StreetTree03
+  - first:
+      213: -1139458260050077413
+    second: StreetTree04
+  - first:
+      213: 8913166848179301067
+    second: StreetTree06
+  - first:
+      213: -768074563379370418
+    second: StreetPumpkinHat
+  - first:
+      213: -7844321714350772074
+    second: StreetBush
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +95,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +117,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +141,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: StreetAura
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2767
+        width: 1222
+        height: 1305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fb52d8d64631080800000000000000
+      internalID: -9217913590614999225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetMoon
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2658
+        width: 1384
+        height: 1423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae13f8f1464c81b20800000000000000
+      internalID: 3105447877377208810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetHauntedHouse
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 2811
+        width: 1259
+        height: 1275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84111eb3e4d49ade0800000000000000
+      internalID: -1321440017249136312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetPumpkin
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 1903
+        width: 576
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f189fc8cee61940800000000000000
+      internalID: 5266659360500096829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetHauntedHut
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 1987
+        width: 1086
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e008fca547f7ae70800000000000000
+      internalID: 9126535048516337891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTreeGroup
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 2061
+        height: 891
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02de24eada457c60800000000000000
+      internalID: 7815235032362963470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTree02
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 936
+        width: 595
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f6885b2f4cd2b00800000000000000
+      internalID: 805516455075934012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTree05
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 891
+        width: 1045
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644f5a3fa5c886a10800000000000000
+      internalID: 1902925164826719302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTree
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 47
+        width: 506
+        height: 786
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bb9bd25a395b00800000000000000
+      internalID: 817748934890599033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTree03
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 27
+        width: 668
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a370743909789cb20800000000000000
+      internalID: 3155202068965689146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTree04
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 27
+        width: 560
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b199455efb4df20f0800000000000000
+      internalID: -1139458260050077413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTree06
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 52
+        width: 1267
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcae381460ee1bb70800000000000000
+      internalID: 8913166848179301067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetPumpkinHat
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 488
+        width: 264
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4662c801404755f0800000000000000
+      internalID: -768074563379370418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetBush
+      rect:
+        serializedVersion: 2
+        x: 3586
+        y: 14
+        width: 500
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6903d3836fe532390800000000000000
+      internalID: -7844321714350772074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetGhostTown
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1915
+        width: 2205
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57dc6f38be3c1200800000000000000
+      internalID: 152065448482756446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

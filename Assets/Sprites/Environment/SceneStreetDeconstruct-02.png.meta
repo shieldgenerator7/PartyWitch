@@ -1,7 +1,151 @@
 fileFormatVersion: 2
 guid: e87e26c77840ed547b3fe832cd0a560a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7785701363298579787
+    second: StreetStop
+  - first:
+      213: -374434397981209632
+    second: StreetSign
+  - first:
+      213: 1387251986422594234
+    second: StreetBillboard
+  - first:
+      213: -8005624608649739829
+    second: StreetBench
+  - first:
+      213: -5554396723526873306
+    second: StreetTrashcan
+  - first:
+      213: -3709346730037976829
+    second: StreetTent
+  - first:
+      213: 8361275412450662710
+    second: StreetSignPost
+  - first:
+      213: 405627535825468362
+    second: StreetAd
+  - first:
+      213: -3902859984041902172
+    second: SceneStreetDeconstruct-02_8
+  - first:
+      213: -4022224256745901276
+    second: SceneStreetDeconstruct-02_9
+  - first:
+      213: -2509534617613222348
+    second: SceneStreetDeconstruct-02_10
+  - first:
+      213: -732508816300473360
+    second: SceneStreetDeconstruct-02_11
+  - first:
+      213: 8273626318396085506
+    second: SceneStreetDeconstruct-02_12
+  - first:
+      213: 6804139713148481023
+    second: SceneStreetDeconstruct-02_13
+  - first:
+      213: -6373131461824104374
+    second: SceneStreetDeconstruct-02_14
+  - first:
+      213: -2736645840128328835
+    second: SceneStreetDeconstruct-02_15
+  - first:
+      213: 2018291860789750128
+    second: SceneStreetDeconstruct-02_16
+  - first:
+      213: 4897768314300753463
+    second: SceneStreetDeconstruct-02_17
+  - first:
+      213: -2476730284310198717
+    second: StreetFence
+  - first:
+      213: -8644492798292541304
+    second: SceneStreetDeconstruct-02_19
+  - first:
+      213: -8560319363702880674
+    second: SceneStreetDeconstruct-02_20
+  - first:
+      213: -7852971366473909819
+    second: SceneStreetDeconstruct-02_21
+  - first:
+      213: 9058823518511090133
+    second: SceneStreetDeconstruct-02_22
+  - first:
+      213: -2836427286465720950
+    second: SceneStreetDeconstruct-02_23
+  - first:
+      213: 9139608723801312791
+    second: SceneStreetDeconstruct-02_24
+  - first:
+      213: -2858385285431633835
+    second: SceneStreetDeconstruct-02_25
+  - first:
+      213: -8972723939988975595
+    second: SceneStreetDeconstruct-02_26
+  - first:
+      213: 7297168152126094653
+    second: SceneStreetDeconstruct-02_27
+  - first:
+      213: 3957158986321675082
+    second: SceneStreetDeconstruct-02_28
+  - first:
+      213: 2066345123438951014
+    second: SceneStreetDeconstruct-02_29
+  - first:
+      213: -8302714264021691137
+    second: SceneStreetDeconstruct-02_30
+  - first:
+      213: -8616698841967102511
+    second: SceneStreetDeconstruct-02_31
+  - first:
+      213: -2515256564999803164
+    second: SceneStreetDeconstruct-02_32
+  - first:
+      213: -3019070122132012470
+    second: SceneStreetDeconstruct-02_33
+  - first:
+      213: 2200220778937990932
+    second: SceneStreetDeconstruct-02_34
+  - first:
+      213: 6329625167365297834
+    second: SceneStreetDeconstruct-02_35
+  - first:
+      213: -2042712659213524015
+    second: SceneStreetDeconstruct-02_36
+  - first:
+      213: -2680931826626800108
+    second: SceneStreetDeconstruct-02_37
+  - first:
+      213: -1025355069600637597
+    second: SceneStreetDeconstruct-02_38
+  - first:
+      213: 4430055930655086983
+    second: SceneStreetDeconstruct-02_39
+  - first:
+      213: -924541628555279845
+    second: SceneStreetDeconstruct-02_40
+  - first:
+      213: 5626102882759445114
+    second: SceneStreetDeconstruct-02_41
+  - first:
+      213: -5187333405400329423
+    second: SceneStreetDeconstruct-02_42
+  - first:
+      213: 2993956423238400
+    second: SceneStreetDeconstruct-02_43
+  - first:
+      213: -7179918219904393080
+    second: SceneStreetDeconstruct-02_44
+  - first:
+      213: 2564164838080576344
+    second: StreetRoad
+  - first:
+      213: -7995247938497432415
+    second: StreetBuilding
+  - first:
+      213: -299406218235874904
+    second: SceneStreetDeconstruct-02_47
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +185,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +207,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +231,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: StreetStop
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3057
+        width: 1572
+        height: 1007
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45bfa6b32e5c0c60800000000000000
+      internalID: 7785701363298579787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetSign
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 2761
+        width: 452
+        height: 1265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb84ac16edbdcaf0800000000000000
+      internalID: -374434397981209632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetBillboard
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 1971
+        width: 1707
+        height: 2083
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba7ca8e452804310800000000000000
+      internalID: 1387251986422594234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetBench
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2534
+        width: 1115
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc18e4485de46e090800000000000000
+      internalID: -8005624608649739829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTrashcan
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 2067
+        width: 372
+        height: 631
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f4690cb91dae2b0800000000000000
+      internalID: -5554396723526873306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetTent
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1599
+        width: 1082
+        height: 901
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301645f4dc0c58cc0800000000000000
+      internalID: -3709346730037976829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetSignPost
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 842
+        width: 603
+        height: 1122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639545c00b7390470800000000000000
+      internalID: 8361275412450662710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetFence
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 828
+        width: 1349
+        height: 727
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3460d3fbde2e0add0800000000000000
+      internalID: -2476730284310198717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetRoad
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 93
+        width: 2019
+        height: 675
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bf65fa55eb59320800000000000000
+      internalID: 2564164838080576344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetBuilding
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 11
+        width: 1803
+        height: 1238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4bfae4c5c2b0190800000000000000
+      internalID: -7995247938497432415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetAd
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 1308
+        width: 1338
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb7eff381411a500800000000000000
+      internalID: 405627535825468362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

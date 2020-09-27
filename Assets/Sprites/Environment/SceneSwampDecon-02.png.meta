@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: d07cba7da6d68bd42bd2bd2b2c0a693e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3237949793844580610
+    second: SwampTree01
+  - first:
+      213: 3551402579294135852
+    second: SceneSwampDecon-02_1
+  - first:
+      213: 9131389587655973934
+    second: SwampTree02
+  - first:
+      213: 4279585918864630502
+    second: SceneSwampDecon-02_3
+  - first:
+      213: 2519249863807286904
+    second: SwampTree03
+  - first:
+      213: 8925991794779816114
+    second: SceneSwampDecon-02_5
+  - first:
+      213: -3197148266239473406
+    second: SwampHut
+  - first:
+      213: -2229364931029425016
+    second: SwampHut
+  - first:
+      213: 8219320081375037664
+    second: SwampHutReflection
+  - first:
+      213: -7160166809565075854
+    second: SwampBoat
+  - first:
+      213: 1199025839583294028
+    second: SwampTree01
+  - first:
+      213: -7752209953467965288
+    second: SwampTree02
+  - first:
+      213: 1716841552584653014
+    second: SceneSwampDecon-02_3
+  - first:
+      213: 2965503124263162447
+    second: SceneSwampDecon-02_5
+  - first:
+      213: -3653313199860371868
+    second: SwampHutRef
+  - first:
+      213: 7410873888872366119
+    second: SwampBoat
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +89,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -63,7 +111,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,7 +135,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SwampTree01
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2138
+        width: 1304
+        height: 1942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4270ecf5abc3a010800000000000000
+      internalID: 1199025839583294028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SceneSwampDecon-02_1
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3916
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26ab3964dd194130800000000000000
+      internalID: 3551402579294135852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTree02
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 2161
+        width: 1388
+        height: 1911
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8906b4bce1e9a6490800000000000000
+      internalID: -7752209953467965288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SceneSwampDecon-02_3
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 3911
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8307dbb4273d710800000000000000
+      internalID: 1716841552584653014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampTree03
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 2211
+        width: 1178
+        height: 1799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e3fa0576c26f220800000000000000
+      internalID: 2519249863807286904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SceneSwampDecon-02_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3362
+        width: 73
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42540e2165972920800000000000000
+      internalID: 2965503124263162447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampHut
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 906
+        width: 2001
+        height: 1134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2094a80579271a3d0800000000000000
+      internalID: -3197148266239473406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampHutRef
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 37
+        width: 1234
+        height: 2025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ea3153003dc4dc0800000000000000
+      internalID: -3653313199860371868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwampBoat
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 72
+        width: 2371
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72084759986b8d660800000000000000
+      internalID: 7410873888872366119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

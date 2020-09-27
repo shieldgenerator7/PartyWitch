@@ -48,6 +48,7 @@ public class DialoguePlayer : MonoBehaviour
             if (index >= path.quotes.Count)
             {
                 stopDialogue();
+                return;
             }
             displayQuote(path.quotes[index]);
             index++;

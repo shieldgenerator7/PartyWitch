@@ -2,6 +2,7 @@
   "dialogues": [
     {
       "title": "Meeting Scarecrow",
+      "conditions": [],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -27,10 +28,18 @@
           "imageName": "scarecrow_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\scarecrow_happy.png"
         }
-      ]
+      ],
+      "actions": []
     },
     {
       "title": "Morning Greeting",
+      "conditions": [
+        {
+          "variableName": "hiToGrim",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -62,10 +71,18 @@
           "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
+      ],
+      "actions": [
+        {
+          "variableName": "hiToGrim",
+          "actionType": 1,
+          "actionValue": 1
+        }
       ]
     },
     {
       "title": "Group Huddle",
+      "conditions": [],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -109,10 +126,12 @@
           "imageName": "jubilee_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
-      ]
+      ],
+      "actions": []
     },
     {
       "title": "New guy i guess",
+      "conditions": [],
       "quotes": [
         {
           "characterName": "new guy",
@@ -156,10 +175,12 @@
           "imageName": "werewolf_human_crazy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\werewolf_human_crazy.png"
         }
-      ]
+      ],
+      "actions": []
     },
     {
       "title": "Feeding the Plant",
+      "conditions": [],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -203,10 +224,12 @@
           "imageName": "jubilee_asleep",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
         }
-      ]
+      ],
+      "actions": []
     },
     {
       "title": "Inviting Swamp Thing",
+      "conditions": [],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -292,7 +315,8 @@
           "imageName": "swampthing_happy",
           "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\swampthing_happy.png"
         }
-      ]
+      ],
+      "actions": []
     }
   ]
 }

@@ -317,6 +317,110 @@
         }
       ],
       "actions": []
+    },
+    {
+      "title": "Quest: Grim's Party",
+      "conditions": [
+        {
+          "variableName": "hiToGrim",
+          "testType": 0,
+          "testValue": 1
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "So, what's up?",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grim",
+          "text": "Nothing much",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Why are you so mopey?",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grim",
+          "text": "No reason.",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Come on, I know something's bothering you.",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grim",
+          "text": "I want a big birthday party for my 18th, but I have no friends :(",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "That's awful!",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grim",
+          "text": "I know",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Don't worry, Grim! I'll get you some new friends! You're going to have the best bday party ever!",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grim",
+          "text": "Thanks Jubilee",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "hiToGrim",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Grim's Party Ready?",
+      "conditions": [
+        {
+          "variableName": "hiToGrim",
+          "testType": 0,
+          "testValue": 2
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Grim",
+          "text": "Have you got the party yet?",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Still working on it.",
+          "imageName": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\grim.png"
+        }
+      ],
+      "actions": []
     }
   ]
 }

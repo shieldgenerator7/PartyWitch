@@ -20,6 +20,10 @@ public class DialoguePlayer : MonoBehaviour
     private DialoguePath path;
     private float lastQuoteTime = -1;
 
+    public delegate void DialogueDelegate(DialoguePath path);
+    public DialogueDelegate onDialogueStarted;
+    public DialogueDelegate onDialogueEnded;
+
     public void playDialogue(DialoguePath path)
     {
         index = 0;
@@ -29,6 +33,7 @@ public class DialoguePlayer : MonoBehaviour
         dialogueCanvas.gameObject.SetActive(true);
         //Show the first quote
         displayQuote(path.quotes[0]);
+        onDialogueStarted?.Invoke(path);
     }
 
     public void stopDialogue()
@@ -36,6 +41,7 @@ public class DialoguePlayer : MonoBehaviour
         lastQuoteTime = -1;
         //UI
         dialogueCanvas.gameObject.SetActive(false);
+        onDialogueEnded?.Invoke(path);
     }
 
     // Update is called once per frame

@@ -21,8 +21,8 @@ public class DialogueData
         return dialogues.FirstOrDefault(d => d.title == title);
     }
 
-    public DialoguePath getDialoguePath(List<string> characters)
+    public List<DialoguePath> getDialoguePaths(List<string> characters)
     {
-        return dialogues.FirstOrDefault(d => d.allCharactersPresent(characters));
+        return dialogues.FindAll(d => d.allCharactersPresent(characters));
     }
 }

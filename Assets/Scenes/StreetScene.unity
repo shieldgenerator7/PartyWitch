@@ -3737,6 +3737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jubilee
       objectReference: {fileID: 0}
+    - target: {fileID: 1081564905793240570, guid: 7050938949559e14794e8bb217bc92cc, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: eb1847573ea0a2349860ac8af2f7adee, type: 2}
     - target: {fileID: 1081564905793240571, guid: 7050938949559e14794e8bb217bc92cc, type: 3}
       propertyPath: checkRadius
       value: 0.4
@@ -3759,11 +3763,11 @@ PrefabInstance:
       objectReference: {fileID: 1268899092}
     - target: {fileID: 1081564905793240575, guid: 7050938949559e14794e8bb217bc92cc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.61
+      value: 24.06
       objectReference: {fileID: 0}
     - target: {fileID: 1081564905793240575, guid: 7050938949559e14794e8bb217bc92cc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.54
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 1081564905793240575, guid: 7050938949559e14794e8bb217bc92cc, type: 3}
       propertyPath: m_LocalPosition.z

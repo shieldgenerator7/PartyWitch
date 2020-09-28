@@ -11,7 +11,12 @@ public abstract class EventTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        coll2d = GetComponents<Collider2D>().First(c2d => c2d.isTrigger == true);
+        coll2d = GetComponents<Collider2D>().FirstOrDefault(c2d => c2d.isTrigger == true);
+        if (!coll2d)
+        {
+            Debug.LogError("" + this.GetType().Name + " requires a Collider2D with isTrigger set to true. "
+                + "This one on GameObject " + gameObject.name + " has none.");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

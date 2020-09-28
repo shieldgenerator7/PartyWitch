@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: 5653d0ccafb65a440a3640688e315cfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6029805042903605803
+    second: Dragon
+  - first:
+      213: -5325683282119061778
+    second: TpGhost
+  - first:
+      213: 1981105227613265711
+    second: cast_2
+  - first:
+      213: 8483538072606743812
+    second: wolfman
+  - first:
+      213: -3832379935942992501
+    second: wolfdawg
+  - first:
+      213: -6567985083658097310
+    second: lilpumpkin
+  - first:
+      213: 2991193777241371074
+    second: benGrimm
+  - first:
+      213: 5497914291645280583
+    second: ryan
+  - first:
+      213: 8119401434108543135
+    second: cast_8
+  - first:
+      213: -4319366872346073408
+    second: cast_9
+  - first:
+      213: 9022927570575271496
+    second: crowmagnon
+  - first:
+      213: 1982095938313834487
+    second: skully
+  - first:
+      213: -255369690182841818
+    second: fhyshy
+  - first:
+      213: -2964129873382972784
+    second: Fern
+  - first:
+      213: -8166293760535716167
+    second: commonHouseplantNotWhale
+  - first:
+      213: -5655188736584519224
+    second: Goldie
+  - first:
+      213: -6583622237935076399
+    second: Jade
+  - first:
+      213: 6978301547651542243
+    second: cast_17
+  - first:
+      213: 7277342917269750727
+    second: CatCute
+  - first:
+      213: 3476898465729894463
+    second: Cat
+  - first:
+      213: 841905827023268749
+    second: Frenzie
+  - first:
+      213: -3529273309912127852
+    second: kidGnome
+  - first:
+      213: -2018127063452198145
+    second: Arachnia
+  - first:
+      213: 8951455342002790928
+    second: SuperStar
+  - first:
+      213: -2023571753014549828
+    second: Markula
+  - first:
+      213: 4454216226502445223
+    second: ZoOomDance
+  - first:
+      213: 5830374521633700726
+    second: ZoOomGranola
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dragon
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3249
+        width: 510
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd1fd0c244d15ca0800000000000000
+      internalID: -6029805042903605803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TpGhost
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 3135
+        width: 741
+        height: 961
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee8e07854f5716b0800000000000000
+      internalID: -5325683282119061778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 3103
+        width: 443
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d1a38ede49bb570800000000000000
+      internalID: 8483538072606743812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfdawg
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3107
+        width: 532
+        height: 785
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d98c9c0c6a0dac0800000000000000
+      internalID: -3832379935942992501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilpumpkin
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 3105
+        width: 408
+        height: 787
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dae767d54d9d4a0800000000000000
+      internalID: -6567985083658097310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: benGrimm
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 2979
+        width: 562
+        height: 1061
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1b4d274ead28920800000000000000
+      internalID: 2991193777241371074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ryan
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 3008
+        width: 432
+        height: 1028
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7417f074be38c4c40800000000000000
+      internalID: 5497914291645280583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crowmagnon
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2419
+        width: 330
+        height: 781
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a736e1d0e73d70800000000000000
+      internalID: 9022927570575271496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skully
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1930
+        width: 295
+        height: 1046
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffc0f911c1d18b10800000000000000
+      internalID: 1982095938313834487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fhyshy
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1953
+        width: 460
+        height: 1071
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a004aae9eb47cf0800000000000000
+      internalID: -255369690182841818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fern
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 2214
+        width: 360
+        height: 605
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09262e4b59b4dd6d0800000000000000
+      internalID: -2964129873382972784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: commonHouseplantNotWhale
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1879
+        width: 1045
+        height: 1069
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be97c7771f7bae80800000000000000
+      internalID: -8166293760535716167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goldie
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 1838
+        width: 557
+        height: 1066
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1f61a7ecbb481b0800000000000000
+      internalID: -5655188736584519224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jade
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 1840
+        width: 568
+        height: 1030
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db7484c47642a4a0800000000000000
+      internalID: -6583622237935076399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cast_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2326
+        width: 8
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec2453f848e7d060800000000000000
+      internalID: 6978301547651542243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatCute
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 994
+        width: 711
+        height: 812
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3819483d05ef460800000000000000
+      internalID: 7277342917269750727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1101
+        width: 616
+        height: 739
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f385ee1bbbc604030800000000000000
+      internalID: 3476898465729894463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frenzie
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 1377
+        width: 318
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bad0a93ec0fab00800000000000000
+      internalID: 841905827023268749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidGnome
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 566
+        height: 652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496ab6f9f90850fc0800000000000000
+      internalID: -3529273309912127852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arachnia
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 56
+        width: 891
+        height: 976
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa5457d02c2ef3e0800000000000000
+      internalID: -2018127063452198145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperStar
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 39
+        width: 532
+        height: 933
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01269dae435f93c70800000000000000
+      internalID: 8951455342002790928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Markula
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 0
+        width: 649
+        height: 1062
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2ad044634dae3e0800000000000000
+      internalID: -2023571753014549828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoOomDance
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 0
+        width: 533
+        height: 1020
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8857dfe0e80dd30800000000000000
+      internalID: 4454216226502445223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoOomGranola
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 0
+        width: 534
+        height: 1020
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bf67d9cb6a9e050800000000000000
+      internalID: 5830374521633700726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

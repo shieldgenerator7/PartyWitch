@@ -6,7 +6,34 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Prototype/Title.unity
+    guid: 033fdd38113b5e74eaad21114597b36d
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Prototype/_PlayerScene02.unity
+    guid: 05b976552400eea4884f8eb618bf0297
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Beach.unity
+    guid: b022a69f6be266b47bbda36c7c07b915
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Credits.unity
+    guid: 6a063e947f08efd4a8c35a3e9dacaa42
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Mountain.unity
+    guid: a86a3e9a8e858e34fb8e6381ebffa0f4
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Party.unity
+    guid: aa51f13c93b56d845b14cc7f3c514fc0
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Rural.unity
+    guid: cc000b0bc335c22419d59fa549c31174
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Swamp.unity
+    guid: ee042151c76da7949ad8e7dc2755130a
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Underwater.unity
+    guid: 9340dd351fc9d454a94c6ccb43b135de
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 1c33a84107e282145b990e9e0d7c964d, type: 2}

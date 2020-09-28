@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: 434d66f965f3e0d48ab0e218784bb620
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 468015488611243321
+    second: JubileeTrick
+  - first:
+      213: -1140190869832866728
+    second: JubileeBalance
+  - first:
+      213: 711816149150744152
+    second: JinxSheet01_2
+  - first:
+      213: 3239248902829940761
+    second: JinxSheet01_3
+  - first:
+      213: -947768209952542674
+    second: JinxSheet01_4
+  - first:
+      213: 6967509161644950440
+    second: JinxSheet01_5
+  - first:
+      213: 5072648845295736099
+    second: JinxSheet01_6
+  - first:
+      213: -6848774819230667823
+    second: JinxSheet01_7
+  - first:
+      213: 1426242342211570000
+    second: JinxSheet01_8
+  - first:
+      213: 2862719796963942546
+    second: JinxSheet01_9
+  - first:
+      213: -2536858364425813514
+    second: JinxSheet01_10
+  - first:
+      213: 3364274146083097820
+    second: JinxSheet01_11
+  - first:
+      213: 5484062326258659724
+    second: llama
+  - first:
+      213: 2374682833550002920
+    second: JinxSheet01_13
+  - first:
+      213: 4030910074755401926
+    second: JinxSheet01_14
+  - first:
+      213: -4911095456235627511
+    second: JinxSheet01_15
+  - first:
+      213: -7974813101292556622
+    second: JinxSheet01_16
+  - first:
+      213: 834529202795738636
+    second: JubileeFly
+  - first:
+      213: -2907478809282197490
+    second: Jinx
+  - first:
+      213: 4891946868461286620
+    second: JinxCat
+  - first:
+      213: 159084695635943885
+    second: JinxSheet01_20
+  - first:
+      213: 53245929023955528
+    second: plushies
+  - first:
+      213: 8909082371836866432
+    second: JinxSheet01_22
+  - first:
+      213: -6339988257763637682
+    second: Stonicorn
+  - first:
+      213: 9170381740398997571
+    second: JinxSheet01_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JubileeTrick
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2511
+        width: 1418
+        height: 1502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935dd047b99be7600800000000000000
+      internalID: 468015488611243321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JubileeBalance
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 2499
+        width: 1418
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854e773e17a3d20f0800000000000000
+      internalID: -1140190869832866728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinxSheet01_2
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 2423
+        width: 348
+        height: 1418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e348b2401e0e900800000000000000
+      internalID: 711816149150744152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: llama
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 989
+        width: 733
+        height: 1334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81ffb241ad4b1c40800000000000000
+      internalID: 5484062326258659724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JubileeFly
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1001
+        width: 1420
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06745f63e7d49b00800000000000000
+      internalID: 834529202795738636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jinx
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 99
+        width: 666
+        height: 1460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0842cc6d6f86a7d0800000000000000
+      internalID: -2907478809282197490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JinxCat
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 1011
+        width: 694
+        height: 968
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd438ba12cfa3e340800000000000000
+      internalID: 4891946868461286620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plushies
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 113
+        width: 1010
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842653de3ea2db000800000000000000
+      internalID: 53245929023955528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stonicorn
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 73
+        width: 812
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46c9df2546d308a0800000000000000
+      internalID: -6339988257763637682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

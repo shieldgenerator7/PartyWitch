@@ -6,52 +6,41 @@ using UnityEngine.SceneManagement;
 public class SceneTimedTransition : MonoBehaviour
 {
 
-	public string SceneToUnload = "Party";
-	public string sceneToLoad = "MainMenu";
+	public string SceneToUnload = "Title";
+	public string sceneToLoad = "Party";
 	public bool playerLoad = true;
-	public string playerToLoad = "_PlayerScene02";
+	public string playerToLoad = "_Player";
 	
 	public int seconds = 60;
     private float gameTime;
 	
     void Awake (){
 		// on awake reset timer to 0
-        this.gameTime = 0f;
+        this.gameTime = Time.time;
     }
 
-    void FixedUpdate()
-    {
-		//on update add time 
-        this.gameTime += Time.deltaTime;
-		
-		//on update if greater than seconds var start next scene method 
-        if (this.gameTime >= this.seconds)
-            {                
-                StartCoroutine("SceneSwitch");
-            }
+    void Update()
+	{
+		//on update if greater than seconds var
+		if (Time.time >= gameTime + seconds)
+        {
+			//start next scene method
+			SceneSwitch();
+			Destroy(this);
+		}
     }
 
 	//works by using scene transition script's load unload checking for playerload activated by timer
-	IEnumerator SceneSwitch()
-    {
-        AsyncOperation load = SceneManager.LoadSceneAsync(sceneToLoad, LoadSceneMode.Additive);
-		yield return load;
-			
-/*  			if (playerLoad){
-				AsyncOperation loadplayer = SceneManager.LoadSceneAsync(playerToLoad, LoadSceneMode.Additive);
-				yield return loadplayer;
-			}  */
-
-        SceneManager.UnloadSceneAsync(SceneToUnload);
-    } 
-	
-/*     void NextScene()
-    {
-		
-        SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Additive);
-		SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Additive);
-		SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Additive);
+	void SceneSwitch()
+	{
 		SceneManager.UnloadSceneAsync(SceneToUnload);
-    } */
+
+		SceneManager.LoadSceneAsync(sceneToLoad);
+
+		if (playerLoad)
+		{
+			SceneManager.LoadSceneAsync(playerToLoad, LoadSceneMode.Additive);
+		}		
+    } 
 }
 

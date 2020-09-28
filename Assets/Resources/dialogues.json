@@ -390,7 +390,13 @@
     },
     {
       "title": "Fairy 4",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 3
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -413,7 +419,13 @@
     },
     {
       "title": "Fairy 5",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 4
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -436,7 +448,13 @@
     },
     {
       "title": "Fairy 6",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 5
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -459,7 +477,13 @@
     },
     {
       "title": "Fairy 7",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 6
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -482,7 +506,13 @@
     },
     {
       "title": "Fairy 8",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 7
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -505,7 +535,13 @@
     },
     {
       "title": "Fairy 9",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 8
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -528,7 +564,13 @@
     },
     {
       "title": "Fairy 10",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 9
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -561,7 +603,13 @@
     },
     {
       "title": "Fairy 11",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 10
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -589,7 +637,13 @@
     },
     {
       "title": "Fairy 12",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 11
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -642,7 +696,13 @@
     },
     {
       "title": "Fairy 13",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 12
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -690,7 +750,13 @@
     },
     {
       "title": "Fairy 14",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 13
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -738,7 +804,13 @@
     },
     {
       "title": "Fairy 15",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 14
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -801,7 +873,13 @@
     },
     {
       "title": "Fairy 16",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 15
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -879,7 +957,13 @@
     },
     {
       "title": "Fairy 17",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 16
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -912,7 +996,13 @@
     },
     {
       "title": "Fairy 18",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 17
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -955,7 +1045,13 @@
     },
     {
       "title": "Fairy 19",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 18
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1028,7 +1124,13 @@
     },
     {
       "title": "Fairy 20",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 19
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1051,7 +1153,13 @@
     },
     {
       "title": "Fairy 21",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 20
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1084,7 +1192,13 @@
     },
     {
       "title": "Fairy 22",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 21
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1132,7 +1246,13 @@
     },
     {
       "title": "Fairy 23",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 22
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1190,7 +1310,13 @@
     },
     {
       "title": "Fairy 24",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 23
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1273,7 +1399,13 @@
     },
     {
       "title": "Fairy 25",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 24
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1316,7 +1448,13 @@
     },
     {
       "title": "Fairy 26",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 25
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1369,7 +1507,13 @@
     },
     {
       "title": "Fairy 27",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "fairytalk",
+          "testType": 0,
+          "testValue": 26
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -1421,7 +1565,7 @@
         {
           "variableName": "fairytalk",
           "testType": 0,
-          "testValue": 25
+          "testValue": 27
         }
       ],
       "quotes": [
@@ -1460,7 +1604,7 @@
         {
           "variableName": "fairytalk",
           "actionType": 1,
-          "actionValue": 2
+          "actionValue": 1
         }
       ]
     },
@@ -1468,9 +1612,9 @@
       "title": "Fairy End",
       "conditions": [
         {
-          "variableName": "fairytalk",
-          "testType": 2,
-          "testValue": 25
+          "variableName": "grimmtalk",
+          "testType": 0,
+          "testValue": 28
         }
       ],
       "quotes": [

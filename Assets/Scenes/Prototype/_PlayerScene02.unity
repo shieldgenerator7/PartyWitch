@@ -209,11 +209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.57
+      value: 3.72
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.264
+      value: 0.88
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.z
@@ -254,6 +254,10 @@ PrefabInstance:
     - target: {fileID: 564511823658323042, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564511823658323042, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.50598073
       objectReference: {fileID: 0}
     - target: {fileID: 564511824316805579, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size

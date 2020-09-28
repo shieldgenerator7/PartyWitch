@@ -674,5 +674,5 @@ MonoBehaviour:
   SceneToUnload: Title
   sceneToLoad: Party
   playerLoad: 1
-  playerToLoad: _PlayerScene02
-  seconds: 1
+  playerToLoad: _Player
+  seconds: 5

@@ -1484,11 +1484,43 @@
     },
     {
       "title": "PictureItemCollect",
-      "conditions": [],
-      "quotes": [],
+      "conditions": [
+        {
+          "variableName": "pictureitem",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Cool Picture frames. Grimm won't mind if I take one",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grimm",
+          "text": "Hey, put that back. I can see you",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001s_0001_Untitled_Artwork-(24).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Thanks Grimm",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grimm",
+          "text": "You're such a pain",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001s_0001_Untitled_Artwork-(24).png"
+        }
+      ],
       "actions": [
         {
           "variableName": "pictureitem",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "picturetalk",
           "actionType": 1,
           "actionValue": 1
         }
@@ -1500,7 +1532,7 @@
         {
           "variableName": "picturetalk",
           "testType": 0,
-          "testValue": 0
+          "testValue": 1
         }
       ],
       "quotes": [
@@ -1521,8 +1553,23 @@
         },
         {
           "characterName": "Grimm",
-          "text": "",
+          "text": "yes the entire world centers around you",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001s_0001_Untitled_Artwork-(24).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Universe",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Grimm",
+          "text": "What?",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001s_0000_bengrimm.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I'm the protagonist, you wouldn't understand",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0006_Untitled_Artwork-(33).png"
         }
       ],
       "actions": [
@@ -1539,7 +1586,7 @@
         {
           "variableName": "pictureitem",
           "testType": 0,
-          "testValue": 1
+          "testValue": 2
         }
       ],
       "quotes": [
@@ -1733,6 +1780,129 @@
       "actions": [
         {
           "variableName": "mertalk",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "MermaidTwinsEnd",
+      "conditions": [
+        {
+          "variableName": "mertalk",
+          "testType": 0,
+          "testValue": 3
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Hi",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jade",
+          "text": "",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0004s_0000_Untitled_Artwork-(41).png"
+        },
+        {
+          "characterName": "Goldie",
+          "text": "",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0004s_0002_Untitled_Artwork-(17)-copy-2.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Awkward",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "ObservationDoors",
+      "conditions": [
+        {
+          "variableName": "tutorialdoors",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Follow your bliss and the universe will open doors where there are only walls",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I can teleport by jumping into magic doors",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "tutorialdoors",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "ObservationPainting",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "abstraction is a response to, and a reflection of, the growing abstraction of social relations in industrial society",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "modernist abstraction as a function of the abstract power of money, equating all things equally as exchange-values.",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "The social content of abstract art is then precisely the abstract nature of social existence",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "How do I know that?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0001_Untitled_Artwork-(13).png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Plant meeting",
+      "conditions": [
+        {
+          "variableName": "grimmtalk",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Houseplant",
+          "text": "No plant's here. Just us whales",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001_frond.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "If you're not a plant why are you green and have leaves?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Houseplant",
+          "text": "No idea what you're talking about",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001_frond.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "planttalk",
           "actionType": 1,
           "actionValue": 1
         }

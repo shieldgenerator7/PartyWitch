@@ -1,14 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-/// <summary>
-/// Triggers a dialogue cutscene
-/// </summary>
-public class DialogueTrigger : EventTrigger
+public class ItemCollectTrigger : EventTrigger
 {
+    [Tooltip("The title of the dialogue to play")]
     public string title;
-    public List<string> characters;
 
     protected override void triggerEvent()
     {
@@ -16,11 +14,7 @@ public class DialogueTrigger : EventTrigger
         if (title != "" && title != null)
         {
             FindObjectOfType<DialogueManager>().playDialogue(title);
-        }
-        //Find dialogue path by characters
-        else
-        {
-            FindObjectOfType<DialogueManager>().playDialogue(characters);
+            Destroy(transform.parent.gameObject);
         }
     }
 }

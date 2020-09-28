@@ -29,10 +29,13 @@ public class DialoguePlayer : MonoBehaviour
         index = 0;
         this.path = path;
         lastQuoteTime = Time.time;
-        //UI
-        dialogueCanvas.gameObject.SetActive(true);
-        //Show the first quote
-        displayQuote(path.quotes[0]);
+        if (path.quotes.Count > 0)
+        {
+            //UI
+            dialogueCanvas.gameObject.SetActive(true);
+            //Show the first quote
+            displayQuote(path.quotes[0]);
+        }
         onDialogueStarted?.Invoke(path);
     }
 

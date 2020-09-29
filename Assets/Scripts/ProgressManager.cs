@@ -8,7 +8,10 @@ public class ProgressManager
 
     public void set(string varName, int value = 0)
     {
+        verify(varName);
+        int oldValue = data[varName];
         data[varName] = value;
+        onVariableChange?.Invoke(varName, oldValue, data[varName]);
     }
 
     public int get(string varName)
@@ -20,13 +23,17 @@ public class ProgressManager
     public void add(string varName, int value = 1)
     {
         verify(varName);
+        int oldValue = data[varName];
         data[varName] += value;
+        onVariableChange?.Invoke(varName, oldValue, data[varName]);
     }
 
     public void multiply(string varName, int value = 2)
     {
         verify(varName);
+        int oldValue = data[varName];
         data[varName] *= value;
+        onVariableChange?.Invoke(varName, oldValue, data[varName]);
     }
 
     /// <summary>
@@ -38,7 +45,10 @@ public class ProgressManager
     {
         if (!data.ContainsKey(varName))
         {
-            set(varName);
+            data[varName] = 0;
         }
     }
+
+    public delegate void OnVariableChange(string varName, int oldValue, int newValue);
+    public OnVariableChange onVariableChange;
 }

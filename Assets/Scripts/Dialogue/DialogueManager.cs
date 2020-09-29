@@ -13,7 +13,7 @@ class DialogueManager : MonoBehaviour
     [SerializeField]
     private DialoguePlayer dialoguePlayer;
 
-    private ProgressManager progressManager;
+    public readonly ProgressManager progressManager = new ProgressManager();
 
     private void Awake()
     {
@@ -21,7 +21,6 @@ class DialogueManager : MonoBehaviour
         dialogueData = JsonUtility.FromJson<DialogueData>(jsonString);
         dialogueData.dialogues.ForEach(d => d.inflate());
         dialoguePlayer.onDialogueEnded += takeActions;
-        progressManager = new ProgressManager();
     }
 
     public void playDialogue(string title = null)

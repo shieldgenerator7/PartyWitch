@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     private Rigidbody2D rb;
     private Collider2D col2d;
-    private bool enableExtraJumps = false;
+    public bool enableExtraJumps = false;
 
     public Transform groundCheck;
     public float checkRadius;

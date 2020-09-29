@@ -616,9 +616,14 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+  enableExtraJumps: 1
   groundCheck: {fileID: 564511824523436845}
   checkRadius: 0.2
   extraJumpsValue: 1
+  animator: {fileID: 0}
+  OnLandEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!70 &564511824316805580
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

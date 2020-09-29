@@ -21,6 +21,8 @@ public class DialoguePlayer : MonoBehaviour
     public DialogueDelegate onDialogueStarted;
     public DialogueDelegate onDialogueEnded;
 
+    public bool Playing => path != null;
+
     public void playDialogue(DialoguePath path)
     {
         index = 0;
@@ -44,6 +46,8 @@ public class DialoguePlayer : MonoBehaviour
         onDialogueEnded?.Invoke(path);
         //Unsubscribe from Interact button
         PlayerController.OnPlayerInteract -= advanceDialogue;
+        //Unset path
+        this.path = null;
     }
 
     // Update is called once per frame

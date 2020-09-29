@@ -25,6 +25,10 @@ class DialogueManager : MonoBehaviour
 
     public void playDialogue(string title = null)
     {
+        if (dialoguePlayer.Playing)
+        {
+            return;
+        }
         DialoguePath path = null;
         if (title == null || title == "")
         {
@@ -47,6 +51,10 @@ class DialogueManager : MonoBehaviour
 
     public void playDialogue(List<string> characters)
     {
+        if (dialoguePlayer.Playing)
+        {
+            return;
+        }
         DialoguePath path = dialogueData.getDialoguePaths(characters)
             .FirstOrDefault(dp => conditionsMet(dp));
         if (path == null)
@@ -61,6 +69,10 @@ class DialogueManager : MonoBehaviour
 
     public void playDialogue(DialoguePath path)
     {
+        if (dialoguePlayer.Playing)
+        {
+            return;
+        }
         dialoguePlayer.playDialogue(path);
     }
 

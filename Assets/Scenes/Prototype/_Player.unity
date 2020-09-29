@@ -394,7 +394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1328284032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a75d5d60e40e5f44849bb3a623b474a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startScene: 
+  startScene: Party
   currentScene: 
   jumpNow: 0
 --- !u!4 &1328284033

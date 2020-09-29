@@ -9,7 +9,7 @@ public abstract class EventTrigger : MonoBehaviour
     private Collider2D coll2d;
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         coll2d = GetComponents<Collider2D>().FirstOrDefault(c2d => c2d.isTrigger == true);
         if (!coll2d)

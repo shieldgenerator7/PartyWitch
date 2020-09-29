@@ -33,9 +33,13 @@ public class DialoguePlayer : MonoBehaviour
             //UI
             dialogueCanvas.gameObject.SetActive(true);
             //Show the first quote
-            displayQuote(path.quotes[0]);
+            advanceDialogue();
             //Subscribe to Interact button
             PlayerController.OnPlayerInteract += advanceDialogue;
+        }
+        else
+        {
+            stopDialogue();
         }
     }
 

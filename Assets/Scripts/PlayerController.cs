@@ -56,6 +56,7 @@ public class PlayerController : MonoBehaviour
 	
 	private void Awake()
     {
+        _instance = this;
         playerActionControls = new PlayerActionControls();
         rb = GetComponent<Rigidbody2D>();
         col2d = GetComponent<Collider2D>();
@@ -69,8 +70,17 @@ public class PlayerController : MonoBehaviour
         playerActionControls.Enable();
         playerActionControls.Player.Jump.performed += ctx => jumpKeyDown = true;
         playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
-        playerActionControls.Player.Interact.performed += ctx => interactKeyDown = true;
-        playerActionControls.Player.Interact.canceled += ctx => interactKeyDown = false;
+        playerActionControls.Player.Interact.performed += _ => interactCall(true);
+        playerActionControls.Player.Interact.canceled += _ => interactCall(false);
+    }
+
+    private void interactCall(bool value)
+    {
+        interactKeyDown = value;
+        if(interactKeyDown)
+        {
+            OnPlayerInteract?.Invoke();
+        }
     }
 
     private void OnDisable()
@@ -105,10 +115,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void TestFunction()
-    {
-        print("This is a test");
-    }
 
     // Update is called once per frame
     void Update()

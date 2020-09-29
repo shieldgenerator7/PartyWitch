@@ -8,6 +8,15 @@ using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
+    #region Singleton
+    private static PlayerController _instance;
+    public static PlayerController Instance;
+    #endregion
+
+    public delegate void Interaction();
+    public static event Interaction OnPlayerInteract;
+
+    #region Initialization
     private PlayerActionControls playerActionControls;
     [SerializeField] private float speed, jumpSpeed;
     [SerializeField] private LayerMask groundLayer;
@@ -21,8 +30,8 @@ public class PlayerController : MonoBehaviour
     private int extraJumps;
     public int extraJumpsValue;
 
+
 	public Animator animator;
-    private bool jumpBtnDown = false;
 	
 	private bool FacingRight = true;  // For determining which way the player is currently facing.
 	
@@ -33,6 +42,10 @@ public class PlayerController : MonoBehaviour
 
 	public UnityEvent OnLandEvent;
 	
+
+    private bool jumpKeyDown = false;
+    private bool interactKeyDown = false;
+    #endregion
 
 	
 	[System.Serializable]
@@ -54,8 +67,10 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         playerActionControls.Enable();
-        playerActionControls.Player.Jump.performed += ctx => jumpBtnDown = true;
-        playerActionControls.Player.Jump.canceled += ctx => jumpBtnDown = false;
+        playerActionControls.Player.Jump.performed += ctx => jumpKeyDown = true;
+        playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
+        playerActionControls.Player.Interact.performed += ctx => interactKeyDown = true;
+        playerActionControls.Player.Interact.canceled += ctx => interactKeyDown = false;
     }
 
     private void OnDisable()
@@ -103,13 +118,13 @@ public class PlayerController : MonoBehaviour
             extraJumps = extraJumpsValue;
         }
 
-        if (jumpBtnDown && extraJumps > 0)
+        if (jumpKeyDown && extraJumps > 0 && enableExtraJumps)
         {
             rb.velocity = Vector2.up * jumpSpeed;
 			animator.SetBool("isJumping", true);
             extraJumps--;
         }
-        else if (jumpBtnDown && extraJumps == 0 && isGrounded)
+        else if (jumpKeyDown && extraJumps == 0 && isGrounded)
         {
             rb.velocity = Vector2.up * jumpSpeed;
         }

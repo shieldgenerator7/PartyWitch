@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12b2b82299483ca42adecb988004beb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBetweenQuotes: 1
+  delayBetweenQuotes: 3
   dialogueCanvas: {fileID: 1918468029}
   charPortrait: {fileID: 1372897381}
   charName: {fileID: 741595174}
@@ -497,11 +497,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.85
+      value: -15.03
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.43
+      value: 1.264
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.z

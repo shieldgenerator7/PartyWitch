@@ -9,8 +9,6 @@ using UnityEngine.UI;
 /// </summary>
 public class DialoguePlayer : MonoBehaviour
 {
-    public float delayBetweenQuotes = 1;
-
     public Canvas dialogueCanvas;
     public Image charPortrait;
     public TMP_Text charName;
@@ -18,7 +16,6 @@ public class DialoguePlayer : MonoBehaviour
 
     private int index = 0;
     private DialoguePath path;
-    private float lastQuoteTime = -1;
 
     public delegate void DialogueDelegate(DialoguePath path);
     public DialogueDelegate onDialogueStarted;
@@ -28,40 +25,37 @@ public class DialoguePlayer : MonoBehaviour
     {
         index = 0;
         this.path = path;
-        lastQuoteTime = Time.time;
+        onDialogueStarted?.Invoke(path);
         if (path.quotes.Count > 0)
         {
             //UI
             dialogueCanvas.gameObject.SetActive(true);
             //Show the first quote
             displayQuote(path.quotes[0]);
+            //Subscribe to Interact button
+            PlayerController.OnPlayerInteract += advanceDialogue;
         }
-        onDialogueStarted?.Invoke(path);
     }
 
     public void stopDialogue()
     {
-        lastQuoteTime = -1;
         //UI
         dialogueCanvas.gameObject.SetActive(false);
         onDialogueEnded?.Invoke(path);
+        //Unsubscribe from Interact button
+        PlayerController.OnPlayerInteract -= advanceDialogue;
     }
 
     // Update is called once per frame
-    void Update()
+    void advanceDialogue()
     {
-        if (lastQuoteTime >= 0
-            && Time.time > lastQuoteTime + delayBetweenQuotes)
+        if (index >= path.quotes.Count)
         {
-            lastQuoteTime = Time.time;
-            if (index >= path.quotes.Count)
-            {
-                stopDialogue();
-                return;
-            }
-            displayQuote(path.quotes[index]);
-            index++;
+            stopDialogue();
+            return;
         }
+        displayQuote(path.quotes[index]);
+        index++;
     }
 
     private void displayQuote(Quote quote)

@@ -23,7 +23,14 @@ public abstract class EventTrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            triggerEvent();
+            PlayerController.OnPlayerInteract += triggerEvent;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerController.OnPlayerInteract -= triggerEvent;
         }
     }
 

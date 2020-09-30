@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
-    public string startScene;
 
     public void startGame()
     {
@@ -17,8 +16,6 @@ public class MenuManager : MonoBehaviour
         }
         //Load player scene
         SceneManager.LoadSceneAsync("_Player", LoadSceneMode.Additive);
-        //Load start scene
-        SceneManager.LoadSceneAsync(startScene, LoadSceneMode.Additive);
         //Unload the title scene after another scene has loaded
         SceneManager.sceneLoaded += unloadTitleScene;
     }

@@ -2764,6 +2764,61 @@
           "characterName": "Jubilee",
           "text": "taste is tight",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Skully",
+          "text": "what i wouldn't give to taste one more time",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0012s_0000_Untitled_Artwork-(28)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Is that a wish?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Skully",
+          "text": "I suppose it is",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0012s_0000_Untitled_Artwork-(28)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Granted!",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Skully",
+          "text": "ewww I taste bone and chalk",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0012s_0000_Untitled_Artwork-(28)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Grimm will have sweets!",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Skully",
+          "text": "As much as I hate Grimm for doing this too me I'm not missing my last chance at sweets",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0012s_0000_Untitled_Artwork-(28)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "that's the spirit",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Skully",
+          "text": "thanks, whoever you are",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0012s_0000_Untitled_Artwork-(28)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I'm awesome",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Skully",
+          "text": "ok, thanks awesome",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0012s_0000_Untitled_Artwork-(28)-copy.png"
         }
       ],
       "actions": [
@@ -2863,7 +2918,7 @@
       "actions": []
     },
     {
-      "title": "Dialogue Title",
+      "title": "loopgrimgodothat",
       "conditions": [
         {
           "variableName": "grimmtalk",
@@ -2917,7 +2972,7 @@
       ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "alienconvincing",
       "conditions": [
         {
           "variableName": "ryantalk",
@@ -2961,7 +3016,7 @@
       ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "alienend",
       "conditions": [
         {
           "variableName": "ryantalk",
@@ -2990,7 +3045,7 @@
       ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "it",
       "conditions": [
         {
           "variableName": "grimmtalk",
@@ -3028,7 +3083,7 @@
       "actions": []
     },
     {
-      "title": "Dialogue Title",
+      "title": "merstandards",
       "conditions": [
         {
           "variableName": "mertalk",
@@ -3077,7 +3132,7 @@
       ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "merframeexchange",
       "conditions": [
         {
           "variableName": "pictureitem",
@@ -3181,7 +3236,7 @@
       ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "scarecrow",
       "conditions": [],
       "quotes": [
         {
@@ -3208,12 +3263,22 @@
           "characterName": "Crowscare",
           "text": "I'll be here all evening",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0013s_0000_Untitled_Artwork-(6)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Party guests love CORNY jokes. Come to the birthday party!",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Crowscare",
+          "text": "corny? ahahahahahhahaha ok ok you got me",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0013s_0000_Untitled_Artwork-(6)-copy.png"
         }
       ],
       "actions": []
     },
     {
-      "title": "Dialogue Title",
+      "title": "pumpkin",
       "conditions": [],
       "quotes": [
         {
@@ -3255,13 +3320,29 @@
           "characterName": "Lil Pumpkin",
           "text": "I know what i like",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002s_0001_Untitled_Artwork-(19).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "A birthday party would be the perfect place to show off your style",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Lil Pumpkin",
+          "text": "Fabulous idea",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002s_0001_Untitled_Artwork-(19).png"
         }
       ],
       "actions": []
     },
     {
-      "title": "Dialogue Title",
-      "conditions": [],
+      "title": "tp ghost",
+      "conditions": [
+        {
+          "variableName": "flotalk",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -3304,10 +3385,16 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "variableName": "flotalk",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
     },
     {
-      "title": "Dialogue Title",
+      "title": "vamp",
       "conditions": [],
       "quotes": [
         {
@@ -3369,7 +3456,7 @@
       "actions": []
     },
     {
-      "title": "Dialogue Title",
+      "title": "swampy",
       "conditions": [
         {
           "variableName": "mertalk",
@@ -3447,7 +3534,7 @@
       "actions": []
     },
     {
-      "title": "Dialogue Title",
+      "title": "zoegrains",
       "conditions": [],
       "quotes": [
         {
@@ -3484,12 +3571,32 @@
           "characterName": "Zoe Zom Om",
           "text": "Grrrrrrrrr aaaaaaaiiiiiinnnnnnsssssss",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0016s_0001_Untitled_Artwork-(32).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "do you like cake?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Zoe Zom Om",
+          "text": "loooovvvvee looovvveee",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0016s_0000_zombie.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Birthday party at Grimm's",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Zoe Zom Om",
+          "text": "ffffrrrrrrreeeeeennnn",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0016s_0002_Untitled_Artwork-(20).png"
         }
       ],
       "actions": []
     },
     {
-      "title": "Dialogue Title",
+      "title": "kitty",
       "conditions": [],
       "quotes": [
         {
@@ -3546,6 +3653,475 @@
           "characterName": "Jubilee",
           "text": "this is getting too weird, even for me",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "ObservationStonicorn",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "This unicorn has been sealed in stone by powerful magic. I hope someone releases you soon",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "jinxtalk",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jinx",
+          "text": "What's up cousin?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I'm on an epic quest to grant a wish for delicious  sweets",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "You do love your sweets",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "mmhmmm like a lot",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "no kidding",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "alot alot",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "alot times infinity",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "aww no fair",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "don't hate the player, hate the game",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "jinxtalk",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "jinxtalk",
+          "testType": 0,
+          "testValue": 1
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "check out my new broom",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "I see very sleek",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "It cost me granting 3 whole wishes",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "How high does that thing go?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Oh, it can barely get off the ground? Can you teach me to fly and jump on clouds like you do?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "You're gonna need more mana for that",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I named my broom hoverboard",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "and your hoverboard broom?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "how'd you know?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "I know you too well",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "jinxtalk",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "jinxtalk",
+          "testType": 0,
+          "testValue": 2
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "wanna help me grant wishes",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "Maybe later. I had a long day",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "we'll, im going to get the best sweets in this universe",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jinx",
+          "text": "have fun",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jinx.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "What are you doing?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "I'm an accountant",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0014s_0001_Untitled_Artwork-(6).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "where do you work?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "at a place where accountants work",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0014s_0001_Untitled_Artwork-(6).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "do you like your job?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "yes i like my job and my job is an accounant",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0014s_0001_Untitled_Artwork-(6).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "ok i guess i shouldn't ask any more questions",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "what are you doing?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0014s_0001_Untitled_Artwork-(6).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "inviting peopl... dragons to a party",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "sounds like fun",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0014s_0000_Untitled_Artwork-(29)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I'm just living life and having fun",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Horxim",
+          "text": "look an old lady",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "excuse me i'm only  100 years old. I'm a child in our years",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "old",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "you look like a grandpa with that beard",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "I'm 10 years old",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "really?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "yea the coolest gnomes are born with full beards",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "wanna go to a birthday party?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "I don't want to skip leg day",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "don't worry theres plenty of heavy things to lift. Grimm might yell at you but he's harmless",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "ok, I'll ask my mom",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Hi",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Euryale",
+          "text": "Hello darling",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0010s_0000_Untitled_Artwork-(28).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "cool snake hair are you medusa?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Euryale",
+          "text": "Her sister. I'm far more popular than that drama queen",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0010s_0000_Untitled_Artwork-(28).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I never heard of you",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Euryale",
+          "text": "rude",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0010s_0000_Untitled_Artwork-(28).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "do you feed your hair?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Euryale",
+          "text": "sometimes, it's the shedding I can't stand",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0010s_0000_Untitled_Artwork-(28).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "being gorgeous isn't easy",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Euryale",
+          "text": "run along now, I'm far too popular to be seen with you",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0010s_0000_Untitled_Artwork-(28).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I would be an honor if you could attend a party this evening for your biggest fan Grimm",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Euryale",
+          "text": "well I guess I can make an apperance for my  fans",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0010s_0000_Untitled_Artwork-(28).png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Harry",
+          "text": "well what do we have here? A child in the swamp?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "you're very well dressed for a swamp",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Harry",
+          "text": "ah yes, im a bit stranded at the moment. You see, when I'm human I act a bit",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "boring",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Harry",
+          "text": "uncivilized",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "also good",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Harry",
+          "text": "I've lost my bearings. what's the best way out of here.",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I can let you use my magic door to grimm's birthday party",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Harry",
+          "text": "that's be mighty kind thank you very much",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "hey maybe stay a while, take in the sights",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Harry",
+          "text": "it would only be fair considering such a fine young lady to came to my aid in my time of need",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0001_Untitled_Artwork-(18).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "yuss",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "flotalk",
+          "testType": 0,
+          "testValue": 1
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "maybe you need to go to the bathroom",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Flo",
+          "text": "oh dear where do I find one of those around here?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Fret not there's one at Grimm's house... I think",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Flo",
+          "text": "don't just stand there show me the way",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
         }
       ],
       "actions": []

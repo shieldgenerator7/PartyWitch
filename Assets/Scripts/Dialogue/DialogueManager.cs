@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Determines which dialogue happens when you want to trigger a dialogue
@@ -21,6 +22,14 @@ class DialogueManager : MonoBehaviour
         dialogueData = JsonUtility.FromJson<DialogueData>(jsonString);
         dialogueData.dialogues.ForEach(d => d.inflate());
         dialoguePlayer.onDialogueEnded += takeActions;
+        SceneManager.sceneLoaded +=
+            (s,m)=>
+            {
+                foreach (OnStartCheckVariable oscv in Resources.FindObjectsOfTypeAll(typeof(OnStartCheckVariable)))
+                {
+                    oscv.checkTakeAction(progressManager);
+                }
+            };
     }
 
     public void playDialogue(string title = null)

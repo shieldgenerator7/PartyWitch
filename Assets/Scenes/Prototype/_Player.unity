@@ -180,7 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12b2b82299483ca42adecb988004beb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBetweenQuotes: 3
   dialogueCanvas: {fileID: 1918468029}
   charPortrait: {fileID: 1372897381}
   charName: {fileID: 741595174}
@@ -268,6 +267,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1660200525}
     m_Modifications:
+    - target: {fileID: 5872457222956527661, guid: 447e56ffde8d7724d8821a66881e35c1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.087083794
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872457222956527661, guid: 447e56ffde8d7724d8821a66881e35c1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.0034709796
+      objectReference: {fileID: 0}
+    - target: {fileID: 5872457222956527661, guid: 447e56ffde8d7724d8821a66881e35c1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.24528301
+      objectReference: {fileID: 0}
     - target: {fileID: 5872457223157016643, guid: 447e56ffde8d7724d8821a66881e35c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -493,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.03
+      value: 44.07
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.y

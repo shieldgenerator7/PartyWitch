@@ -6644,6 +6644,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 42534574}
     m_Modifications:
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: connectedId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: connectScene
+      value: Swamp
+      objectReference: {fileID: 0}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.52
@@ -12234,6 +12246,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 42534574}
     m_Modifications:
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: id
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: connectedId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: connectScene
+      value: Rural
+      objectReference: {fileID: 0}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.452
@@ -12281,10 +12305,6 @@ PrefabInstance:
     - target: {fileID: 1887761306504826906, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_Name
       value: DoorTransition
-      objectReference: {fileID: 0}
-    - target: {fileID: 1887761307974386289, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.92
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}

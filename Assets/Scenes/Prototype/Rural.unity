@@ -1307,7 +1307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226408810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.932, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 0.65, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 899488436}
@@ -1340,7 +1340,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1351,7 +1351,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!1001 &235547158
 PrefabInstance:
@@ -4752,6 +4752,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1974291158}
     m_Modifications:
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: id
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: connectedId
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: connectScene
+      value: Party
+      objectReference: {fileID: 0}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.005
@@ -4759,10 +4771,6 @@ PrefabInstance:
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.211
       objectReference: {fileID: 0}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4819,6 +4827,10 @@ PrefabInstance:
     - target: {fileID: 1887761307974386288, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: SceneToUnload
       value: Rural
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887761307974386291, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}

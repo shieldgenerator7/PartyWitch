@@ -184,6 +184,11 @@ MonoBehaviour:
   charPortrait: {fileID: 1372897381}
   charName: {fileID: 741595174}
   charQuote: {fileID: 997664387}
+--- !u!1 &314186155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 564511823631921204, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
+  m_PrefabInstance: {fileID: 564511822605509833}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330364991
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,7 +410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1328284032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,8 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startScene: Party
-  currentScene: 
-  jumpNow: 0
+  playerObject: {fileID: 314186155}
 --- !u!4 &1328284033
 Transform:
   m_ObjectHideFlags: 0

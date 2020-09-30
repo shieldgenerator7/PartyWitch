@@ -23,6 +23,7 @@ public abstract class EventTrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            PlayerController.OnPlayerInteract -= triggerEvent;
             PlayerController.OnPlayerInteract += triggerEvent;
         }
     }
@@ -32,6 +33,11 @@ public abstract class EventTrigger : MonoBehaviour
         {
             PlayerController.OnPlayerInteract -= triggerEvent;
         }
+    }
+
+    private void OnDestroy()
+    {
+        PlayerController.OnPlayerInteract -= triggerEvent;
     }
 
     protected abstract void triggerEvent();

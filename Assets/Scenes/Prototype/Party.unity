@@ -6704,10 +6704,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTransitionSwamp
       objectReference: {fileID: 0}
-    - target: {fileID: 1887761307974386288, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
-      propertyPath: SceneToLoad
-      value: Swamp
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
 --- !u!4 &1308833087 stripped

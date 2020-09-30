@@ -1322,11 +1322,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 226408810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4698c5d08c55422408ce32e1a5626e07, type: 3}
+  m_Script: {fileID: 11500000, guid: 54743170af6c21348a161c0c1db33498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToUnload: Rural
-  SceneToLoad: Swamp
+  id: 3
+  connectedId: 4
+  connectScene: Swamp
 --- !u!61 &226408813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4819,14 +4820,6 @@ PrefabInstance:
     - target: {fileID: 1887761306504826906, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_Name
       value: DoorTransition
-      objectReference: {fileID: 0}
-    - target: {fileID: 1887761307974386288, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
-      propertyPath: SceneToLoad
-      value: Party
-      objectReference: {fileID: 0}
-    - target: {fileID: 1887761307974386288, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
-      propertyPath: SceneToUnload
-      value: Rural
       objectReference: {fileID: 0}
     - target: {fileID: 1887761307974386291, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_Enabled

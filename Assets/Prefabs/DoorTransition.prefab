@@ -93,7 +93,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1887761307974386289}
   - component: {fileID: 1887761307974386291}
-  - component: {fileID: 1887761307974386288}
   - component: {fileID: 248940220748872531}
   m_Layer: 0
   m_Name: Trigger
@@ -142,20 +141,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
---- !u!114 &1887761307974386288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887761307974386294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4698c5d08c55422408ce32e1a5626e07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneToUnload: Party
-  SceneToLoad: Rural
 --- !u!114 &248940220748872531
 MonoBehaviour:
   m_ObjectHideFlags: 0

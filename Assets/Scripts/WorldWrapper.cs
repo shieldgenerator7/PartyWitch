@@ -7,6 +7,7 @@ using UnityEngine;
 /// Makes the world continuous left and right.
 /// It teleports things that leave the area to the other side.
 /// Place it in the center of the world and tell it the world width and it does the rest.
+/// NOTE: If you make it a prefab, the WorldWrapperEditor script will not work
 /// by shieldgenerator7
 /// </summary>
 public class WorldWrapper : MonoBehaviour

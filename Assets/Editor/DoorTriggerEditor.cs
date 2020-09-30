@@ -24,6 +24,10 @@ public class DoorTriggerEditor : Editor
             {
                 DoorTrigger door1 = (DoorTrigger)targets[0];
                 DoorTrigger door2 = (DoorTrigger)targets[1];
+                Undo.RecordObjects(
+                    targets,
+                    "Connect " + door1.name + " and " + door2.name + " together."
+                    );
                 door1.connectTo(door2);
                 door2.connectTo(door1);
             }
@@ -36,11 +40,15 @@ public class DoorTriggerEditor : Editor
 
     private void assignIds()
     {
-        List<DoorTrigger> doors = new List<DoorTrigger>(
-            Array.ConvertAll(targets, t => (DoorTrigger)t)
-            );
+        List<DoorTrigger> doors = targets.Cast<DoorTrigger>().ToList();
+        Undo.RecordObjects(doors.ToArray(), "Assign Ids to DoorTrigger objects.");
         int maxKnownId = FindObjectsOfType<DoorTrigger>().Max(d => d.id);
-
-
+        doors.ForEach(
+            d =>
+            {
+                d.id = maxKnownId + 1;
+                maxKnownId++;
+            }
+            );
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
 /// <summary>
 /// Tool used to mass-change a character's name in DialogueTriggers
 /// </summary>
@@ -43,3 +44,4 @@ public class NameChanger : MonoBehaviour
             + "\" in " + dialogueTriggers.Count + " DialogueTriggers.");
     }
 }
+#endif

@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+    public Image logo;
+    public List<Button> mainMenuButtons; 
+    public Image controlScreen;
 
     public void startGame()
     {
@@ -25,9 +28,15 @@ public class MenuManager : MonoBehaviour
 
     }
 
-    public void showControls()
+    public void showMainScreen(bool show = true)
     {
+        logo.gameObject.SetActive(show);
+        mainMenuButtons.ForEach(b => b.interactable = show);
+    }
 
+    public void showControls(bool show = true)
+    {
+        controlScreen.gameObject.SetActive(show);
     }
 
     public void quitGame()

@@ -227,7 +227,7 @@ MonoBehaviour:
   title: 
   characters:
   - Jubilee
-  - fhyshy
+  - Fhyshy
 --- !u!61 &7666256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10755,7 +10755,7 @@ MonoBehaviour:
   title: 
   characters:
   - Jubilee
-  - CuteKitty
+  - Butters
 --- !u!61 &1433927238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15236,7 +15236,7 @@ MonoBehaviour:
   title: 
   characters:
   - Jubilee
-  - Goldie
+  - Petunia
   - Jade
 --- !u!61 &1992132636
 BoxCollider2D:

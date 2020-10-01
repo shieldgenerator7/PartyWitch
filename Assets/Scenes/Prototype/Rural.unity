@@ -1041,7 +1041,7 @@ MonoBehaviour:
   title: 
   characters:
   - Jubilee
-  - Zander Sadcat
+  - Wren Beaux
 --- !u!61 &210714122
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   title: 
   characters:
   - Jubilee
-  - Crowscare
+  - Jerry
 --- !u!61 &288494321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9003,7 +9003,7 @@ MonoBehaviour:
   title: 
   characters:
   - Jubilee
-  - CluelessGhost
+  - Flo
 --- !u!61 &1291722596
 BoxCollider2D:
   m_ObjectHideFlags: 0

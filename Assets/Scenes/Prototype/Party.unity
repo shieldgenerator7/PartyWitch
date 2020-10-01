@@ -672,10 +672,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 67090515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationWhale
+  characters: []
 --- !u!61 &67090518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -743,10 +744,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 69062834}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationFairy
+  characters: []
 --- !u!61 &69062837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -900,10 +902,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 89113962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationJade
+  characters: []
 --- !u!61 &89113965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2421,10 +2424,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 373855789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: Observationfish
+  characters: []
 --- !u!61 &373855792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4571,10 +4575,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 652814649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationGnome
+  characters: []
 --- !u!61 &652814652
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5247,10 +5252,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 716266087}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationSkull
+  characters: []
 --- !u!61 &716266090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6213,10 +6219,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 853325412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationLil
+  characters: []
 --- !u!61 &853325415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6764,10 +6771,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 978247363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationCrow
+  characters: []
 --- !u!61 &978247366
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8445,10 +8453,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1249658637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationGhost
+  characters: []
 --- !u!61 &1249658640
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8598,10 +8607,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1262366047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationZoe
+  characters: []
 --- !u!61 &1262366050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8705,10 +8715,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1266664609}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationDragon
+  characters: []
 --- !u!61 &1266664612
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9375,10 +9386,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1336039370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationVamp
+  characters: []
 --- !u!61 &1336039373
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9971,10 +9983,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1417341832}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationWolf
+  characters: []
 --- !u!61 &1417341835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11372,10 +11385,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1585249656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationTP
+  characters: []
 --- !u!61 &1585249659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11644,10 +11658,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1631419054}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationStar
+  characters: []
 --- !u!61 &1631419057
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12034,10 +12049,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1672870887}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationGrimm
+  characters: []
 --- !u!61 &1672870890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14209,10 +14225,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1933878729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationAlien
+  characters: []
 --- !u!61 &1933878732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14833,10 +14850,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2031056421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationGold
+  characters: []
 --- !u!61 &2031056424
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14984,10 +15002,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2043259809}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   title: ObservationCat
+  characters: []
 --- !u!61 &2043259812
 BoxCollider2D:
   m_ObjectHideFlags: 0

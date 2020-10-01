@@ -19,13 +19,13 @@ public class NameChanger : MonoBehaviour
             .Where(d => d.characters.Contains(oldName)).ToList();
         if (dialogueTriggers.Count == 0)
         {
-            Debug.Log("Unable to find any DialogueTriggers with the name " + oldName);
+            Debug.Log("NameChanger: Unable to find any DialogueTriggers with the name \"" + oldName+"\"");
             return;
         }
         Undo.RecordObjects(
             dialogueTriggers.ToArray(),
-            "Change name: " + oldName + " -> " + newName
-            + " (x" + dialogueTriggers.Count + ")"
+            "\"" + oldName + "\" -> \"" + newName
+            + "\" (x" + dialogueTriggers.Count + ")"
             );
         dialogueTriggers.ForEach(
             d =>
@@ -39,5 +39,7 @@ public class NameChanger : MonoBehaviour
                 }
             }
             );
+        Debug.Log("NameChanger: Changed \"" + oldName + "\" into \"" + newName
+            + "\" in " + dialogueTriggers.Count + " DialogueTriggers.");
     }
 }

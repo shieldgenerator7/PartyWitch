@@ -152,8 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2832d8e8e65d08d45a429bea8a62b726, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oldName: Goldie
-  newName: Petunia
+  oldName: Arachnia
+  newName: Adelae
 --- !u!4 &2138664872
 Transform:
   m_ObjectHideFlags: 0

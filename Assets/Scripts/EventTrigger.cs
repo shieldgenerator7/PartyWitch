@@ -25,6 +25,7 @@ public abstract class EventTrigger : MonoBehaviour
         {
             PlayerController.OnPlayerInteract -= triggerEvent;
             PlayerController.OnPlayerInteract += triggerEvent;
+            InteractUI.instance.grabInteractUI(this);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -32,6 +33,7 @@ public abstract class EventTrigger : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             PlayerController.OnPlayerInteract -= triggerEvent;
+            InteractUI.instance.letgoInteractUI(this);
         }
     }
 

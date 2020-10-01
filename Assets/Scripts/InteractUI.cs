@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteractUI : MonoBehaviour
 {
@@ -27,6 +28,17 @@ public class InteractUI : MonoBehaviour
         }
         instance = this;
         gameObject.SetActive(false);
+        SceneManager.sceneUnloaded += (s) => triggerQueue.Clear();
+        //{
+        //    triggerQueue.ForEach(t =>
+        //    {
+        //        if (t.gameObject.scene == s)
+        //        {
+        //            triggerQueue.Remove(t);
+        //        }
+        //    }
+        //    );
+        //};
     }
 
     public void grabInteractUI(EventTrigger trigger)

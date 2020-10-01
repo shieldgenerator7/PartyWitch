@@ -7,7 +7,7 @@ public class ItemCollectTrigger : EventTrigger
     [Tooltip("The title of the dialogue to play")]
     public string title;
 
-    protected override void triggerEvent()
+    public override void triggerEvent()
     {
         //Find dialogue path by its title
         if (title != "" && title != null)

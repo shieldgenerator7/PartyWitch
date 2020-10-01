@@ -23,17 +23,14 @@ public abstract class EventTrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerController.OnPlayerInteract -= triggerEvent;
-            PlayerController.OnPlayerInteract += triggerEvent;
-            InteractUI.instance.grabInteractUI(this);
+            InteractUI.instance.registerTrigger(this, true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerController.OnPlayerInteract -= triggerEvent;
-            InteractUI.instance.letgoInteractUI(this);
+            InteractUI.instance.registerTrigger(this, false);
         }
     }
 
@@ -42,5 +39,5 @@ public abstract class EventTrigger : MonoBehaviour
         PlayerController.OnPlayerInteract -= triggerEvent;
     }
 
-    protected abstract void triggerEvent();
+    public abstract void triggerEvent();
 }

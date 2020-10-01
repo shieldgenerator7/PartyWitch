@@ -19,6 +19,8 @@ public class InteractUI : MonoBehaviour
             updateInteractUI();
         }
     }
+
+    private DialoguePlayer dialoguePlayer;
     private void Start()
     {
         if (instance != null)
@@ -29,27 +31,31 @@ public class InteractUI : MonoBehaviour
         instance = this;
         gameObject.SetActive(false);
         SceneManager.sceneUnloaded += (s) => triggerQueue.Clear();
-        //{
-        //    triggerQueue.ForEach(t =>
-        //    {
-        //        if (t.gameObject.scene == s)
-        //        {
-        //            triggerQueue.Remove(t);
-        //        }
-        //    }
-        //    );
-        //};
+        dialoguePlayer = FindObjectOfType<DialoguePlayer>();
+        PlayerController.OnPlayerInteract += interactPressed;
     }
 
-    public void grabInteractUI(EventTrigger trigger)
+    public void interactPressed()
     {
-        triggerQueue.Add(trigger);
-        updateInteractUI();
+        if (!dialoguePlayer.Playing)
+        {
+            if (triggerQueue.Count > 0)
+            {
+                triggerQueue[0].triggerEvent();
+            }
+        }
     }
 
-    public void letgoInteractUI(EventTrigger trigger)
+    public void registerTrigger(EventTrigger trigger, bool register = true)
     {
-        triggerQueue.Remove(trigger);
+        if (register)
+        {
+            triggerQueue.Add(trigger);
+        }
+        else
+        {
+            triggerQueue.Remove(trigger);
+        }
         updateInteractUI();
     }
 

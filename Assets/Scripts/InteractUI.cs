@@ -8,7 +8,16 @@ public class InteractUI : MonoBehaviour
 
     private readonly List<EventTrigger> triggerQueue = new List<EventTrigger>();
 
-
+    private bool _suppress = false;
+    public bool Suppressed
+    {
+        get => _suppress;
+        set
+        {
+            _suppress = value;
+            updateInteractUI();
+        }
+    }
     private void Start()
     {
         if (instance != null)
@@ -34,8 +43,9 @@ public class InteractUI : MonoBehaviour
 
     private void updateInteractUI()
     {
-        gameObject.SetActive(triggerQueue.Count > 0);
-        if (triggerQueue.Count > 0)
+        bool canShow = triggerQueue.Count > 0 && !Suppressed;
+        gameObject.SetActive(canShow);
+        if (canShow)
         {
             SpriteRenderer triggerSR = findSpriteRenderer(triggerQueue[0]);
             if (triggerSR)

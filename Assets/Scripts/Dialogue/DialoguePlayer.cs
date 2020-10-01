@@ -28,6 +28,7 @@ public class DialoguePlayer : MonoBehaviour
         index = 0;
         this.path = path;
         onDialogueStarted?.Invoke(path);
+        InteractUI.instance.Suppressed = true;
         if (path.quotes.Count > 0)
         {
             //UI
@@ -48,6 +49,7 @@ public class DialoguePlayer : MonoBehaviour
         //UI
         dialogueCanvas.gameObject.SetActive(false);
         onDialogueEnded?.Invoke(path);
+        InteractUI.instance.Suppressed = false;
         //Unsubscribe from Interact button
         PlayerController.OnPlayerInteract -= advanceDialogue;
         //Unset path

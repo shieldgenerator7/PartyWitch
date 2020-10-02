@@ -4671,7 +4671,7 @@ MonoBehaviour:
   title: 
   characters:
   - Jubilee
-  - Harry
+  - Norman
 --- !u!61 &602039196
 BoxCollider2D:
   m_ObjectHideFlags: 0

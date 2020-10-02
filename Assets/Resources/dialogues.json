@@ -1947,6 +1947,16 @@
           "variableName": "mertalk",
           "testType": 0,
           "testValue": 3
+        },
+        {
+          "variableName": "fhyshyinvited",
+          "testType": 4,
+          "testValue": 1
+        },
+        {
+          "variableName": "pictureitem",
+          "testType": 4,
+          "testValue": 1
         }
       ],
       "quotes": [
@@ -3112,9 +3122,9 @@
       "title": "merstandards",
       "conditions": [
         {
-          "variableName": "mertalk",
-          "testType": 0,
-          "testValue": 4
+          "variableName": "fhyshyinvited",
+          "testType": 3,
+          "testValue": 1
         }
       ],
       "quotes": [
@@ -3162,13 +3172,18 @@
       "conditions": [
         {
           "variableName": "pictureitem",
-          "testType": 2,
+          "testType": 3,
           "testValue": 1
         },
         {
           "variableName": "mertalk",
-          "testType": 0,
-          "testValue": 5
+          "testType": 3,
+          "testValue": 3
+        },
+        {
+          "variableName": "merinvited",
+          "testType": 4,
+          "testValue": 1
         }
       ],
       "quotes": [
@@ -3510,7 +3525,12 @@
         {
           "variableName": "mertalk",
           "testType": 2,
-          "testValue": 1
+          "testValue": 2
+        },
+        {
+          "variableName": "fhyshyinvited",
+          "testType": 0,
+          "testValue": 0
         }
       ],
       "quotes": [
@@ -4132,7 +4152,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "well what do we have here? A child in the swamp?",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4142,7 +4162,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "ah yes, im a bit stranded at the moment. You see, when I'm human I act a bit",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4152,7 +4172,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "uncivilized",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4162,7 +4182,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "I've lost my bearings. what's the best way out of here.",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4172,7 +4192,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "that's be mighty kind thank you very much",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4182,7 +4202,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "it would only be fair considering such a fine young lady to came to my aid in my time of need",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0001_Untitled_Artwork-(18).png"
         },
@@ -4294,7 +4314,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "I have no idea what I'm doing here",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         },
@@ -4304,12 +4324,12 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "I",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         },
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "don't know",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         }
@@ -4361,7 +4381,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Norman",
+          "characterName": "Harry",
           "text": "grrrrrrrrr",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0002_Untitled_Artwork-(18)-copy.png"
         }
@@ -4529,7 +4549,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "I still have no idea what I'm doing",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         }
@@ -4580,6 +4600,44 @@
           "characterName": "Jubilee",
           "text": "My delicious reward is sooo close I can taste it",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0004_Untitled_Artwork-(10).png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "fhyshyinvited",
+          "testType": 3,
+          "testValue": 1
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Fhyshy",
+          "text": "See you at the party",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0007s_0002_Untitled_Artwork-(1).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "See you there!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Fhyshy",
+          "text": "And I'll see *you* at the *party*",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0007s_0001_Untitled_Artwork-(21).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "What was that?",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Fhyshy",
+          "text": "Oh nothing",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0007s_0000_Untitled_Artwork-(22).png"
         }
       ],
       "actions": []

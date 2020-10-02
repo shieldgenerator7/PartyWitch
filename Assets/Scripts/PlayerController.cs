@@ -31,44 +31,49 @@ public class PlayerController : MonoBehaviour
     public int extraJumpsValue;
 
 
-	public Animator animator;
-	
-	private bool FacingRight = true;  // For determining which way the player is currently facing.
-	
-	//landing events
+    public Animator animator;
 
-	[Header("Events")]
-	[Space]
+    private bool FacingRight = true;  // For determining which way the player is currently facing.
 
-	public UnityEvent OnLandEvent;
-	
+    //landing events
+
+    [Header("Events")]
+    [Space]
+
+    public UnityEvent OnLandEvent;
+
 
     private bool jumpKeyDown = false;
+    private bool jumpFirstFrame = false;
     private bool interactKeyDown = false;
     #endregion
 
-	
-	[System.Serializable]
-	public class BoolEvent : UnityEvent<bool> { }
-	
+
+    [System.Serializable]
+    public class BoolEvent : UnityEvent<bool> { }
+
 
     //-----------------
-	
-	private void Awake()
+
+    private void Awake()
     {
         _instance = this;
         playerActionControls = new PlayerActionControls();
         rb = GetComponent<Rigidbody2D>();
         col2d = GetComponent<Collider2D>();
-		
-		if (OnLandEvent == null)
-		OnLandEvent = new UnityEvent();
+
+        if (OnLandEvent == null)
+            OnLandEvent = new UnityEvent();
     }
 
     private void OnEnable()
     {
         playerActionControls.Enable();
-        playerActionControls.Player.Jump.performed += ctx => jumpKeyDown = true;
+        playerActionControls.Player.Jump.performed += ctx =>
+        {
+            jumpKeyDown = true;
+            jumpFirstFrame = true;
+        };
         playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
         playerActionControls.Player.Interact.performed += _ => interactCall(true);
         playerActionControls.Player.Interact.canceled += _ => interactCall(false);
@@ -77,7 +82,7 @@ public class PlayerController : MonoBehaviour
     private void interactCall(bool value)
     {
         interactKeyDown = value;
-        if(interactKeyDown)
+        if (interactKeyDown)
         {
             OnPlayerInteract?.Invoke();
         }
@@ -111,7 +116,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.layer == groundLayer)
         {
-			isGrounded = false;
+            isGrounded = false;
         }
     }
 
@@ -119,67 +124,69 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isGrounded)
+        if (isGrounded)
         {
             extraJumps = extraJumpsValue;
+            if (jumpKeyDown)
+            {
+                rb.velocity = Vector2.up * jumpSpeed;
+                animator.SetBool("isJumping", true);
+                jumpFirstFrame = false;
+            }
+        }
+        else if (jumpFirstFrame && extraJumps > 0 && enableExtraJumps)
+        {
+            extraJumps--;
+            rb.velocity = Vector2.up * jumpSpeed;
+            animator.SetBool("isJumping", true);
+            jumpFirstFrame = false;
         }
 
-        if (jumpKeyDown && extraJumps > 0 && enableExtraJumps)
+        if (!isGrounded)
         {
-            rb.velocity = Vector2.up * jumpSpeed;
-			animator.SetBool("isJumping", true);
-            extraJumps--;
+            Debug.Log("is grounded true");
+            OnLandEvent.Invoke();
         }
-        else if (jumpKeyDown && extraJumps == 0 && isGrounded)
-        {
-            rb.velocity = Vector2.up * jumpSpeed;
-        }
-		
-		if (!isGrounded)
-		{
-			Debug.Log("is grounded true");
-				OnLandEvent.Invoke();
-		}	
-			
+
         // Read the movement value
         float movementInput = playerActionControls.Player.Movement.ReadValue<float>();
         // Move the player
         Vector3 currentPosition = transform.position;
         currentPosition.x += movementInput * speed * Time.deltaTime;
         transform.position = currentPosition;
-		
-		//================
-			// If the input is moving the player right and the player is facing left...
-		if (movementInput < 0 && !FacingRight)
-		{
-			// ... flip the player.
-			Flip();
-		}
-		// Otherwise if the input is moving the player left and the player is facing right...
-		else if (movementInput > 0 && FacingRight)
-		{
-			// ... flip the player.
-			Flip();
-		}
-		
-		animator.SetFloat("Speed", Mathf.Abs(movementInput));
-    }
-	
-	private void Flip()
-	{
-		// Switch the way the player is labelled as facing.
-		FacingRight = !FacingRight;
 
-		// Multiply the player's x local scale by -1.
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
-	}
-	
-	public void OnLanding ()
-	{
-		Debug.Log("isJumping false");
-		animator.SetBool("isJumping", false);
-	}
+        //================
+        // If the input is moving the player right and the player is facing left...
+        if (movementInput < 0 && !FacingRight)
+        {
+            // ... flip the player.
+            Flip();
+        }
+        // Otherwise if the input is moving the player left and the player is facing right...
+        else if (movementInput > 0 && FacingRight)
+        {
+            // ... flip the player.
+            Flip();
+        }
+
+        animator.SetFloat("Speed", Mathf.Abs(movementInput));
+    }
+
+    private void Flip()
+    {
+        // Switch the way the player is labelled as facing.
+        FacingRight = !FacingRight;
+
+        // Multiply the player's x local scale by -1.
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
+
+    public void OnLanding()
+    {
+        Debug.Log("isJumping false");
+        animator.SetBool("isJumping", false);
+    }
 
 }

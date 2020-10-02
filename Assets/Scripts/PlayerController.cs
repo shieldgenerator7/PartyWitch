@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
 
     private bool jumpKeyDown = false;
+    private bool jumpFirstFrame = false;
     private bool interactKeyDown = false;
     #endregion
 
@@ -68,7 +69,11 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         playerActionControls.Enable();
-        playerActionControls.Player.Jump.performed += ctx => jumpKeyDown = true;
+        playerActionControls.Player.Jump.performed += ctx =>
+        {
+            jumpKeyDown = true;
+            jumpFirstFrame = true;
+        };
         playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
         playerActionControls.Player.Interact.performed += _ => interactCall(true);
         playerActionControls.Player.Interact.canceled += _ => interactCall(false);
@@ -122,17 +127,19 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
         {
             extraJumps = extraJumpsValue;
+            if (jumpKeyDown)
+            {
+                rb.velocity = Vector2.up * jumpSpeed;
+                animator.SetBool("isJumping", true);
+                jumpFirstFrame = false;
+            }
         }
-
-        if (jumpKeyDown && extraJumps > 0 && enableExtraJumps)
+        else if (jumpFirstFrame && extraJumps > 0 && enableExtraJumps)
         {
+            extraJumps--;
             rb.velocity = Vector2.up * jumpSpeed;
             animator.SetBool("isJumping", true);
-            extraJumps--;
-        }
-        else if (jumpKeyDown && extraJumps == 0 && isGrounded)
-        {
-            rb.velocity = Vector2.up * jumpSpeed;
+            jumpFirstFrame = false;
         }
 
         if (!isGrounded)

@@ -1947,6 +1947,16 @@
           "variableName": "mertalk",
           "testType": 0,
           "testValue": 3
+        },
+        {
+          "variableName": "fhyshyinvited",
+          "testType": 4,
+          "testValue": 1
+        },
+        {
+          "variableName": "pictureitem",
+          "testType": 4,
+          "testValue": 1
         }
       ],
       "quotes": [
@@ -3162,7 +3172,7 @@
       "conditions": [
         {
           "variableName": "pictureitem",
-          "testType": 2,
+          "testType": 3,
           "testValue": 1
         },
         {

@@ -7,6 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class AreaManager : MonoBehaviour
 {
+
+#if UNITY_EDITOR
+    [Tooltip("Turns off auto-load first scene, Unity Editor only.")]
+    public bool debugMode = false;
+#endif
+
     public string startScene;
 
     private string currentScene = "";
@@ -19,7 +25,14 @@ public class AreaManager : MonoBehaviour
 
     private void Start()
     {
-        goToArea(startScene);
+#if UNITY_EDITOR
+        if (!debugMode)
+        {
+#endif
+            goToArea(startScene);
+#if UNITY_EDITOR
+        }
+#endif
         SceneManager.sceneLoaded += positionAtDoor;
         SceneManager.sceneLoaded += (s, m) => loadedSceneNames.Add(s.name);
         SceneManager.sceneUnloaded += s => loadedSceneNames.Remove(s.name);

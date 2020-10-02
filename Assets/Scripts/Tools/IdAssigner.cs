@@ -13,7 +13,7 @@ public class IdAssigner : MonoBehaviour
     public void assignIds()
     {
         //Get list of EventTriggers to assign ids to
-        List<EventTrigger> allTriggers = FindObjectsOfType<EventTrigger>().ToList();
+        List<EventTrigger> allTriggers = Resources.FindObjectsOfTypeAll<EventTrigger>().ToList();
         List<EventTrigger> triggers = (overwriteExistingIds)
         ? allTriggers
         : allTriggers.Where(t => t.id < 0).ToList();

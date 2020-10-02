@@ -9,6 +9,8 @@ public class IdAssigner : MonoBehaviour
 {
     [Tooltip("True: Set the Ids of EventTriggers that already have one.")]
     public bool overwriteExistingIds = true;
+    [Tooltip("False: DoorTrigger.connectIds will be set to -1")]
+    public bool autoReconnectDoors = true;
 
     public void assignIds()
     {
@@ -35,6 +37,40 @@ public class IdAssigner : MonoBehaviour
                 maxKnownId++;
             }
             );
+
+        //
+        //Special DoorTrigger processing
+        //
+        List<DoorTrigger> doorTriggers = triggers.Where(t => t is DoorTrigger)
+            .Cast<DoorTrigger>().ToList();
+        //Set all connectedIds to -1
+        doorTriggers.ForEach(d => d.connectedId = -1);
+        //Attempt to reconnect doors
+        if (autoReconnectDoors)
+        {
+            doorTriggers.ForEach(
+                d =>
+                {
+                    //If it's still not connected to a door,
+                    if (d.connectedId < 0)
+                    {
+                        //Search for suitable door
+                        DoorTrigger d2 = doorTriggers.FirstOrDefault(
+                            door => door.connectedId < 0
+                            && door.connectScene == d.gameObject.scene.name
+                            && d.connectScene == door.gameObject.scene.name
+                            );
+                        //If suitable door found,
+                        if (d2)
+                        {
+                            //Connect the two doors
+                            d.connectTo(d2);
+                            d2.connectTo(d);
+                        }
+                    }
+                }
+                );
+        }
     }
 }
 #endif

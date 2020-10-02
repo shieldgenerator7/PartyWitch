@@ -224,6 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 43
   title: 
   characters:
   - Jubilee
@@ -298,6 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 44
   title: 
   characters:
   - Jubilee
@@ -1850,8 +1852,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54743170af6c21348a161c0c1db33498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 4
-  connectedId: 3
+  id: 45
+  connectedId: 32
   connectScene: Rural
 --- !u!61 &226408813
 BoxCollider2D:
@@ -4668,6 +4670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 46
   title: 
   characters:
   - Jubilee
@@ -5629,6 +5632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 47
   title: 
   characters:
   - Jubilee
@@ -6085,8 +6089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54743170af6c21348a161c0c1db33498, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 2
-  connectedId: 1
+  id: 48
+  connectedId: 2
   connectScene: Party
 --- !u!1 &790362762
 GameObject:
@@ -6132,6 +6136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 49
   title: 
   characters:
   - Jubilee
@@ -10752,6 +10757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 50
   title: 
   characters:
   - Jubilee
@@ -15026,6 +15032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 51
   title: 
   characters:
   - Jubilee
@@ -15233,6 +15240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 52
   title: 
   characters:
   - Jubilee

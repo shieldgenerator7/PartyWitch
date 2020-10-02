@@ -675,6 +675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 5
   title: ObservationWhale
   characters: []
 --- !u!61 &67090518
@@ -747,6 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 6
   title: ObservationFairy
   characters: []
 --- !u!61 &69062837
@@ -905,6 +907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 7
   title: ObservationJade
   characters: []
 --- !u!61 &89113965
@@ -2427,6 +2430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 8
   title: Observationfish
   characters: []
 --- !u!61 &373855792
@@ -3612,6 +3616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 9
   title: 
   characters:
   - Jubilee
@@ -3764,6 +3769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 10
   title: 
   characters:
   - Jubilee
@@ -4442,6 +4448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 11
   title: ObservationPainting
 --- !u!1001 &641850608
 PrefabInstance:
@@ -4578,6 +4585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 12
   title: ObservationGnome
   characters: []
 --- !u!61 &652814652
@@ -5255,6 +5263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 13
   title: ObservationSkull
   characters: []
 --- !u!61 &716266090
@@ -6222,6 +6231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 14
   title: ObservationLil
   characters: []
 --- !u!61 &853325415
@@ -6774,6 +6784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 15
   title: ObservationCrow
   characters: []
 --- !u!61 &978247366
@@ -8456,6 +8467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 16
   title: ObservationGhost
   characters: []
 --- !u!61 &1249658640
@@ -8610,6 +8622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 17
   title: ObservationZoe
   characters: []
 --- !u!61 &1262366050
@@ -8718,6 +8731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 18
   title: ObservationDragon
   characters: []
 --- !u!61 &1266664612
@@ -8872,6 +8886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 19
   title: 
   characters:
   - Jubilee
@@ -9124,11 +9139,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: id
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: connectedId
-      value: 2
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: connectScene
@@ -9389,6 +9404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 20
   title: ObservationVamp
   characters: []
 --- !u!61 &1336039373
@@ -9986,6 +10002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 21
   title: ObservationWolf
   characters: []
 --- !u!61 &1417341835
@@ -11388,6 +11405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 22
   title: ObservationTP
   characters: []
 --- !u!61 &1585249659
@@ -11661,6 +11679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 23
   title: ObservationStar
   characters: []
 --- !u!61 &1631419057
@@ -12052,6 +12071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 24
   title: ObservationGrimm
   characters: []
 --- !u!61 &1672870890
@@ -13145,6 +13165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 25
   title: ObservationStonicorn
 --- !u!61 &1775203639
 BoxCollider2D:
@@ -14229,6 +14250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 26
   title: ObservationAlien
   characters: []
 --- !u!61 &1933878732
@@ -14854,6 +14876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 27
   title: ObservationGold
   characters: []
 --- !u!61 &2031056424
@@ -15006,6 +15029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 28
   title: ObservationCat
   characters: []
 --- !u!61 &2043259812
@@ -15155,6 +15179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 29
   title: ObservationCake
 --- !u!61 &2059199745
 BoxCollider2D:
@@ -15820,6 +15845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 30
   title: PictureItemCollect
 --- !u!1001 &1052860916385296467
 PrefabInstance:
@@ -16033,11 +16059,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: id
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: connectedId
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: connectScene

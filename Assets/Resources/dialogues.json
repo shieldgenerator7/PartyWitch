@@ -4132,7 +4132,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "well what do we have here? A child in the swamp?",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4142,7 +4142,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "ah yes, im a bit stranded at the moment. You see, when I'm human I act a bit",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4152,7 +4152,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "uncivilized",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4162,7 +4162,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "I've lost my bearings. what's the best way out of here.",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4172,7 +4172,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "that's be mighty kind thank you very much",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
@@ -4182,7 +4182,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Harry",
+          "characterName": "Norman",
           "text": "it would only be fair considering such a fine young lady to came to my aid in my time of need",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0001_Untitled_Artwork-(18).png"
         },
@@ -4294,7 +4294,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "I have no idea what I'm doing here",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         },
@@ -4304,12 +4304,12 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "I",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         },
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "don't know",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         }
@@ -4361,7 +4361,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Norman",
+          "characterName": "Harry",
           "text": "grrrrrrrrr",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0002_Untitled_Artwork-(18)-copy.png"
         }
@@ -4529,7 +4529,7 @@
       "conditions": [],
       "quotes": [
         {
-          "characterName": "Flo",
+          "characterName": "Clueless Ghost",
           "text": "I still have no idea what I'm doing",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ghost.png"
         }

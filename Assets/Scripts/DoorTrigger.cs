@@ -25,7 +25,6 @@ public class DoorTrigger : EventTrigger
         }
     }
 
-    public int id = -1;
     public int connectedId = -1;
     public string connectScene;
 
@@ -35,15 +34,7 @@ public class DoorTrigger : EventTrigger
     {
         base.Start();
         door = new Door(id, connectedId);
-        if (id < 0)
-        {
-            throw new ArgumentException(
-                "DoorTrigger Id is invalid on object " + gameObject.name
-                + " in scene " + gameObject.scene.name + ". "
-                + "Id must be 0 or greater (Assign it an Id). "
-                + "Invalid value: " + id
-                );
-        }
+        
         if (connectedId < 0)
         {
             throw new ArgumentException(
@@ -62,22 +53,7 @@ public class DoorTrigger : EventTrigger
                 + "Invalid value: " + connectScene
                 );
         }
-        DoorTrigger dupIdDoor = FindObjectsOfType<DoorTrigger>()
-            .FirstOrDefault(
-                d => d.gameObject.scene == this.gameObject.scene
-                && d.id == this.id
-                && d != this
-            );
-        if (dupIdDoor)
-        {
-            throw new ArgumentException(
-                "DoorTrigger has a duplicate Id! "
-                + "GameObject " + gameObject.name + " and " + dupIdDoor.name
-                + " in scene " + gameObject.scene.name
-                + " have the same Id: " + this.id+". "
-                + "Assign these doors unique Ids."
-                );
-        }
+        
     }
 
     public override void triggerEvent()

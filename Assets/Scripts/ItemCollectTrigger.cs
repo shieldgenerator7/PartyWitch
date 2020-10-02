@@ -6,20 +6,33 @@ public class ItemCollectTrigger : EventTrigger
 {
     [Tooltip("The title of the dialogue to play")]
     public string title;
-    [Tooltip(
-        "The unique item id for this individual pickup. " +
-        "Used to determine whether this particular item has been picked up yet."
-        )]
-    public int itemId = -1;
 
-    public override void triggerEvent()
+    protected override void Start()
+    {
+        //If this item has already been collected,
+        if (FindObjectOfType<DialogueManager>().progressManager.hasActivated(this))
+        {
+            //Destroy it
+            destroy();
+        }
+
+        //Parent start up process
+        base.Start();
+    }
+
+    protected override void triggerEvent()
     {
         //Find dialogue path by its title
         if (title != "" && title != null)
         {
             FindObjectOfType<DialogueManager>().playDialogue(title);
-            Destroy(this);
-            Destroy(transform.parent.gameObject);
+            destroy();
         }
+    }
+
+    private void destroy()
+    {
+        Destroy(this);
+        Destroy(transform.parent.gameObject);
     }
 }

@@ -8,16 +8,13 @@ using UnityEngine;
 
 [CustomEditor(typeof(DoorTrigger))]
 [CanEditMultipleObjects]
-public class DoorTriggerEditor : Editor
+public class DoorTriggerEditor : EventTriggerEditor
 {
     public override void OnInspectorGUI()
     {
-        DrawDefaultInspector();
+        base.OnInspectorGUI();
 
-        if (GUILayout.Button("Assign Id"))
-        {
-            assignIds();
-        }
+        //Connect button
         if (targets.Length == 2)
         {
             if (GUILayout.Button("Connect"))
@@ -36,23 +33,5 @@ public class DoorTriggerEditor : Editor
         {
             GUILayout.Box("Select two DoorTriggers for more options.");
         }
-    }
-
-    private void assignIds()
-    {
-        List<DoorTrigger> doors = targets.Cast<DoorTrigger>().ToList();
-        Undo.RecordObjects(doors.ToArray(), "Assign Ids to DoorTrigger objects.");
-        //Unset ids to allow potential for first id to be 0
-        doors.ForEach(d => d.id = -1);
-        //Find the highest number among available ids
-        int maxKnownId = FindObjectsOfType<DoorTrigger>().Max(d => d.id);
-        //Assign unique ids
-        doors.ForEach(
-            d =>
-            {
-                d.id = maxKnownId + 1;
-                maxKnownId++;
-            }
-            );
-    }
+    }    
 }

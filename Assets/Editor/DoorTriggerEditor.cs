@@ -42,7 +42,11 @@ public class DoorTriggerEditor : Editor
     {
         List<DoorTrigger> doors = targets.Cast<DoorTrigger>().ToList();
         Undo.RecordObjects(doors.ToArray(), "Assign Ids to DoorTrigger objects.");
+        //Unset ids to allow potential for first id to be 0
+        doors.ForEach(d => d.id = -1);
+        //Find the highest number among available ids
         int maxKnownId = FindObjectsOfType<DoorTrigger>().Max(d => d.id);
+        //Assign unique ids
         doors.ForEach(
             d =>
             {

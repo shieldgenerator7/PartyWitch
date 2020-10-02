@@ -13,6 +13,7 @@ public class ItemCollectTrigger : EventTrigger
         if (title != "" && title != null)
         {
             FindObjectOfType<DialogueManager>().playDialogue(title);
+            Destroy(this);
             Destroy(transform.parent.gameObject);
         }
     }

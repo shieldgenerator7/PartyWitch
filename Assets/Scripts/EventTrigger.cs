@@ -36,7 +36,7 @@ public abstract class EventTrigger : MonoBehaviour
 
     private void OnDestroy()
     {
-        PlayerController.OnPlayerInteract -= triggerEvent;
+        InteractUI.instance.registerTrigger(this, false);
     }
 
     public abstract void triggerEvent();

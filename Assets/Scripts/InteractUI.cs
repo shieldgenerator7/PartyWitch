@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +8,7 @@ public class InteractUI : MonoBehaviour
 {
     public static InteractUI instance { get; private set; }
 
-    private readonly List<EventTrigger> triggerQueue = new List<EventTrigger>();
+    private readonly List<EventTrigger> triggers = new List<EventTrigger>();
 
     private bool _suppress = false;
     public bool Suppressed
@@ -20,7 +21,8 @@ public class InteractUI : MonoBehaviour
         }
     }
 
-    private DialoguePlayer dialoguePlayer;
+    private EventTrigger currentTrigger;
+
     private void Start()
     {
         if (instance != null)
@@ -30,19 +32,15 @@ public class InteractUI : MonoBehaviour
         }
         instance = this;
         gameObject.SetActive(false);
-        SceneManager.sceneUnloaded += (s) => triggerQueue.Clear();
-        dialoguePlayer = FindObjectOfType<DialoguePlayer>();
+        SceneManager.sceneUnloaded += (s) => triggers.Clear();
         PlayerController.OnPlayerInteract += interactPressed;
     }
 
     public void interactPressed()
     {
-        if (!dialoguePlayer.Playing)
+        if (!Suppressed)
         {
-            if (triggerQueue.Count > 0)
-            {
-                triggerQueue[0].triggerEvent();
-            }
+            currentTrigger?.triggerEvent();
         }
     }
 
@@ -50,28 +48,48 @@ public class InteractUI : MonoBehaviour
     {
         if (register)
         {
-            triggerQueue.Add(trigger);
+            triggers.Add(trigger);
         }
         else
         {
-            triggerQueue.Remove(trigger);
+            triggers.Remove(trigger);
         }
         updateInteractUI();
     }
 
     private void updateInteractUI()
     {
-        bool canShow = triggerQueue.Count > 0 && !Suppressed;
+        currentTrigger = null;
+        bool canShow = triggers.Count > 0 && !Suppressed;
         gameObject.SetActive(canShow);
         if (canShow)
         {
-            SpriteRenderer triggerSR = findSpriteRenderer(triggerQueue[0]);
+            selectTrigger();
+            SpriteRenderer triggerSR = findSpriteRenderer(currentTrigger);
             if (triggerSR)
             {
                 transform.position = new Vector2(
-                    triggerQueue[0].transform.position.x,
+                    currentTrigger.transform.position.x,
                     triggerSR.bounds.max.y);
             }
+        }
+    }
+
+    private void selectTrigger()
+    {
+        if (triggers.Count > 0)
+        {
+            Vector2 playerPos = FindObjectOfType<PlayerController>().transform.position;
+            currentTrigger = triggers.OrderBy(
+                t => Vector2.Distance(
+                    playerPos,
+                    t.GetComponent<Collider2D>().bounds.center
+                    )
+                ).FirstOrDefault();
+        }
+        else
+        {
+            currentTrigger = null;
         }
     }
 

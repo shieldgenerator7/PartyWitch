@@ -40,7 +40,7 @@ public class InteractUI : MonoBehaviour
     {
         if (!Suppressed)
         {
-            currentTrigger?.triggerEvent();
+            currentTrigger?.processTrigger();
         }
     }
 

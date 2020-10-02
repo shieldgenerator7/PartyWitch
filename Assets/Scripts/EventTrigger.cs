@@ -74,5 +74,11 @@ public abstract class EventTrigger : MonoBehaviour
         InteractUI.instance.registerTrigger(this, false);
     }
 
-    public abstract void triggerEvent();
+    public void processTrigger()
+    {
+        FindObjectOfType<DialogueManager>().progressManager.markActivated(this);
+        triggerEvent();
+    }
+
+    protected abstract void triggerEvent();
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProgressManager
 {
     private readonly Dictionary<string, int> data = new Dictionary<string, int>();
+    private readonly List<string> activatedTriggers = new List<string>();
 
     public void set(string varName, int value = 0)
     {
@@ -51,4 +52,23 @@ public class ProgressManager
 
     public delegate void OnVariableChange(string varName, int oldValue, int newValue);
     public OnVariableChange onVariableChange;
+
+    public void markActivated(EventTrigger trigger, bool mark = true)
+    {
+        string idString = trigger.IdString;
+        if (mark)
+        {
+            if (!activatedTriggers.Contains(idString))
+            {
+                activatedTriggers.Add(idString);
+            }
+        }
+        else
+        {
+            activatedTriggers.Remove(idString);
+        }
+    }
+
+    public bool hasActivated(EventTrigger trigger)
+        => activatedTriggers.Contains(trigger.IdString);
 }

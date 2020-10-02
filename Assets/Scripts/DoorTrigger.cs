@@ -56,7 +56,7 @@ public class DoorTrigger : EventTrigger
         
     }
 
-    public override void triggerEvent()
+    protected override void triggerEvent()
     {
         FindObjectOfType<AreaManager>().jumpToDoor(connectScene, door);
     }

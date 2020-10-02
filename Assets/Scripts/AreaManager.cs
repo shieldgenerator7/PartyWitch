@@ -18,6 +18,7 @@ public class AreaManager : MonoBehaviour
     private string currentScene = "";
 
     public GameObject playerObject;
+    private Rigidbody2D playerRB2D;
 
     private DoorTrigger.Door targetDoor;
 
@@ -25,6 +26,8 @@ public class AreaManager : MonoBehaviour
 
     private void Start()
     {
+        playerRB2D = playerObject.GetComponentInChildren<Rigidbody2D>();
+
 #if UNITY_EDITOR
         if (!debugMode)
         {
@@ -33,6 +36,7 @@ public class AreaManager : MonoBehaviour
 #if UNITY_EDITOR
         }
 #endif
+
         SceneManager.sceneLoaded += positionAtDoor;
         SceneManager.sceneLoaded += (s, m) => loadedSceneNames.Add(s.name);
         SceneManager.sceneUnloaded += s => loadedSceneNames.Remove(s.name);
@@ -40,15 +44,18 @@ public class AreaManager : MonoBehaviour
 
     private void goToArea(string sceneName)
     {
+        //If already in that scene,
         if (sceneName == currentScene)
         {
+            //Just teleport
             positionAtDoor(
                 SceneManager.GetSceneByName(sceneName),
                 LoadSceneMode.Additive
                 );
+            //Don't do any scene loading
             return;
         }
-        playerObject.GetComponentInChildren<Rigidbody2D>().gravityScale = 0;
+        freezePlayer();
         //Unload prev scene
         if (loadedSceneNames.Contains(currentScene))
         {
@@ -72,23 +79,42 @@ public class AreaManager : MonoBehaviour
 
     public void positionAtDoor(Scene s, LoadSceneMode mode)
     {
-        int connectId = (targetDoor != null) ? targetDoor.connectId : -1;
+        //If there's no target door,
+        if (targetDoor == null)
+        {
+            //Unfreeze player
+            freezePlayer(false);
+            //Do nothing
+            return;
+        }
         DoorTrigger door = FindObjectsOfType<DoorTrigger>().FirstOrDefault(
-            d => d.id == connectId
+            d => d.id == targetDoor.connectId
             );
         if (door)
         {
             playerObject.transform.position = (Vector2)door.transform.position;
+            playerRB2D.transform.localPosition = Vector2.zero;
         }
         else
         {
             Debug.LogError(
-                "DoorTrigger with Id " + connectId
+                "DoorTrigger with Id " + targetDoor.connectId
                 + " does not exist in scene " + s.name + "!"
                 );
         }
-        Rigidbody2D rb2d = playerObject.GetComponentInChildren<Rigidbody2D>();
-        rb2d.gravityScale = 1;
-        rb2d.transform.localPosition = Vector2.zero;
+        freezePlayer(false);
+    }
+
+    private void freezePlayer(bool freeze = true)
+    {
+        if (freeze)
+        {
+            playerRB2D.gravityScale = 0;
+            playerRB2D.velocity = Vector2.zero;
+        }
+        else
+        {
+            playerRB2D.gravityScale = 1;
+        }
     }
 }

@@ -21,7 +21,6 @@ public class ShowOnVariableChange : MonoBehaviour
     {
         FindObjectOfType<DialogueManager>().progressManager
             .onVariableChange += checkPlay;
-        stop();
     }
 
     // Update is called once per frame

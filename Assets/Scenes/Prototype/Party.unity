@@ -4422,7 +4422,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -13179,7 +13179,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -15176,11 +15176,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2059199742}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d06d41bf4abab64a9b5f0f0942397f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 29
   title: ObservationCake
+  characters: []
 --- !u!61 &2059199745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15193,7 +15194,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 1
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -15763,7 +15764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1145394333587848371, guid: f9b07945e7a5a404f82360092c613a7b, type: 3}
       propertyPath: m_UsedByComposite
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1974231736599794102, guid: f9b07945e7a5a404f82360092c613a7b, type: 3}
       propertyPath: characters.Array.data[1]

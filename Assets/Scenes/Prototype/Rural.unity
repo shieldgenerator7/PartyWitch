@@ -2132,7 +2132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 219440362}
   - component: {fileID: 219440361}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: FloorByDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

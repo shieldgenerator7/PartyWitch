@@ -30,6 +30,8 @@ public class DoorTrigger : EventTrigger
 
     public Door door;
 
+    public AudioClip doorSound;
+
     protected override void Start()
     {
         base.Start();
@@ -59,6 +61,7 @@ public class DoorTrigger : EventTrigger
     protected override void triggerEvent()
     {
         FindObjectOfType<AreaManager>().jumpToDoor(connectScene, door);
+        AudioSource.PlayClipAtPoint(doorSound, transform.position);
     }
 
     public void connectTo(DoorTrigger door)

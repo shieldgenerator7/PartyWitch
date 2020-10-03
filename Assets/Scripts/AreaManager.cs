@@ -94,6 +94,7 @@ public class AreaManager : MonoBehaviour
         {
             playerObject.transform.position = (Vector2)door.transform.position;
             playerRB2D.transform.localPosition = Vector2.zero;
+            AudioSource.PlayClipAtPoint(door.doorSound, door.transform.position);
         }
         else
         {

@@ -8665,6 +8665,10 @@ PrefabInstance:
       propertyPath: connectScene
       value: Swamp
       objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: doorSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.52
@@ -15610,6 +15614,10 @@ PrefabInstance:
       propertyPath: connectScene
       value: Rural
       objectReference: {fileID: 0}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: doorSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.452

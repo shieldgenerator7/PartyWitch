@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
     public delegate void Interaction();
     public static event Interaction OnPlayerInteract;
+    public static event Interaction OnPlayerJump;
 
     #region Initialization
     private PlayerActionControls playerActionControls;
@@ -73,6 +74,7 @@ public class PlayerController : MonoBehaviour
         {
             jumpKeyDown = true;
             jumpFirstFrame = true;
+            OnPlayerJump?.Invoke();
         };
         playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
         playerActionControls.Player.Interact.performed += _ => interactCall(true);

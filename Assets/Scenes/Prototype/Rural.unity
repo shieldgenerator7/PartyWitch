@@ -5770,7 +5770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8555668748895775618, guid: f95436569a953f9438cee202a3385219, type: 3}
       propertyPath: id
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 8555668748895775618, guid: f95436569a953f9438cee202a3385219, type: 3}
       propertyPath: counterName

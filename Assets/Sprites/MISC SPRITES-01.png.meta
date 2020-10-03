@@ -1,7 +1,46 @@
 fileFormatVersion: 2
 guid: b6836d84e8f00d54ba658b665197d1c5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6528190871154746095
+    second: TelPole01
+  - first:
+      213: 5020277639944659323
+    second: telPole02
+  - first:
+      213: -7939934640600803224
+    second: ladder
+  - first:
+      213: -3935180641631952932
+    second: Trophy
+  - first:
+      213: -4947981540373535279
+    second: Candy
+  - first:
+      213: 5451349717692362272
+    second: MISC SPRITES-01_5
+  - first:
+      213: 6648027080992037075
+    second: MISC SPRITES-01_6
+  - first:
+      213: 1520500210308814793
+    second: MISC SPRITES-01_7
+  - first:
+      213: -7480293398854809128
+    second: MISC SPRITES-01_8
+  - first:
+      213: -7837160924371426506
+    second: DumpsterClosed
+  - first:
+      213: 7581416393213840515
+    second: MISC SPRITES-01_10
+  - first:
+      213: 8874629836723728037
+    second: dumpsterOpen
+  - first:
+      213: -3866346929975872243
+    second: SoccerBall
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +80,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +112,294 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: TelPole01
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 409
+        height: 1999
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d9fd29df43765a0800000000000000
+      internalID: -6528190871154746095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: telPole02
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 20
+        width: 404
+        height: 1999
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71ecba3aeb9ba540800000000000000
+      internalID: 5020277639944659323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ladder
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 38
+        width: 62
+        height: 1985
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8689b2f038fafc190800000000000000
+      internalID: -7939934640600803224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trophy
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1606
+        width: 330
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf98805e0e6369c0800000000000000
+      internalID: -3935180641631952932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Candy
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1521
+        width: 281
+        height: 502
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d568da210d355bb0800000000000000
+      internalID: -4947981540373535279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MISC SPRITES-01_5
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1546
+        width: 224
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eaa7d8fa517ab40800000000000000
+      internalID: 5451349717692362272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MISC SPRITES-01_6
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1301
+        width: 453
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d815bb4869824c50800000000000000
+      internalID: 6648027080992037075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MISC SPRITES-01_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1301
+        width: 411
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c71d54a2e6e91510800000000000000
+      internalID: 1520500210308814793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MISC SPRITES-01_8
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 865
+        width: 212
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d94f8939c8a03890800000000000000
+      internalID: -7480293398854809128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumpsterClosed
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 714
+        width: 598
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633e44f89afcc3390800000000000000
+      internalID: -7837160924371426506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MISC SPRITES-01_10
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 429
+        width: 358
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c85d3aa0a963960800000000000000
+      internalID: 7581416393213840515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dumpsterOpen
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 26
+        width: 591
+        height: 662
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae200311d4092b70800000000000000
+      internalID: 8874629836723728037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoccerBall
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 11
+        width: 388
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05bd54b3f9f75ac0800000000000000
+      internalID: -3866346929975872243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

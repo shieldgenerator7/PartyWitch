@@ -3184,13 +3184,7 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0004s_0000_Untitled_Artwork-(41).png"
         }
       ],
-      "actions": [
-        {
-          "variableName": "mertalk",
-          "actionType": 1,
-          "actionValue": 1
-        }
-      ]
+      "actions": []
     },
     {
       "title": "merframeexchange",
@@ -3545,7 +3539,7 @@
       ]
     },
     {
-      "title": "swampy",
+      "title": "ade",
       "conditions": [
         {
           "variableName": "mertalk",

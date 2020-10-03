@@ -5100,6 +5100,161 @@
         }
       ],
       "actions": []
+    },
+    {
+      "title": "Find Stonicorn",
+      "conditions": [
+        {
+          "variableName": "stonicorntalk",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Whoa! This is no ordinary rock!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0001_Untitled_Artwork-(13).png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I sense some kind of... life force in it.",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "What's that?",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Oh! Do you want to go to the party?",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Great! I'll see you there!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Uh, before you go, mind if I borrow your stony self for a bit? I'm kind of stuck down here.",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0000_Untitled_Artwork-(14).png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Thanks pal!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "stonicorntalk",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "stonicorninvite",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Don't worry Stonicorn",
+      "conditions": [
+        {
+          "variableName": "stonicorntalk",
+          "testType": 0,
+          "testValue": 1
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Don't worry, buddy, you'll find a way out of here.",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Stonicorn at party",
+      "conditions": [
+        {
+          "variableName": "stonicorninvite",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Hey! You made it!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Don't worry, you'll get out of that stony prison someday.",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Meanwhile just enjoy the party! Have some rock candy!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
+        },
+        {
+          "characterName": "Stonicorn",
+          "text": "",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+        }
+      ],
+      "actions": []
     }
   ]
 }

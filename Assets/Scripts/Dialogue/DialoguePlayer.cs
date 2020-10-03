@@ -37,6 +37,7 @@ public class DialoguePlayer : MonoBehaviour
             advanceDialogue();
             //Subscribe to Interact button
             PlayerController.OnPlayerInteract += advanceDialogue;
+            PlayerController.OnPlayerJump += advanceDialogue;
         }
         else
         {
@@ -52,6 +53,7 @@ public class DialoguePlayer : MonoBehaviour
         InteractUI.instance.suppress(this, false);
         //Unsubscribe from Interact button
         PlayerController.OnPlayerInteract -= advanceDialogue;
+        PlayerController.OnPlayerJump -= advanceDialogue;
         //Unset path
         this.path = null;
     }

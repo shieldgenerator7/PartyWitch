@@ -851,7 +851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1328284032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   spinSpeed: 0.5
   spinObject: {fileID: 40218044}
   audioSource: {fileID: 1484287648}
-  duration: 4.5
+  duration: 3
 --- !u!82 &1484287648
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1018,7 +1018,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8821127e4b80dc942a36d62a4a322e30, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 720623357e57cde4382a5341e9b3a31a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1170,11 +1170,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70.47
+      value: -14.987
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.23
+      value: 1.435
       objectReference: {fileID: 0}
     - target: {fileID: 564511823631921207, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
       propertyPath: m_LocalPosition.z

@@ -2336,18 +2336,28 @@
           "variableName": "spidertalk",
           "testType": 0,
           "testValue": 4
+        },
+        {
+          "variableName": "candy",
+          "testType": 4,
+          "testValue": 1
         }
       ],
       "quotes": [
         {
           "characterName": "Jubilee",
-          "text": "I don't have the sweets yet",
+          "text": "I sure wish I knew where some candy was",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Adelae",
-          "text": "take your time",
+          "text": "have you tried couch cushion?",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\spider_cute.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "that would taste terrible",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ],
       "actions": []
@@ -4449,7 +4459,13 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "variableName": "gnomeword",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
     },
     {
       "title": "ObservationAlien",
@@ -4656,6 +4672,306 @@
         }
       ],
       "actions": []
+    },
+    {
+      "title": "Spider candy",
+      "conditions": [
+        {
+          "variableName": "spidertalk",
+          "testType": 0,
+          "testValue": 4
+        },
+        {
+          "variableName": "candy",
+          "testType": 2,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "I found a lolipop. You interested",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Adelae",
+          "text": "let's do this!",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0008s_0000_Untitled_Artwork-(3).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "How is it?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0004_Untitled_Artwork-(10).png"
+        },
+        {
+          "characterName": "Adelae",
+          "text": "Like plastic",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0008s_0000_Untitled_Artwork-(3).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "did you take off the wrapper?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Adelae",
+          "text": "is that like skin?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0008s_0000_Untitled_Artwork-(3).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "no",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
+        },
+        {
+          "characterName": "Adelae",
+          "text": "exoskeleton",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0008s_0000_Untitled_Artwork-(3).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "no",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Adelae",
+          "text": "carapace?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0008s_0000_Untitled_Artwork-(3).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "ok now you're just making up words",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Adelae",
+          "text": "I'm gonna say a hard... maybe",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0008s_0000_Untitled_Artwork-(3).png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "how do you know what plastic taste like?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Adelae",
+          "text": "that's a really good question",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0008s_0000_Untitled_Artwork-(3).png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "gnomeword",
+          "testType": 0,
+          "testValue": 1
+        },
+        {
+          "variableName": "hastrophy",
+          "testType": 2,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "hi shorty",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "why I oughta... is that a trophy?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "shiny shiny good good yes yes fun",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "longest word wins",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "what? words? I have a condition",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "prestidigitation",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "bless you",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "no I just won",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "no understando, catch ya later",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "gnomeword",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "gnomeword",
+          "testType": 0,
+          "testValue": 2
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "what are words",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "some form of social construct, the thing you're losing at",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I wish I could construct some cake",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "I don't grant wishes",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "gnomeword",
+          "testType": 0,
+          "testValue": 2
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Hey mr accountant",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "so formal, makes me feel like fresh pack of paper clips was just opened",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\dragon_neutral.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I need a really long word to beat a gnome",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "un... consolidat...aliquidatable... ism",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\dragon_neutral.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "you're the best account ever",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Gatarth",
+          "text": "yea you didn't hear it from me",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\dragon_neutral.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "gnomewordsolution",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "gnomewordsolution",
+          "testType": 2,
+          "testValue": 0
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "unconsolidataliquidatableism",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "i never that one",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "fresh out the oven ready for frosting",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "is that what it means?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "...yes",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "fun word, I'll remember that one",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        }
+      ],
+      "actions": []
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "",
+          "text": "",
+          "imageFileName": ""
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "hastrophy",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
     }
   ]
 }

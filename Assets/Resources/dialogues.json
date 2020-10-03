@@ -1962,23 +1962,38 @@
       "quotes": [
         {
           "characterName": "Jubilee",
-          "text": "Hi",
+          "text": "What up youngblood",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
           "characterName": "Jade",
-          "text": "",
+          "text": "How old are you?",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0004s_0000_Untitled_Artwork-(41).png"
         },
         {
           "characterName": "Petunia",
-          "text": "",
+          "text": "I can't talk I vibrate muscles against my swim bladder",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0004s_0002_Untitled_Artwork-(17)-copy-2.png"
         },
         {
           "characterName": "Jubilee",
           "text": "Awkward",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Petunia",
+          "text": "15 years or 3 spawning cycles?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0004s_0002_Untitled_Artwork-(17)-copy-2.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "how'd you guess?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Petunia",
+          "text": "thanks I have I a talent call me the fishtalker",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0004s_0002_Untitled_Artwork-(17)-copy-2.png"
         }
       ],
       "actions": []

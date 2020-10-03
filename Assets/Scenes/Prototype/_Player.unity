@@ -867,6 +867,7 @@ MonoBehaviour:
   debugMode: 0
   startScene: Party
   playerObject: {fileID: 314186155}
+  transitionSound: {fileID: 8300000, guid: 51c75c0eb7dff4d418e1ad5a369b23a6, type: 3}
 --- !u!4 &1328284033
 Transform:
   m_ObjectHideFlags: 0

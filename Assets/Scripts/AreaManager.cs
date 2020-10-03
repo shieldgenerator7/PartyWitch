@@ -20,6 +20,8 @@ public class AreaManager : MonoBehaviour
     public GameObject playerObject;
     private Rigidbody2D playerRB2D;
 
+    public AudioClip transitionSound;
+
     private DoorTrigger.Door targetDoor;
 
     private List<string> loadedSceneNames = new List<string>();
@@ -69,6 +71,8 @@ public class AreaManager : MonoBehaviour
         }
         //
         currentScene = sceneName;
+        //Sound effect
+        AudioSource.PlayClipAtPoint(transitionSound, playerRB2D.transform.position);
     }
 
     public void jumpToDoor(string sceneName, DoorTrigger.Door door)

@@ -1736,6 +1736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222763016}
   - component: {fileID: 222763017}
+  - component: {fileID: 222763018}
   m_Layer: 0
   m_Name: Jade
   m_TagString: Untagged
@@ -1808,6 +1809,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &222763018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222763015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: merinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1 &226408810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,6 +2045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 250294554}
   - component: {fileID: 250294553}
+  - component: {fileID: 250294555}
   m_Layer: 0
   m_Name: SuperStar
   m_TagString: Untagged
@@ -2102,6 +2119,21 @@ Transform:
   m_Father: {fileID: 1607450889}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &250294555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250294552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: euryaleinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1 &255141292
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,6 +2243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 262678689}
   - component: {fileID: 262678690}
+  - component: {fileID: 262678691}
   m_Layer: 0
   m_Name: wolfman
   m_TagString: Untagged
@@ -2284,6 +2317,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &262678691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262678688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: harryinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!4 &263848649 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 304093068549027712, guid: 8d0c38ac254abfc468a466d448a51fc2, type: 3}
@@ -7870,6 +7918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564438351}
   - component: {fileID: 1564438350}
+  - component: {fileID: 969024103}
   m_Layer: 0
   m_Name: fhyshy
   m_TagString: Untagged
@@ -7877,6 +7926,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &969024103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969024102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: fhyshyinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!4 &985309683 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8090984529522418047, guid: 40cf709094e3ebf42a99bc51ba709c81, type: 3}
@@ -9194,6 +9258,7 @@ GameObject:
   - component: {fileID: 1205454466}
   - component: {fileID: 1205454467}
   - component: {fileID: 1205454468}
+  - component: {fileID: 1205454469}
   m_Layer: 0
   m_Name: Frenzie
   m_TagString: Untagged
@@ -9310,6 +9375,21 @@ MonoBehaviour:
   - {x: 19.84, y: 1.51}
   - {x: 16.86, y: 1.83}
   - {x: 13.32, y: 1.58}
+--- !u!114 &1205454469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205454465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: fairyinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1001 &1211004813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11046,6 +11126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1005845208}
   - component: {fileID: 1005845207}
+  - component: {fileID: 1456441072}
   m_Layer: 0
   m_Name: ZoOomGranola
   m_TagString: Untagged
@@ -11053,6 +11134,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1456441072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456441071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: zoeinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1001 &1456761754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13900,6 +13996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109128826}
   - component: {fileID: 2109128825}
+  - component: {fileID: 1805979410}
   m_Layer: 0
   m_Name: Goldie
   m_TagString: Untagged
@@ -13907,6 +14004,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1805979410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805979409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: merinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1001 &1806194763
 PrefabInstance:
   m_ObjectHideFlags: 0

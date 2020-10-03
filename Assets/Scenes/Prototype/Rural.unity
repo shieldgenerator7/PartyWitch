@@ -3171,6 +3171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 329597351}
   - component: {fileID: 329597350}
+  - component: {fileID: 329597352}
   m_Layer: 0
   m_Name: Vamp
   m_TagString: Untagged
@@ -3244,6 +3245,21 @@ Transform:
   m_Father: {fileID: 1302505127}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &329597352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329597349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: zanderinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1 &331207039
 GameObject:
   m_ObjectHideFlags: 0
@@ -6868,6 +6884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705537714}
   - component: {fileID: 705537715}
+  - component: {fileID: 705537716}
   m_Layer: 0
   m_Name: ryan
   m_TagString: Untagged
@@ -6941,6 +6958,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &705537716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705537713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: ryaninvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1 &706399153
 GameObject:
   m_ObjectHideFlags: 0
@@ -11804,6 +11836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126417834}
   - component: {fileID: 1126417835}
+  - component: {fileID: 1126417836}
   m_Layer: 0
   m_Name: skully
   m_TagString: Untagged
@@ -11877,6 +11910,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1126417836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126417833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: skullyinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!4 &1129173317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5890576452964645941, guid: bf95d937007539a46935c1fe6153560b, type: 3}
@@ -14105,6 +14153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337947896}
   - component: {fileID: 1337947897}
+  - component: {fileID: 1337947898}
   m_Layer: 0
   m_Name: kidGnome
   m_TagString: Untagged
@@ -14178,6 +14227,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1337947898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337947895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: horximinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1001 &1339200274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15777,6 +15841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463455009}
   - component: {fileID: 1463455008}
+  - component: {fileID: 1463455010}
   m_Layer: 0
   m_Name: lilpumpkin
   m_TagString: Untagged
@@ -15850,6 +15915,21 @@ Transform:
   m_Father: {fileID: 1302505127}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1463455010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463455007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: pumpkininvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1001 &1467420285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16843,6 +16923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1588124412}
   - component: {fileID: 1588124411}
+  - component: {fileID: 1588124413}
   m_Layer: 0
   m_Name: Dragon
   m_TagString: Untagged
@@ -16916,6 +16997,21 @@ Transform:
   m_Father: {fileID: 1302505127}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.538}
+--- !u!114 &1588124413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588124410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: dragoninvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!4 &1592799505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6391941535457428375, guid: c0577e9fa22df8f4b80588803c80b430, type: 3}
@@ -18629,6 +18725,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721940793}
   - component: {fileID: 1721940794}
+  - component: {fileID: 1721940795}
   m_Layer: 0
   m_Name: Crowscare
   m_TagString: Untagged
@@ -18703,6 +18800,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1721940795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721940792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: crowinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!1001 &1723703573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23253,6 +23365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2065114659}
   - component: {fileID: 2065114658}
+  - component: {fileID: 2065114660}
   m_Layer: 0
   m_Name: TpGhost
   m_TagString: Untagged
@@ -23326,6 +23439,21 @@ Transform:
   m_Father: {fileID: 1302505127}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2065114660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065114657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3d0a2d1242ce64fbcece312528b07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: ghostinvited
+  requiredValue: 1
+  actionToTake: 1
 --- !u!4 &2065391854 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6391941535457428375, guid: c0577e9fa22df8f4b80588803c80b430, type: 3}

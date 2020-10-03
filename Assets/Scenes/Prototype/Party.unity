@@ -15512,7 +15512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8555668748895775618, guid: f95436569a953f9438cee202a3385219, type: 3}
       propertyPath: counterName
-      value: pictureitem
+      value: ballitem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f95436569a953f9438cee202a3385219, type: 3}

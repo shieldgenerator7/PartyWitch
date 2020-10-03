@@ -113,4 +113,21 @@ public class InteractUI : MonoBehaviour
         return null;
     }
 
+    /// <summary>
+    /// Checks each registered EventTrigger to make sure it's interactable
+    /// </summary>
+    public void refreshTriggerList()
+    {
+        for (int i = triggers.Count - 1; i >= 0; i--)
+        {
+            EventTrigger trigger = triggers[i];
+            //If trigger isn't interactable anymore,
+            if (!trigger.Interactable)
+            {
+                //Unregister it
+                registerTrigger(trigger, false);
+            }
+        }
+    }
+
 }

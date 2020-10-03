@@ -27,47 +27,55 @@ public class EventTriggerEditor : Editor
             t => t is DialogueTrigger || t is ItemCollectTrigger
             ))
         {
-            //Convert to DialogueTrigger
-            if (GUILayout.Button("Convert to DialogueTrigger"))
+            if (triggers.Any(t => t is ItemCollectTrigger))
             {
-                List<ItemCollectTrigger> converts = triggers.Where(
-                    t => !(t is DialogueTrigger)
-                    ).Cast<ItemCollectTrigger>().ToList();
-                Undo.RecordObjects(
-                    converts.ToArray(),
-                    "Convert " + converts.Count + " to DialogueTriggers"
-                    );
-                converts.ForEach(
-                    t =>
-                    {
-                        DialogueTrigger dialogue = t.gameObject.AddComponent<DialogueTrigger>();
-                        dialogue.title = t.title;
-                        DestroyImmediate(t);
-                        EditorUtility.SetDirty(dialogue);
-                    }
-                    );
-                Debug.Log("Converted " + converts.Count + " EventTriggers to DialogueTrigger");
+                //Convert to DialogueTrigger
+                if (GUILayout.Button("Convert to DialogueTrigger"))
+                {
+                    List<ItemCollectTrigger> converts = triggers.Where(
+                        t => !(t is DialogueTrigger)
+                        ).Cast<ItemCollectTrigger>().ToList();
+                    Undo.RecordObjects(
+                        converts.ToArray(),
+                        "Convert " + converts.Count + " to DialogueTriggers"
+                        );
+                    converts.ForEach(
+                        t =>
+                        {
+                            DialogueTrigger dialogue = t.gameObject.AddComponent<DialogueTrigger>();
+                            dialogue.title = t.title;
+                            dialogue.id = t.id;
+                            DestroyImmediate(t);
+                            EditorUtility.SetDirty(dialogue);
+                        }
+                        );
+                    Debug.Log("Converted " + converts.Count + " EventTriggers to DialogueTrigger");
+                }
             }
-            //Convert to ItemCollectTrigger
-            if (GUILayout.Button("Convert to ItemCollectTrigger"))
+            if (triggers.Any(t => t is DialogueTrigger))
             {
-                List<DialogueTrigger> converts = triggers.Where(
-                    t => !(t is ItemCollectTrigger)
-                    ).Cast<DialogueTrigger>().ToList();
-                Undo.RecordObjects(
-                    converts.ToArray(),
-                    "Convert " + converts.Count + " to ItemCollectTriggers"
-                    );
-                converts.ForEach(
-                    t =>
-                    {
-                        ItemCollectTrigger item = t.gameObject.AddComponent<ItemCollectTrigger>();
-                        item.title = t.title;
-                        DestroyImmediate(t);
-                        EditorUtility.SetDirty(item);
-                    }
-                    );
-                Debug.Log("Converted " + converts.Count + " EventTriggers to ItemCollectTriggers");
+                //Convert to ItemCollectTrigger
+                if (GUILayout.Button("Convert to ItemCollectTrigger"))
+                {
+                    List<DialogueTrigger> converts = triggers.Where(
+                        t => !(t is ItemCollectTrigger)
+                        ).Cast<DialogueTrigger>().ToList();
+                    Undo.RecordObjects(
+                        converts.ToArray(),
+                        "Convert " + converts.Count + " to ItemCollectTriggers"
+                        );
+                    converts.ForEach(
+                        t =>
+                        {
+                            ItemCollectTrigger item = t.gameObject.AddComponent<ItemCollectTrigger>();
+                            item.title = t.title;
+                            item.id = t.id;
+                            DestroyImmediate(t);
+                            EditorUtility.SetDirty(item);
+                        }
+                        );
+                    Debug.Log("Converted " + converts.Count + " EventTriggers to ItemCollectTriggers");
+                }
             }
         }
         else if (triggers.Any(

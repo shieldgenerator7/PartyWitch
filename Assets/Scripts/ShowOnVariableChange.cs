@@ -12,6 +12,7 @@ public class ShowOnVariableChange : MonoBehaviour
     public string varStandIn = "[x]";
     public float spinSpeed = 5;
     public GameObject spinObject;
+    public AudioSource audioSource;
 
     public float duration = 3;
 
@@ -60,6 +61,7 @@ public class ShowOnVariableChange : MonoBehaviour
         showGameObject.SetActive(true);
         startTime = Time.time;
         InteractUI.instance.suppress(this);
+        audioSource.Play();
     }
     private void stop()
     {

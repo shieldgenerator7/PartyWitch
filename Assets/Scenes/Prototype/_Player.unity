@@ -1169,8 +1169,17 @@ PrefabInstance:
       propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 564511824316805579, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
+      propertyPath: doubleJumpIndicator
+      value: 
+      objectReference: {fileID: 564511822605509834}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
+--- !u!212 &564511822605509834 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 564511823421789588, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
+  m_PrefabInstance: {fileID: 564511822605509833}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5470102874974727821
 PrefabInstance:
   m_ObjectHideFlags: 0

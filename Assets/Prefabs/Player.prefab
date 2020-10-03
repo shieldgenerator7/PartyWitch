@@ -621,6 +621,7 @@ MonoBehaviour:
   checkRadius: 0.2
   extraJumpsValue: 1
   animator: {fileID: 0}
+  doubleJumpIndicator: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []

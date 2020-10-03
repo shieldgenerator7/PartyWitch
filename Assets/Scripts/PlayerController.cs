@@ -28,11 +28,25 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius;
     private bool isGrounded;
-    private int extraJumps;
+    private int _extraJumps;
+    private int extraJumps
+    {
+        get => _extraJumps;
+        set
+        {
+            _extraJumps = value;
+            Color color = doubleJumpIndicator.color;
+            color.a = (_extraJumps > 0)
+                ? 1
+                : 0.3f;
+            doubleJumpIndicator.color = color;
+        }
+    }
     public int extraJumpsValue;
 
 
     public Animator animator;
+    public SpriteRenderer doubleJumpIndicator;
 
     private bool FacingRight = true;  // For determining which way the player is currently facing.
 
@@ -128,7 +142,7 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrounded)
         {
-            extraJumps = extraJumpsValue;
+            resetExtraJumps();
             if (jumpKeyDown)
             {
                 rb.velocity = Vector2.up * jumpSpeed;
@@ -183,6 +197,11 @@ public class PlayerController : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    public void resetExtraJumps(int extraextras = 0)
+    {
+        extraJumps = extraJumpsValue + extraextras;
     }
 
     public void OnLanding()

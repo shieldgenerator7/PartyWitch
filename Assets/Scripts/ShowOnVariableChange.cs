@@ -10,6 +10,8 @@ public class ShowOnVariableChange : MonoBehaviour
     public StringBank stringBank;
     public string message = "[x] is a message.";
     public string varStandIn = "[x]";
+    public float spinSpeed = 5;
+    public GameObject spinObject;
 
     public float duration = 3;
 
@@ -25,9 +27,17 @@ public class ShowOnVariableChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (startTime > 0 && Time.time > startTime + duration)
+        if (startTime > 0)
         {
-            stop();
+            //Spin the object
+            Vector3 angles = spinObject.transform.eulerAngles;
+            angles.z += spinSpeed;
+            spinObject.transform.eulerAngles = angles;
+            //Check for stop
+            if (Time.time > startTime + duration)
+            {
+                stop();
+            }
         }
     }
 

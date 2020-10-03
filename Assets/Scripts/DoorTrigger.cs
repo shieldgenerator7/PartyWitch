@@ -37,21 +37,21 @@ public class DoorTrigger : EventTrigger
         
         if (connectedId < 0)
         {
-            throw new ArgumentException(
+            Debug.LogError(
                 "DoorTrigger Connected Id is invalid on object " + gameObject.name
                 + " in scene " + gameObject.scene.name + ". "
                 + "Connected Id must be 0 or greater (Connect two DoorTriggers together). "
                 + "Invalid value: " + connectedId
-                );
+                , this);
         }
         if (this.connectScene == null || this.connectScene == "")
         {
-            throw new ArgumentException(
+            Debug.LogError(
                 "DoorTrigger Connect Scene is invalid on object " + gameObject.name
                 + " in scene " + gameObject.scene.name + ". "
                 + "Connected Scene must be a valid scene name. "
                 + "Invalid value: " + connectScene
-                );
+                , this);
         }
         
     }

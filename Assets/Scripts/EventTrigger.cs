@@ -22,18 +22,20 @@ public abstract class EventTrigger : MonoBehaviour
         coll2d = GetComponents<Collider2D>().FirstOrDefault(c2d => c2d.isTrigger == true);
         if (!coll2d)
         {
-            Debug.LogError("" + this.GetType().Name + " requires a Collider2D with isTrigger set to true. "
-                + "This one on GameObject " + gameObject.name + " has none.");
+            Debug.LogError(
+                this.GetType().Name + " requires a Collider2D with isTrigger set to true. "
+                + "This one on GameObject " + gameObject.name + " has none."
+                ,this);
         }
         //Id must be valid
         if (id < 0)
         {
-            throw new ArgumentException(
+            Debug.LogError(
                 "EventTrigger Id is invalid on object " + gameObject.name
                 + " in scene " + gameObject.scene.name + ". "
                 + "Id must be 0 or greater (Assign it an Id). "
                 + "Invalid value: " + id
-                );
+                ,this);
         }
         //Id must be unique
         EventTrigger dupIdTrigger = FindObjectsOfType<EventTrigger>()
@@ -44,13 +46,13 @@ public abstract class EventTrigger : MonoBehaviour
             );
         if (dupIdTrigger)
         {
-            throw new ArgumentException(
+            Debug.LogError(
                 "EventTrigger has a duplicate Id! "
                 + "GameObject " + gameObject.name + " and " + dupIdTrigger.name
                 + " in scene " + gameObject.scene.name
                 + " have the same Id: " + this.id + ". "
                 + "Assign these EventTriggers unique Ids."
-                );
+                , this);
         }
     }
 

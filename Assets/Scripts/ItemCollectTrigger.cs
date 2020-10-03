@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,6 +19,17 @@ public class ItemCollectTrigger : EventTrigger
 
         //Parent start up process
         base.Start();
+
+        //Item must have a title
+        if (title == null || title == "")
+        {
+            Debug.LogError(
+                "ItemCollectTrigger title is invalid on object " + gameObject.name
+                + " in scene " + gameObject.scene.name + ". "
+                + "Title must not be empty. "
+                + "Invalid value: " + title
+                , this);
+        }
     }
 
     protected override void triggerEvent()

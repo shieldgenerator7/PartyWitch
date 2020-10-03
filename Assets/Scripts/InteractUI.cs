@@ -10,16 +10,9 @@ public class InteractUI : MonoBehaviour
 
     private readonly List<EventTrigger> triggers = new List<EventTrigger>();
 
-    private bool _suppress = false;
-    public bool Suppressed
-    {
-        get => _suppress;
-        set
-        {
-            _suppress = value;
-            updateInteractUI();
-        }
-    }
+    private List<MonoBehaviour> _suppressors = new List<MonoBehaviour>();
+    public bool Suppressed => _suppressors.Count > 0;
+
 
     private EventTrigger currentTrigger;
 
@@ -128,6 +121,22 @@ public class InteractUI : MonoBehaviour
                 registerTrigger(trigger, false);
             }
         }
+    }
+
+    public void suppress(MonoBehaviour suppressor, bool suppress = true)
+    {
+        if (suppress)
+        {
+            if (!_suppressors.Contains(suppressor))
+            {
+                _suppressors.Add(suppressor);
+            }
+        }
+        else
+        {
+            _suppressors.Remove(suppressor);
+        }
+        updateInteractUI();
     }
 
 }

@@ -60,10 +60,12 @@ public class ShowOnVariableChange : MonoBehaviour
         txtUpdate.text = newText;
         showGameObject.SetActive(true);
         startTime = Time.time;
+        InteractUI.instance.suppress(this);
     }
     private void stop()
     {
         showGameObject.SetActive(false);
         startTime = -1;
+        InteractUI.instance.suppress(this, false);
     }
 }

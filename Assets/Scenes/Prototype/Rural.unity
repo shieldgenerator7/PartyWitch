@@ -2659,6 +2659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 33
   title: ObservationAura
+  counterName: 
 --- !u!61 &272837533
 BoxCollider2D:
   m_ObjectHideFlags: 0

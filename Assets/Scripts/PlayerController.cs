@@ -15,7 +15,10 @@ public class PlayerController : MonoBehaviour
 
     public delegate void Interaction();
     public static event Interaction OnPlayerInteract;
-    public static event Interaction OnPlayerJump;
+    public delegate void PlayerJump();
+    public static event PlayerJump OnPlayerJump;
+    public delegate void Pause();
+    public static event Pause OnGamePaused;
 
     #region Initialization
     private PlayerActionControls playerActionControls;
@@ -60,6 +63,7 @@ public class PlayerController : MonoBehaviour
     private bool jumpKeyDown = false;
     private bool jumpFirstFrame = false;
     private bool interactKeyDown = false;
+    public bool isPaused = false;
     #endregion
 
 
@@ -92,6 +96,13 @@ public class PlayerController : MonoBehaviour
         playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
         playerActionControls.Player.Interact.performed += _ => interactCall(true);
         playerActionControls.Player.Interact.canceled += _ => interactCall(false);
+        playerActionControls.Player.Pause.performed += ctx => onPause();
+    }
+
+    private void onPause()
+    {
+        isPaused = !isPaused;
+        OnGamePaused?.Invoke();
     }
 
     private void interactCall(bool value)

@@ -4242,6 +4242,11 @@
           "variableName": "harryinvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "harrytalk",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -4274,6 +4279,61 @@
           "characterName": "Flo",
           "text": "don't just stand there show me the way",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Ok, I'll incept a memory into your ectoplamsic brain",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Flo",
+          "text": "first, scary you can do that",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I get that alot, good thing I'm benevolent or at least chaotic neutral",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Flo",
+          "text": "second, Why are there no bathrooms?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Grimm is a force of nature and I'm magical",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Flo",
+          "text": "What does magic have to do with poop? Everyone poops",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Well we like to teleport our poops from our intestines into space so it burns in the atmosphere",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Flo",
+          "text": "That is equal parts terrifying disturbing, fascinating, and ingenious",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "There's an old story of Sliluge the slow. Claimed he botched the spell and apparently it fell to earth and killed an evil king",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Flo",
+          "text": "I'm never going to anger a magi",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0006s_0000_Untitled_Artwork-(2)-copy.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "I'll go with the flo",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ],
       "actions": [
@@ -4951,6 +5011,21 @@
           "characterName": "Horxim",
           "text": "fun word, I'll remember that one",
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "For the audience. We have different words here. He totally didn't make that up",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Horxim",
+          "text": "What are you babbling on about?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0002_gnome.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "nothing",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ],
       "actions": []
@@ -4974,156 +5049,54 @@
       ]
     },
     {
-      "title": "Find Stonicorn",
+      "title": "Dialogue Title",
       "conditions": [
         {
-          "variableName": "stonicorntalk",
-          "testType": 0,
-          "testValue": 0
-        }
-      ],
-      "quotes": [
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
-        },
-        {
-          "characterName": "Jubilee",
-          "text": "Whoa! This is no ordinary rock!",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0001_Untitled_Artwork-(13).png"
-        },
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
-        },
-        {
-          "characterName": "Jubilee",
-          "text": "I sense some kind of... life force in it.",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
-        },
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
-        },
-        {
-          "characterName": "Jubilee",
-          "text": "What's that?",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
-        },
-        {
-          "characterName": "Jubilee",
-          "text": "Oh! Do you want to go to the party?",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
-        },
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
-        },
-        {
-          "characterName": "Jubilee",
-          "text": "Great! I'll see you there!",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
-        },
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
-        },
-        {
-          "characterName": "Jubilee",
-          "text": "Uh, before you go, mind if I borrow your stony self for a bit? I'm kind of stuck down here.",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0000_Untitled_Artwork-(14).png"
-        },
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
-        },
-        {
-          "characterName": "Jubilee",
-          "text": "Thanks pal!",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
-        }
-      ],
-      "actions": [
-        {
-          "variableName": "stonicorntalk",
-          "actionType": 1,
-          "actionValue": 1
-        },
-        {
-          "variableName": "stonicorninvite",
-          "actionType": 1,
-          "actionValue": 1
-        }
-      ]
-    },
-    {
-      "title": "Don't worry Stonicorn",
-      "conditions": [
-        {
-          "variableName": "stonicorntalk",
+          "variableName": "harrytalk",
           "testType": 0,
           "testValue": 1
         }
       ],
       "quotes": [
         {
-          "characterName": "Jubilee",
-          "text": "Don't worry, buddy, you'll find a way out of here.",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
-        },
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
-        }
-      ],
-      "actions": []
-    },
-    {
-      "title": "Stonicorn at party",
-      "conditions": [
-        {
-          "variableName": "stonicorninvite",
-          "testType": 0,
-          "testValue": 0
-        }
-      ],
-      "quotes": [
-        {
-          "characterName": "Jubilee",
-          "text": "Hey! You made it!",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
-        },
-        {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+          "characterName": "Harry",
+          "text": "Who constructed the magic doors?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
         {
           "characterName": "Jubilee",
-          "text": "Don't worry, you'll get out of that stony prison someday.",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_asleep.png"
+          "text": "We call him the framer",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+          "characterName": "Harry",
+          "text": "What was he like?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
         },
         {
           "characterName": "Jubilee",
-          "text": "Meanwhile just enjoy the party! Have some rock candy!",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
+          "text": "Old dude with a long white beard got famous for saying you shall not pass and stories that went on far too long",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         },
         {
-          "characterName": "Stonicorn",
-          "text": "",
-          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\stonicorn_face.png"
+          "characterName": "Harry",
+          "text": "He sounds air-conditioned! I hope I'm like him when I'm old",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Indeed my precious",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
+        },
+        {
+          "characterName": "Harry",
+          "text": "Are you ok?",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0003s_0000_Untitled_Artwork.png"
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "jajaja i just quirky",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ],
       "actions": []

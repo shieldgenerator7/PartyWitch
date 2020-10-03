@@ -56,10 +56,12 @@ public class SwingTrigger : MonoBehaviour
     {
         if (Grabbable)
         {
-            if (collision.gameObject.CompareTag("Player"))
+            GameObject go = collision.gameObject;
+            if (go.CompareTag("Player"))
             {
-                connectToObject(collision.gameObject);
+                connectToObject(go);
                 PlayerController.OnPlayerJump += disconnectPlayer;
+                go.GetComponent<PlayerController>().resetExtraJumps(1);
                 Grabbable = false;
             }
         }

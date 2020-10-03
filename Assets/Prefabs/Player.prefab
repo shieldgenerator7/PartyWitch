@@ -620,8 +620,13 @@ MonoBehaviour:
   groundCheck: {fileID: 564511824523436845}
   checkRadius: 0.2
   extraJumpsValue: 1
+<<<<<<< Updated upstream
   animator: {fileID: 0}
   doubleJumpIndicator: {fileID: 0}
+=======
+  animator: {fileID: 474224063}
+  doubleJumpIndicator: {fileID: 4235266168736802507}
+>>>>>>> Stashed changes
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []

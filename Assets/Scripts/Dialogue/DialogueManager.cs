@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 /// Determines which dialogue happens when you want to trigger a dialogue
 /// </summary>
 [RequireComponent(typeof(DialoguePlayer))]
-class DialogueManager : MonoBehaviour
+public class DialogueManager : MonoBehaviour
 {
     private DialogueData dialogueData;
     [SerializeField]
@@ -23,13 +23,29 @@ class DialogueManager : MonoBehaviour
         dialogueData.dialogues.ForEach(d => d.inflate());
         dialoguePlayer.onDialogueEnded += takeActions;
         SceneManager.sceneLoaded +=
-            (s,m)=>
+            (s, m) =>
             {
                 foreach (OnStartCheckVariable oscv in Resources.FindObjectsOfTypeAll(typeof(OnStartCheckVariable)))
                 {
                     oscv.checkTakeAction(progressManager);
                 }
             };
+    }
+
+    public bool hasDialogue(string title)
+    {
+        if (title == null || title == "")
+        {
+            throw new NullReferenceException("Title cannot be empty! title: " + title);
+        }
+        return dialogueData.getDialoguePath(title) != null;
+    }
+
+    public bool hasDialogue(List<string> characters)
+    {
+        DialoguePath path = dialogueData.getDialoguePaths(characters)
+            .FirstOrDefault(dp => conditionsMet(dp));
+        return path != null;
     }
 
     public void playDialogue(string title = null)
@@ -71,7 +87,7 @@ class DialogueManager : MonoBehaviour
             string characterString = "";
             characters.ForEach(
                 c => characterString += c + ", ");
-            throw new Exception("Dialogue with these characters cannot be found: "+characterString);
+            throw new Exception("Dialogue with these characters cannot be found: " + characterString);
         }
         playDialogue(path);
     }
@@ -108,6 +124,7 @@ class DialogueManager : MonoBehaviour
     private void takeActions(DialoguePath path)
     {
         path.actions.ForEach(a => takeAction(a));
+        InteractUI.instance.refreshTriggerList();
     }
 
     private void takeAction(Action a)

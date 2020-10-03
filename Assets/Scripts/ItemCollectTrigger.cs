@@ -34,7 +34,6 @@ public class ItemCollectTrigger : EventTrigger
 
     protected override void triggerEvent()
     {
-        DialogueManager dialogueManager = FindObjectOfType<DialogueManager>();
         //Find dialogue path by its title
         if (title != "" && title != null)
         {

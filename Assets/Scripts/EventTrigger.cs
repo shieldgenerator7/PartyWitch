@@ -14,12 +14,16 @@ public abstract class EventTrigger : MonoBehaviour
     public int id = -1;
     public string IdString => gameObject.scene.name + "_" + id;
 
+    public virtual bool Interactable => true;
+
     private Collider2D coll2d;
+    protected DialogueManager dialogueManager;
 
     // Start is called before the first frame update
     protected virtual void Start()
     {
         coll2d = GetComponents<Collider2D>().FirstOrDefault(c2d => c2d.isTrigger == true);
+        dialogueManager = FindObjectOfType<DialogueManager>();
         if (!coll2d)
         {
             Debug.LogError(
@@ -60,7 +64,10 @@ public abstract class EventTrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            InteractUI.instance.registerTrigger(this, true);
+            if (this.Interactable)
+            {
+                InteractUI.instance.registerTrigger(this, true);
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -78,7 +85,7 @@ public abstract class EventTrigger : MonoBehaviour
 
     public void processTrigger()
     {
-        FindObjectOfType<DialogueManager>().progressManager.markActivated(this);
+        dialogueManager.progressManager.markActivated(this);
         triggerEvent();
     }
 

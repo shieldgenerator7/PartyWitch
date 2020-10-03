@@ -956,11 +956,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bankEntries:
   - variableName: merinvited
-    str: Petunia and Jade are
+    str: Petunia and Jade
   - variableName: harryinvited
-    str: Norman is
-  - variableName: 
-    str: 
+    str: Norman
+  - variableName: stonicorninvite
+    str: Stonicorn
   - variableName: 
     str: 
   - variableName: 
@@ -1000,7 +1000,7 @@ MonoBehaviour:
   showGameObject: {fileID: 1187177232}
   txtUpdate: {fileID: 648532028}
   stringBank: {fileID: 1484287646}
-  message: '[x] coming to the party!'
+  message: '[x] accepted the invitation!'
   varStandIn: '[x]'
   spinSpeed: 2
   spinObject: {fileID: 40218044}

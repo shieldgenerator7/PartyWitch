@@ -973,30 +973,38 @@ MonoBehaviour:
     str: Norman
   - variableName: stonicorninvite
     str: Stonicorn
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
-  - variableName: 
-    str: 
+  - variableName: catinvited
+    str: Butters
+  - variableName: ghostinvited
+    str: Estelle MacLaine
+  - variableName: euryaleinvited
+    str: Euryale
+  - variableName: fhyshyinvited
+    str: Fhyshy
+  - variableName: tpinvited
+    str: Flo
+  - variableName: fairyinvited
+    str: Frenzie
+  - variableName: dragoninvited
+    str: Gatarth
+  - variableName: merinvited
+    str: Grimm
+  - variableName: horximinvited
+    str: Horxim
+  - variableName: pumpkininvited
+    str: Lil Pumpkin
+  - variableName: ryaninvited
+    str: Ryan
+  - variableName: skullyinvited
+    str: Skully
+  - variableName: whaleinvited
+    str: Whale
+  - variableName: zanderinvited
+    str: Wren Beaux
+  - variableName: zoeinvited
+    str: Zoe Zom Om
+  - variableName: crowinvited
+    str: Jerry
 --- !u!114 &1484287647
 MonoBehaviour:
   m_ObjectHideFlags: 0

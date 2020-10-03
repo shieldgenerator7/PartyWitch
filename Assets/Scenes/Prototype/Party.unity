@@ -9593,6 +9593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTransitionSwamp
       objectReference: {fileID: 0}
+    - target: {fileID: 1887761306504826906, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
 --- !u!4 &1308833087 stripped
@@ -9600,6 +9604,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
   m_PrefabInstance: {fileID: 1308833086}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1308833088 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887761306504826906, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+  m_PrefabInstance: {fileID: 1308833086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1308833089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308833088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f32aa4f7ba4a494499b14bc843169abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: grimmtalk
+  requiredValue: 3
+  actionToTake: 0
+  elseActionToTake: 1
 --- !u!1001 &1311962493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17240,8 +17265,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorTransition
       objectReference: {fileID: 0}
+    - target: {fileID: 1887761306504826906, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+--- !u!1 &1887761306961130750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1887761306504826906, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+  m_PrefabInstance: {fileID: 1887761306961130749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1887761306961130751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887761306961130750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f32aa4f7ba4a494499b14bc843169abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredVariable: grimmtalk
+  requiredValue: 3
+  actionToTake: 0
+  elseActionToTake: 1
 --- !u!1001 &1911335398607266899
 PrefabInstance:
   m_ObjectHideFlags: 0

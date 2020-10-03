@@ -22,6 +22,7 @@ public class DialogueManager : MonoBehaviour
         dialogueData = JsonUtility.FromJson<DialogueData>(jsonString);
         dialogueData.dialogues.ForEach(d => d.inflate());
         dialoguePlayer.onDialogueEnded += takeActions;
+        //OnStartCheckVariable
         SceneManager.sceneLoaded +=
             (s, m) =>
             {

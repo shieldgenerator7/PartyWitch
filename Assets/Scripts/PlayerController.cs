@@ -35,11 +35,9 @@ public class PlayerController : MonoBehaviour
         set
         {
             _extraJumps = value;
-            Color color = doubleJumpIndicator.color;
-            color.a = (_extraJumps > 0)
-                ? 1
-                : 0.3f;
-            doubleJumpIndicator.color = color;
+            doubleJumpIndicator.color = (_extraJumps > 0)
+                ? Color.white
+                : noExtraJumpColor;
         }
     }
     public int extraJumpsValue;
@@ -47,6 +45,7 @@ public class PlayerController : MonoBehaviour
 
     public Animator animator;
     public SpriteRenderer doubleJumpIndicator;
+    public Color noExtraJumpColor = new Color(1, 1, 1, 0.3f);
 
     private bool FacingRight = true;  // For determining which way the player is currently facing.
 

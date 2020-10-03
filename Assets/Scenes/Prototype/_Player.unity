@@ -1387,6 +1387,10 @@ PrefabInstance:
       propertyPath: doubleJumpIndicator
       value: 
       objectReference: {fileID: 564511822605509834}
+    - target: {fileID: 564511824316805579, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
+      propertyPath: noExtraJumpColor.a
+      value: 0.3019608
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
 --- !u!212 &564511822605509834 stripped

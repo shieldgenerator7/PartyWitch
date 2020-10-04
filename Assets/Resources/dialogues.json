@@ -1644,6 +1644,11 @@
           "variableName": "pictureitem",
           "testType": 0,
           "testValue": 0
+        },
+        {
+          "variableName": "grimmtalk",
+          "testType": 0,
+          "testValue": 0
         }
       ],
       "quotes": [

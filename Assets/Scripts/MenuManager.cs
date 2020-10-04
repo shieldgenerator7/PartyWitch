@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
     public Image logo;
-    public List<Button> mainMenuButtons; 
+    public List<Button> mainMenuButtons;
     public Image controlScreen;
+    public Button creditsButton;
 
     public void startGame()
     {
@@ -37,6 +39,27 @@ public class MenuManager : MonoBehaviour
     public void showControls(bool show = true)
     {
         controlScreen.gameObject.SetActive(show);
+    }
+
+    public void credits()
+    {
+        SceneManager.LoadScene("Credits", LoadSceneMode.Additive);
+        showMainScreen(false);
+        SceneManager.sceneLoaded += hookIntoCredits;
+    }
+    private void hookIntoCredits(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Credits")
+        {
+            SceneManager.sceneLoaded -= hookIntoCredits;
+            FindObjectOfType<Credits>().onFinish += () =>
+            {
+                SceneManager.UnloadSceneAsync("Credits");
+                showMainScreen(true);
+                FindObjectOfType<EventSystem>()
+                    .SetSelectedGameObject(creditsButton.gameObject);
+            };
+        }
     }
 
     public void quitGame()

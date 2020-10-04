@@ -2878,6 +2878,7 @@ MonoBehaviour:
   id: 33
   title: ObservationAura
   counterName: 
+  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!61 &272837533
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5385,6 +5386,7 @@ MonoBehaviour:
   id: 43
   title: 
   counterName: candy
+  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!61 &488752354
 BoxCollider2D:
   m_ObjectHideFlags: 0

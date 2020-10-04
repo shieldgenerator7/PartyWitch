@@ -9,6 +9,7 @@ public class ItemCollectTrigger : EventTrigger
     public string title;
     [Tooltip("The variable to increment by 1 if there is no title")]
     public string counterName;
+    public AudioClip collectSound;
 
     protected override void Start()
     {
@@ -43,6 +44,7 @@ public class ItemCollectTrigger : EventTrigger
         {
             dialogueManager.progressManager.add(counterName);
         }
+        AudioSource.PlayClipAtPoint(collectSound, transform.position);
         destroy();
     }
 

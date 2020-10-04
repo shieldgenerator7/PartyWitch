@@ -4559,6 +4559,7 @@ MonoBehaviour:
   id: 11
   title: ObservationPainting
   counterName: 
+  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!1001 &641850608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14001,6 +14002,7 @@ MonoBehaviour:
   id: 25
   title: ObservationStonicorn
   counterName: 
+  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!61 &1775203639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17063,26 +17065,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 1974231736599794102, guid: f9b07945e7a5a404f82360092c613a7b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f9b07945e7a5a404f82360092c613a7b, type: 3}
---- !u!1 &561607182954135437 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2082681648562053019, guid: f9b07945e7a5a404f82360092c613a7b, type: 3}
-  m_PrefabInstance: {fileID: 561607182954135436}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &561607182954135438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561607182954135437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db9ce154ae505e4e88e1c0502975ce8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 30
-  title: PictureItemCollect
-  counterName: 
 --- !u!1001 &1052860916385296467
 PrefabInstance:
   m_ObjectHideFlags: 0

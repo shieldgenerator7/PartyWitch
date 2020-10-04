@@ -806,7 +806,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5193920345286308640, guid: 72c499818bc98e14e854326a697fc362, type: 3}
       propertyPath: m_text
-      value: extras
+      value: credits
       objectReference: {fileID: 0}
     - target: {fileID: 5193920345298934881, guid: 72c499818bc98e14e854326a697fc362, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

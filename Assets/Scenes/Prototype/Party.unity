@@ -3271,6 +3271,7 @@ GameObject:
   - component: {fileID: 445853056}
   - component: {fileID: 445853055}
   - component: {fileID: 445853057}
+  - component: {fileID: 445853058}
   m_Layer: 0
   m_Name: ZoOomDance
   m_TagString: Untagged
@@ -3359,6 +3360,23 @@ MonoBehaviour:
   requiredVariable: zoeinvited
   requiredValue: 1
   actionToTake: 0
+--- !u!114 &445853058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445853054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7bc18218460b94faf992d0d4d23b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  random: 1
+  randomMin: 0.5
+  randomMax: 1
+  fixedRate: 3
+  timeRemainingStored: 10
 --- !u!1 &463663186
 GameObject:
   m_ObjectHideFlags: 0

@@ -66,6 +66,11 @@ public class PlayerController : MonoBehaviour
     public bool isPaused = false;
     #endregion
 
+    [Header("Sound Effects")]
+    public AudioClip jumpSound;
+    public AudioClip doubleJumpSound;
+    public AudioClip landSound;
+    public AudioSource moveSound;
 
     [System.Serializable]
     public class BoolEvent : UnityEvent<bool> { }
@@ -127,7 +132,12 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+        if (!wasGrounded && isGrounded)
+        {
+            AudioSource.PlayClipAtPoint(landSound, transform.position);
+        }
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
@@ -157,6 +167,10 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity = Vector2.up * jumpSpeed;
                 animator.SetBool("isJumping", true);
+                if (jumpFirstFrame)
+                {
+                    AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+                }
                 jumpFirstFrame = false;
             }
         }
@@ -165,6 +179,7 @@ public class PlayerController : MonoBehaviour
             extraJumps--;
             rb.velocity = Vector2.up * jumpSpeed;
             animator.SetBool("isJumping", true);
+            AudioSource.PlayClipAtPoint(doubleJumpSound, transform.position);
             jumpFirstFrame = false;
         }
 
@@ -181,6 +196,21 @@ public class PlayerController : MonoBehaviour
         currentPosition.x += movementInput * speed * Time.deltaTime;
         transform.position = currentPosition;
 
+        //Move sound effect
+        if (movementInput != 0)
+        {
+            if (!moveSound.isPlaying)
+            {
+                moveSound.Play();
+            }
+        }
+        else
+        {
+            if (moveSound.isPlaying)
+            {
+                moveSound.Pause();
+            }
+        }
         //================
         // If the input is moving the player right and the player is facing left...
         if (movementInput < 0 && !FacingRight)

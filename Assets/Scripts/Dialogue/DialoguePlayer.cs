@@ -13,6 +13,7 @@ public class DialoguePlayer : MonoBehaviour
     public Image charPortrait;
     public TMP_Text charName;
     public TMP_Text charQuote;
+    public Image imgDiamond;
 
     public AudioClip endDialogueSound;
 
@@ -73,6 +74,9 @@ public class DialoguePlayer : MonoBehaviour
             stopDialogue();
             return;
         }
+        //Continue diamond image
+        imgDiamond.enabled = index <= path.quotes.Count - 2;
+        //Display quote
         displayQuote(path.quotes[index]);
         index++;
     }

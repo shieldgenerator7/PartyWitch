@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -12,10 +13,18 @@ public class PauseMenu : MonoBehaviour
         PlayerController.OnGamePaused += pauseEvent;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Resume()
     {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
 
+    public void loadMenu()
+    {
+        Debug.Log("Loading main menu...");
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Title");
     }
 
     void pauseEvent()

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
@@ -13,6 +14,8 @@ public abstract class EventTrigger : MonoBehaviour
            )]
     public int id = -1;
     public string IdString => gameObject.scene.name + "_" + id;
+
+    public AudioClip triggerSound;
 
     public virtual bool Interactable => true;
 
@@ -86,6 +89,7 @@ public abstract class EventTrigger : MonoBehaviour
     public void processTrigger()
     {
         dialogueManager.progressManager.markActivated(this);
+        AudioSource.PlayClipAtPoint(triggerSound, transform.position);
         triggerEvent();
     }
 

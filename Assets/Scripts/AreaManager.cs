@@ -20,6 +20,7 @@ public class AreaManager : MonoBehaviour
     public GameObject playerObject;
     private Rigidbody2D playerRB2D;
 
+    public AudioClip doorSound;
     public AudioClip transitionSound;
 
     private DoorTrigger.Door targetDoor;
@@ -98,7 +99,7 @@ public class AreaManager : MonoBehaviour
         {
             playerObject.transform.position = (Vector2)door.transform.position;
             playerRB2D.transform.localPosition = Vector2.zero;
-            AudioSource.PlayClipAtPoint(door.doorSound, door.transform.position);
+            AudioSource.PlayClipAtPoint(doorSound, door.transform.position);
         }
         else
         {

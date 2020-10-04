@@ -457,6 +457,7 @@ MonoBehaviour:
   charPortrait: {fileID: 1372897381}
   charName: {fileID: 741595174}
   charQuote: {fileID: 997664387}
+  endDialogueSound: {fileID: 8300000, guid: 14e44e52c77f827488783c5a3f4cde35, type: 3}
 --- !u!1 &314186155 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 564511823631921204, guid: ccd9663a9d8751d4aa5addb0f4bec056, type: 3}
@@ -1274,6 +1275,7 @@ MonoBehaviour:
   debugMode: 0
   startScene: Party
   playerObject: {fileID: 314186155}
+  doorSound: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
   transitionSound: {fileID: 8300000, guid: 51c75c0eb7dff4d418e1ad5a369b23a6, type: 3}
 --- !u!4 &1328284033
 Transform:

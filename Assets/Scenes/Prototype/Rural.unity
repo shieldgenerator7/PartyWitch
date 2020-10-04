@@ -1828,6 +1828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 31
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -2386,9 +2387,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 32
+  triggerSound: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
   connectedId: 45
   connectScene: Swamp
-  doorSound: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
 --- !u!61 &226408813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2876,9 +2877,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 33
+  triggerSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
   title: ObservationAura
   counterName: 
-  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!61 &272837533
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2950,6 +2951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 34
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -3623,6 +3625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 35
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -4622,6 +4625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 36
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -5384,9 +5388,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 43
+  triggerSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
   title: 
   counterName: candy
-  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!61 &488752354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6252,6 +6256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 37
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -9028,6 +9033,10 @@ PrefabInstance:
       propertyPath: doorSound
       value: 
       objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: triggerSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.005
@@ -10050,6 +10059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 38
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -14135,6 +14145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 39
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -14552,6 +14563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 40
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -20538,6 +20550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 41
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -25153,6 +25166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 42
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee

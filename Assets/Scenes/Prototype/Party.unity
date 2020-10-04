@@ -763,6 +763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 5
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationWhale
   characters: []
 --- !u!61 &67090518
@@ -836,6 +837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 6
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationFairy
   characters: []
 --- !u!61 &69062837
@@ -1077,6 +1079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 7
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationJade
   characters: []
 --- !u!61 &89113965
@@ -2678,6 +2681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 8
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: Observationfish
   characters: []
 --- !u!61 &373855792
@@ -3791,6 +3795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 9
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -3944,6 +3949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 10
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -4457,6 +4463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 32
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: Stonicorn at party
   characters:
   - Jubilee
@@ -4558,9 +4565,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 11
+  triggerSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
   title: ObservationPainting
   counterName: 
-  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!1001 &641850608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4697,6 +4704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 12
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationGnome
   characters: []
 --- !u!61 &652814652
@@ -5400,6 +5408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 13
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationSkull
   characters: []
 --- !u!61 &716266090
@@ -6597,6 +6606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 14
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationLil
   characters: []
 --- !u!61 &853325415
@@ -7150,6 +7160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 15
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationCrow
   characters: []
 --- !u!61 &978247366
@@ -8812,6 +8823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 16
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationGhost
   characters: []
 --- !u!61 &1249658640
@@ -8967,6 +8979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 17
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationZoe
   characters: []
 --- !u!61 &1262366050
@@ -9076,6 +9089,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 18
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationDragon
   characters: []
 --- !u!61 &1266664612
@@ -9226,6 +9240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 19
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -9485,6 +9500,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: doorSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: triggerSound
       value: 
       objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
@@ -9821,6 +9840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 20
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationVamp
   characters: []
 --- !u!61 &1336039373
@@ -10414,6 +10434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 21
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationWolf
   characters: []
 --- !u!61 &1417341835
@@ -12087,6 +12108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 22
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationTP
   characters: []
 --- !u!61 &1585249659
@@ -12386,6 +12408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 23
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationStar
   characters: []
 --- !u!61 &1631419057
@@ -12917,6 +12940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 24
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationGrimm
   characters: []
 --- !u!61 &1672870890
@@ -14001,9 +14025,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 25
+  triggerSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
   title: ObservationStonicorn
   counterName: 
-  collectSound: {fileID: 8300000, guid: 88b9526b0069c0846997a274ce52ce46, type: 3}
 --- !u!61 &1775203639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15256,6 +15280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 26
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationAlien
   characters: []
 --- !u!61 &1933878732
@@ -16107,6 +16132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 27
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationGold
   characters: []
 --- !u!61 &2031056424
@@ -16346,6 +16372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 28
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationCat
   characters: []
 --- !u!61 &2043259812
@@ -16496,6 +16523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 29
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: ObservationCake
   characters: []
 --- !u!61 &2059199745
@@ -17355,6 +17383,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
       propertyPath: doorSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
+    - target: {fileID: 248940220748872531, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}
+      propertyPath: triggerSound
       value: 
       objectReference: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
     - target: {fileID: 1887761306504826900, guid: 7531ce4abde9f5c4d981152d538b73b2, type: 3}

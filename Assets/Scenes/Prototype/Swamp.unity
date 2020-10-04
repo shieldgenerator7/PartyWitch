@@ -225,6 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 43
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -300,6 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 44
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -2733,9 +2735,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 45
+  triggerSound: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
   connectedId: 32
   connectScene: Rural
-  doorSound: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
 --- !u!61 &226408813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4873,6 +4875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 53
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -7167,6 +7170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 46
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -8410,6 +8414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 47
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -8990,9 +8995,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 48
+  triggerSound: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
   connectedId: 2
   connectScene: Party
-  doorSound: {fileID: 8300000, guid: 2e6f3c774fd49354d8bd005247ae10e8, type: 3}
 --- !u!1 &790362762
 GameObject:
   m_ObjectHideFlags: 0
@@ -9038,6 +9043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 49
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -15528,6 +15534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 50
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -21790,6 +21797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 51
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee
@@ -21998,6 +22006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 52
+  triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
   - Jubilee

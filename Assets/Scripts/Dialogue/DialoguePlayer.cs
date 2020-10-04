@@ -14,6 +14,8 @@ public class DialoguePlayer : MonoBehaviour
     public TMP_Text charName;
     public TMP_Text charQuote;
 
+    public AudioClip endDialogueSound;
+
     private int index = 0;
     private DialoguePath path;
 
@@ -56,6 +58,11 @@ public class DialoguePlayer : MonoBehaviour
         PlayerController.OnPlayerJump -= advanceDialogue;
         //Unset path
         this.path = null;
+        //Sound
+        AudioSource.PlayClipAtPoint(
+            endDialogueSound,
+            FindObjectOfType<PlayerController>().transform.position
+            );
     }
 
     // Update is called once per frame

@@ -5254,6 +5254,28 @@
         }
       ],
       "actions": []
+    },
+    {
+      "title": "Cake Time",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Jubilee",
+          "text": "Yes! Finally! Cake time!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
+        },
+        {
+          "characterName": "Cake",
+          "text": "It is a deliciously scrumptous cake. It is made with the highest gratitude from a friend in need. It tastes like a thousand candy stars.",
+          "imageFileName": ""
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Yippee!",
+          "imageFileName": "C:\\Users\\shiel\\Documents\\Unity\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0015s_0003_Untitled_Artwork-(11).png"
+        }
+      ],
+      "actions": []
     }
   ]
 }

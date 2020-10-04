@@ -1634,6 +1634,11 @@
           "variableName": "fairyinvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -2092,7 +2097,12 @@
           "actionValue": 1
         },
         {
-          "variableName": "grimmtalk",
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "planttalk",
           "actionType": 1,
           "actionValue": 1
         }
@@ -2887,6 +2897,11 @@
           "variableName": "skullyinvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -2976,7 +2991,13 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001s_0002_Untitled_Artwork-(23).png"
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "variableName": "grimmtalk",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
     },
     {
       "title": "loopgrimgodothat",
@@ -3107,6 +3128,11 @@
           "variableName": "ryaninvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -3146,7 +3172,13 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\jubilee_happy.png"
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "variableName": "grimmtalk",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
     },
     {
       "title": "merstandards",
@@ -3302,6 +3334,11 @@
           "variableName": "merinvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 2
         }
       ]
     },
@@ -3348,6 +3385,11 @@
       "actions": [
         {
           "variableName": "crowinvited",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -3411,6 +3453,11 @@
       "actions": [
         {
           "variableName": "pumpkininvited",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -3540,6 +3587,11 @@
           "variableName": "zanderinvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -3629,6 +3681,11 @@
           "variableName": "fhyshyinvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -3695,6 +3752,11 @@
       "actions": [
         {
           "variableName": "zoeinvited",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -3779,6 +3841,11 @@
         },
         {
           "variableName": "catinvited",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -4027,6 +4094,11 @@
           "variableName": "dragoninvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -4093,6 +4165,11 @@
       "actions": [
         {
           "variableName": "horximinvited",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -4166,6 +4243,11 @@
       "actions": [
         {
           "variableName": "euryaleinvited",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -4244,6 +4326,11 @@
         },
         {
           "variableName": "harrytalk",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -4340,6 +4427,11 @@
           "variableName": "tpinvited",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -4391,7 +4483,13 @@
           "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0001s_0000_bengrimm.png"
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "variableName": "grimmtalk",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
     },
     {
       "title": "Dialogue Title",
@@ -4421,6 +4519,11 @@
       "actions": [
         {
           "variableName": "ghostinvited",
+          "actionType": 1,
+          "actionValue": 1
+        },
+        {
+          "variableName": "guests",
           "actionType": 1,
           "actionValue": 1
         }
@@ -5186,6 +5289,11 @@
           "variableName": "stonicorninvite",
           "actionType": 1,
           "actionValue": 1
+        },
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
         }
       ]
     },
@@ -5257,7 +5365,13 @@
     },
     {
       "title": "Cake Time",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "cancake",
+          "testType": 3,
+          "testValue": 1
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jubilee",
@@ -5276,6 +5390,89 @@
         }
       ],
       "actions": []
+    },
+    {
+      "title": "Cake permit",
+      "conditions": [
+        {
+          "variableName": "cancake",
+          "testType": 0,
+          "testValue": 0
+        },
+        {
+          "variableName": "guests",
+          "testType": 3,
+          "testValue": 13
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Grimm",
+          "text": "Wow thanks Jubilee!",
+          "imageFileName": ""
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "^_^",
+          "imageFileName": ""
+        },
+        {
+          "characterName": "Grimm",
+          "text": "This is the best party ever!",
+          "imageFileName": ""
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Yes! Sooo....??",
+          "imageFileName": ""
+        },
+        {
+          "characterName": "Grimm",
+          "text": "Ok, you can have the cake now",
+          "imageFileName": ""
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Yeeeee!!!",
+          "imageFileName": ""
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "cancake",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [
+        {
+          "variableName": "guests",
+          "testType": 0,
+          "testValue": 100
+        }
+      ],
+      "quotes": [
+        {
+          "characterName": "Cake",
+          "text": "",
+          "imageFileName": ""
+        },
+        {
+          "characterName": "Jubilee",
+          "text": "Yum",
+          "imageFileName": ""
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "guests",
+          "actionType": 1,
+          "actionValue": 1
+        }
+      ]
     }
   ]
 }

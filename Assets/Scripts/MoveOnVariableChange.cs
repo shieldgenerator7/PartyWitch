@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveOnVariableChange : MonoBehaviour
+public class MoveOnVariableChange : VariableListener
 {
     public string variableName;
     public float targetThreshold = 0.1f;
@@ -17,25 +17,6 @@ public class MoveOnVariableChange : MonoBehaviour
         index = Mathf.Clamp(index, 0, positions.Count - 1);
         targetPos = positions[index];
     }
-    void OnEnable()
-    {
-        FindObjectOfType<DialogueManager>().progressManager
-            .onVariableChange -= checkVariable;
-        FindObjectOfType<DialogueManager>().progressManager
-            .onVariableChange += checkVariable;
-    }
-
-    private void OnDisable()
-    {
-        FindObjectOfType<DialogueManager>().progressManager
-            .onVariableChange -= checkVariable;
-    }
-
-    private void OnDestroy()
-    {
-        FindObjectOfType<DialogueManager>().progressManager
-            .onVariableChange -= checkVariable;
-    }
 
     // Update is called once per frame
     void Update()
@@ -46,7 +27,7 @@ public class MoveOnVariableChange : MonoBehaviour
         }
     }
 
-    void checkVariable(string varName, int oldValue, int newValue)
+    protected override void checkVariable(string varName, int oldValue, int newValue)
     {
         if (varName == this.variableName)
         {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class InteractUI : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class InteractUI : MonoBehaviour
 
     private EventTrigger currentTrigger;
     private Vector2 offset = Vector2.zero;
+
+    public float distanceFromScreenTop = 0.4f;
 
     private void Start()
     {
@@ -74,6 +77,12 @@ public class InteractUI : MonoBehaviour
     {
         //Move interact UI to the new position
         transform.position = (Vector2) currentTrigger.transform.position + offset;
+        //Keep the interact UI on screen
+        float maxY = Camera.main.ViewportToWorldPoint(Vector2.up).y + distanceFromScreenTop;
+        if (transform.position.y > maxY)
+        {
+            transform.position = new Vector2(transform.position.x, maxY);
+        }
     }
 
     private void selectTrigger()

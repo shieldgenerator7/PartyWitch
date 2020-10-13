@@ -45,13 +45,28 @@ public class InteractUI : MonoBehaviour
     {
         if (register)
         {
-            triggers.Add(trigger);
+            if (!triggers.Contains(trigger))
+            {
+                triggers.Add(trigger);
+            }
         }
         else
         {
             triggers.Remove(trigger);
         }
         updateInteractUI();
+    }
+
+    /// <summary>
+    /// Recheck which registered trigger is closer,
+    /// and thus should have precedent
+    /// </summary>
+    public void checkClosestTrigger()
+    {
+        if (triggers.Count >= 2)
+        {
+            updateInteractUI();
+        }
     }
 
     private void updateInteractUI()

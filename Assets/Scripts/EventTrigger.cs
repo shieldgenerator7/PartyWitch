@@ -80,6 +80,14 @@ public abstract class EventTrigger : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            InteractUI.instance.checkClosestTrigger();
+        }
+    }
+
     private void OnDestroy()
     {
         InteractUI.instance.registerTrigger(this, false);

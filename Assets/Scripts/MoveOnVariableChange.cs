@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MoveOnVariableChange : VariableListener
 {
-    public string variableName;
     public float targetThreshold = 0.1f;
     public List<Vector2> positions;
 
@@ -13,7 +12,7 @@ public class MoveOnVariableChange : VariableListener
     // Start is called before the first frame update
     private void Start()
     {
-        int index = FindObjectOfType<DialogueManager>().progressManager.get(variableName);
+        int index = FindObjectOfType<DialogueManager>().progressManager.get(targetVariable);
         index = Mathf.Clamp(index, 0, positions.Count - 1);
         targetPos = positions[index];
     }
@@ -29,10 +28,7 @@ public class MoveOnVariableChange : VariableListener
 
     protected override void checkVariable(string varName, int oldValue, int newValue)
     {
-        if (varName == this.variableName)
-        {
-            newValue = Mathf.Clamp(newValue, 0, positions.Count - 1);
-            targetPos = positions[newValue];
-        }
+        newValue = Mathf.Clamp(newValue, 0, positions.Count - 1);
+        targetPos = positions[newValue];
     }
 }

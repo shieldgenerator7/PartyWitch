@@ -12964,7 +12964,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1098982803
 PrefabInstance:
@@ -13940,7 +13940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34593f2135fce2b4cad0743efd30d952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  variableName: fairytalk
+  targetVariable: fairytalk
   targetThreshold: 0.1
   positions:
   - {x: 13.736, y: 1.717}

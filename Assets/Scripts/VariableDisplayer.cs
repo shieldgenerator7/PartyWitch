@@ -7,7 +7,6 @@ public class VariableDisplayer : VariableListener
 {
     public const string VALUE_PLACEHOLDER = "[x]";
 
-    public string variableName;
     public string displayString = VALUE_PLACEHOLDER;
     public float showDuration = 5;
     public TMP_Text uiText;
@@ -28,13 +27,11 @@ public class VariableDisplayer : VariableListener
         }
     }
 
+
     protected override void checkVariable(string varName, int oldValue, int newValue)
     {
-        if (varName == variableName)
-        {
-            uiText.text = displayString.Replace(VALUE_PLACEHOLDER, "" + newValue);
-            showDisplay();
-        }
+        uiText.text = displayString.Replace(VALUE_PLACEHOLDER, "" + newValue);
+        showDisplay();
     }
 
     private void showDisplay(bool show = true)

@@ -15,11 +15,12 @@ public abstract class VariableListener : MonoBehaviour
             .onVariableChange += checkVariable;
     }
 
-    private void OnDisable()
-    {
-        FindObjectOfType<DialogueManager>().progressManager
-            .onVariableChange -= checkVariable;
-    }
+    //private void OnDisable()
+    //{
+    //    Debug.Log("var list on disable called");
+    //    FindObjectOfType<DialogueManager>().progressManager
+    //        .onVariableChange -= checkVariable;
+    //}
 
     private void OnDestroy()
     {

@@ -15,6 +15,7 @@ public class InteractUI : MonoBehaviour
 
 
     private EventTrigger currentTrigger;
+    private Vector2 offset = Vector2.zero;
 
     private void Start()
     {
@@ -61,11 +62,18 @@ public class InteractUI : MonoBehaviour
             SpriteRenderer triggerSR = findSpriteRenderer(currentTrigger);
             if (triggerSR)
             {
-                transform.position = new Vector2(
-                    currentTrigger.transform.position.x,
-                    triggerSR.bounds.max.y);
+                offset = new Vector2(
+                    0,
+                    triggerSR.bounds.max.y - currentTrigger.transform.position.y
+                    );
             }
         }
+    }
+
+    private void Update()
+    {
+        //Move interact UI to the new position
+        transform.position = (Vector2) currentTrigger.transform.position + offset;
     }
 
     private void selectTrigger()

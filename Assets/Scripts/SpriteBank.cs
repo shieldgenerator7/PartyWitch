@@ -17,6 +17,9 @@ public class SpriteBank : MonoBehaviour
     }
     public List<SpriteBankEntry> bankEntries;
 
+    public bool Contains(string varName)
+        => bankEntries.Any(be => be.variableName == varName);
+
     public Sprite getSprite(string varName)
         => bankEntries.FirstOrDefault(
             be => be.variableName == varName

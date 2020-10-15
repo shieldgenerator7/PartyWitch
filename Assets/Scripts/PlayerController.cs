@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private PlayerActionControls playerActionControls;
     [SerializeField] private float speed, jumpSpeed;
     [SerializeField] private LayerMask groundLayer;
+    [Tooltip("Used for variable jump height")]
+    public float lowJumpGravityMultiplier = 2;
     private Rigidbody2D rb;
     public bool enableExtraJumps = false;
 
@@ -163,22 +165,29 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
         {
             resetExtraJumps();
-            if (jumpKeyDown)
+            if (jumpFirstFrame)
             {
-                rb.velocity = Vector2.up * jumpSpeed;
-                if (jumpFirstFrame)
-                {
-                    AudioSource.PlayClipAtPoint(jumpSound, transform.position);
-                }
+                rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+                AudioSource.PlayClipAtPoint(jumpSound, transform.position);
                 jumpFirstFrame = false;
             }
         }
-        else if (jumpFirstFrame && extraJumps > 0 && enableExtraJumps)
+        else
         {
-            extraJumps--;
-            rb.velocity = Vector2.up * jumpSpeed;
-            AudioSource.PlayClipAtPoint(doubleJumpSound, transform.position);
-            jumpFirstFrame = false;
+            if (jumpFirstFrame && extraJumps > 0 && enableExtraJumps)
+            {
+                extraJumps--;
+                rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+                AudioSource.PlayClipAtPoint(doubleJumpSound, transform.position);
+                jumpFirstFrame = false;
+            }
+            if (rb.velocity.y > 0 && !jumpKeyDown)
+            {
+                rb.velocity += Vector2.up
+                    * Physics2D.gravity.y
+                    * (lowJumpGravityMultiplier - 1)
+                    * Time.deltaTime;
+            }
         }
 
         // Move the player

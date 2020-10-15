@@ -49,8 +49,26 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     public SpriteRenderer doubleJumpIndicator;
     public Color noExtraJumpColor = new Color(1, 1, 1, 0.3f);
-
-    private bool FacingRight = true;  // For determining which way the player is currently facing.
+    
+    /// <summary>
+    /// For determining which way the player is currently facing.
+    /// True if facing to the right
+    /// </summary>
+    private bool FacingRight 
+    {
+        get => transform.localScale.x > 0;
+        set
+        {
+            //If the player is not facing the correct direction,
+            if (value != FacingRight)
+            {
+                // Multiply the player's x local scale by -1.
+                Vector3 theScale = transform.localScale;
+                theScale.x *= -1;
+                transform.localScale = theScale;
+            }
+        }
+    }
 
     //landing events
 
@@ -192,9 +210,14 @@ public class PlayerController : MonoBehaviour
         // Read the movement value
         float movementInput = playerActionControls.Player.Movement.ReadValue<float>();
         // Move the player
-        Vector3 currentPosition = transform.position;
-        currentPosition.x += movementInput * speed * Time.deltaTime;
-        transform.position = currentPosition;
+        rb.velocity = new Vector2(movementInput * speed, rb.velocity.y);
+
+        //Movement visual effect
+        if (movementInput != 0)
+        {
+            FacingRight = movementInput > 0;
+        }
+        animator.SetFloat("Speed", Mathf.Abs(movementInput));
 
         //Move sound effect
         if (movementInput != 0)
@@ -210,33 +233,7 @@ public class PlayerController : MonoBehaviour
             {
                 moveSound.Pause();
             }
-        }
-        //================
-        // If the input is moving the player right and the player is facing left...
-        if (movementInput < 0 && !FacingRight)
-        {
-            // ... flip the player.
-            Flip();
-        }
-        // Otherwise if the input is moving the player left and the player is facing right...
-        else if (movementInput > 0 && FacingRight)
-        {
-            // ... flip the player.
-            Flip();
-        }
-
-        animator.SetFloat("Speed", Mathf.Abs(movementInput));
-    }
-
-    private void Flip()
-    {
-        // Switch the way the player is labelled as facing.
-        FacingRight = !FacingRight;
-
-        // Multiply the player's x local scale by -1.
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
+        }        
     }
 
     public void resetExtraJumps(int extraextras = 0)

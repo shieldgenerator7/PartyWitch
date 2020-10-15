@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [Tooltip("Used for variable jump height")]
     public float lowJumpGravityMultiplier = 2;
+    [Tooltip("Used for anti-floaty jumps")]
+    public float fallGravityMultiplier = 2;
     private Rigidbody2D rb;
     public bool enableExtraJumps = false;
 
@@ -181,11 +183,20 @@ public class PlayerController : MonoBehaviour
                 AudioSource.PlayClipAtPoint(doubleJumpSound, transform.position);
                 jumpFirstFrame = false;
             }
+            //Variable jump height
             if (rb.velocity.y > 0 && !jumpKeyDown)
             {
                 rb.velocity += Vector2.up
                     * Physics2D.gravity.y
                     * (lowJumpGravityMultiplier - 1)
+                    * Time.deltaTime;
+            }
+            //Anti-floaty jump
+            else if (rb.velocity.y < 0)
+            {
+                rb.velocity += Vector2.up
+                    * Physics2D.gravity.y
+                    * (fallGravityMultiplier - 1)
                     * Time.deltaTime;
             }
         }

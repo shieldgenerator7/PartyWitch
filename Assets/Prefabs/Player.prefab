@@ -640,6 +640,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   lowJumpGravityMultiplier: 4
+  fallGravityMultiplier: 2
   enableExtraJumps: 1
   groundCheck: {fileID: 564511824523436845}
   checkRadius: 0.2

@@ -12,12 +12,10 @@ public class PlayerController : MonoBehaviour
     public static PlayerController Instance;
     #endregion
 
-    public delegate void Interaction();
-    public static event Interaction OnPlayerInteract;
-    public delegate void PlayerJump();
-    public static event PlayerJump OnPlayerJump;
-    public delegate void Pause();
-    public static event Pause OnGamePaused;
+    public delegate void ButtonPressed();
+    public static event ButtonPressed OnPlayerInteract;
+    public static event ButtonPressed OnPlayerJump;
+    public static event ButtonPressed OnGamePaused;
 
     #region Initialization
     private PlayerActionControls playerActionControls;
@@ -47,12 +45,12 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     public SpriteRenderer doubleJumpIndicator;
     public Color noExtraJumpColor = new Color(1, 1, 1, 0.3f);
-    
+
     /// <summary>
     /// For determining which way the player is currently facing.
     /// True if facing to the right
     /// </summary>
-    private bool FacingRight 
+    private bool FacingRight
     {
         get => transform.localScale.x > 0;
         set
@@ -67,10 +65,9 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-        
+
     private bool jumpKeyDown = false;
     private bool jumpFirstFrame = false;
-    private bool interactKeyDown = false;
     private bool isPaused = false;
     #endregion
 
@@ -80,7 +77,6 @@ public class PlayerController : MonoBehaviour
     public AudioClip landSound;
     public AudioSource moveSound;
 
-   
     //-----------------
 
     private void Awake()
@@ -101,8 +97,7 @@ public class PlayerController : MonoBehaviour
             OnPlayerJump?.Invoke();
         };
         playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
-        playerActionControls.Player.Interact.performed += _ => interactCall(true);
-        playerActionControls.Player.Interact.canceled += _ => interactCall(false);
+        playerActionControls.Player.Interact.performed += _ => OnPlayerInteract?.Invoke();
         playerActionControls.Player.Pause.performed += ctx => onPause();
     }
 
@@ -112,15 +107,6 @@ public class PlayerController : MonoBehaviour
         OnGamePaused?.Invoke();
     }
 
-    private void interactCall(bool value)
-    {
-        interactKeyDown = value;
-        if (interactKeyDown)
-        {
-            OnPlayerInteract?.Invoke();
-        }
-    }
-
     private void OnDisable()
     {
         playerActionControls.Disable();
@@ -128,6 +114,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //Do grounded check
         bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
         if (!wasGrounded && isGrounded)
@@ -136,23 +123,6 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isJumping", false);
         }
     }
-
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == groundLayer)
-        {
-            isGrounded = true;
-        }
-    }
-
-    public void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == groundLayer)
-        {
-            isGrounded = false;
-        }
-    }
-
 
     // Update is called once per frame
     void Update()
@@ -206,7 +176,7 @@ public class PlayerController : MonoBehaviour
             {
                 moveSound.Pause();
             }
-        }        
+        }
     }
 
     public void resetExtraJumps(int extraextras = 0)

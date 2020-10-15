@@ -9,7 +9,6 @@ using UnityEngine.Events;
 public class PlayerController : MonoBehaviour
 {
     #region Singleton
-    private static PlayerController _instance;
     public static PlayerController Instance;
     #endregion
 
@@ -25,7 +24,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed, jumpSpeed;
     [SerializeField] private LayerMask groundLayer;
     private Rigidbody2D rb;
-    private Collider2D col2d;
     public bool enableExtraJumps = false;
 
     public Transform groundCheck;
@@ -69,19 +67,11 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
-    //landing events
-
-    [Header("Events")]
-    [Space]
-
-    public UnityEvent OnLandEvent;
-
-
+        
     private bool jumpKeyDown = false;
     private bool jumpFirstFrame = false;
     private bool interactKeyDown = false;
-    public bool isPaused = false;
+    private bool isPaused = false;
     #endregion
 
     [Header("Sound Effects")]
@@ -90,25 +80,19 @@ public class PlayerController : MonoBehaviour
     public AudioClip landSound;
     public AudioSource moveSound;
 
-    [System.Serializable]
-    public class BoolEvent : UnityEvent<bool> { }
-
-
+   
     //-----------------
 
     private void Awake()
     {
-        _instance = this;
+        Instance = this;
         playerActionControls = new PlayerActionControls();
         rb = GetComponent<Rigidbody2D>();
-        col2d = GetComponent<Collider2D>();
-
-        if (OnLandEvent == null)
-            OnLandEvent = new UnityEvent();
     }
 
     private void OnEnable()
     {
+        extraJumps = extraJumpsValue;
         playerActionControls.Enable();
         playerActionControls.Player.Jump.performed += ctx =>
         {
@@ -142,12 +126,6 @@ public class PlayerController : MonoBehaviour
         playerActionControls.Disable();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        extraJumps = extraJumpsValue;
-    }
-
     private void FixedUpdate()
     {
         bool wasGrounded = isGrounded;
@@ -155,6 +133,7 @@ public class PlayerController : MonoBehaviour
         if (!wasGrounded && isGrounded)
         {
             AudioSource.PlayClipAtPoint(landSound, transform.position);
+            animator.SetBool("isJumping", false);
         }
     }
 
@@ -201,12 +180,6 @@ public class PlayerController : MonoBehaviour
             jumpFirstFrame = false;
         }
 
-        if (!isGrounded)
-        {
-            Debug.Log("is grounded true");
-            OnLandEvent.Invoke();
-        }
-
         // Read the movement value
         float movementInput = playerActionControls.Player.Movement.ReadValue<float>();
         // Move the player
@@ -239,12 +212,6 @@ public class PlayerController : MonoBehaviour
     public void resetExtraJumps(int extraextras = 0)
     {
         extraJumps = extraJumpsValue + extraextras;
-    }
-
-    public void OnLanding()
-    {
-        Debug.Log("isJumping false");
-        animator.SetBool("isJumping", false);
     }
 
 }

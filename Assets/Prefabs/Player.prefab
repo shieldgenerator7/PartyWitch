@@ -646,22 +646,6 @@ MonoBehaviour:
   animator: {fileID: 474224063}
   doubleJumpIndicator: {fileID: 4186428712518619616}
   noExtraJumpColor: {r: 0.33690813, g: 0.41069996, b: 0.6320754, a: 0.3764706}
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 564511824316805579}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnLanding
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  isPaused: 0
   jumpSound: {fileID: 8300000, guid: 4e11682a571acc740bbfe80425e1c434, type: 3}
   doubleJumpSound: {fileID: 8300000, guid: 01c3cf7b890c71d4ba0b4162875c6bd9, type: 3}
   landSound: {fileID: 8300000, guid: 5803a0de8735ee843940b564d826cf31, type: 3}

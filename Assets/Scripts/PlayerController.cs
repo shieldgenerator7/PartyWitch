@@ -65,10 +65,18 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    #endregion
 
+    #region Input Variables
+
+    //Movement
+    private Vector2 movementInput = Vector2.zero;
+    //Jump
     private bool jumpKeyDown = false;
     private bool jumpFirstFrame = false;
+    //Pause
     private bool isPaused = false;
+
     #endregion
 
     [Header("Sound Effects")]
@@ -90,10 +98,35 @@ public class PlayerController : MonoBehaviour
     {
         extraJumps = extraJumpsValue;
         playerActionControls.Enable();
+        playerActionControls.Player.Movement.performed += ctx =>
+        {
+            movementInput = ctx.ReadValue<Vector2>();
+            animator.SetFloat("Speed", Mathf.Abs(movementInput.x));
+            if (movementInput.x != 0)
+            {
+                FacingRight = movementInput.x > 0;
+            }
+            //Move sound effect
+            if (movementInput.x != 0)
+            {
+                if (!moveSound.isPlaying)
+                {
+                    moveSound.Play();
+                }
+            }
+            else
+            {
+                if (moveSound.isPlaying)
+                {
+                    moveSound.Pause();
+                }
+            }
+        };
         playerActionControls.Player.Jump.performed += ctx =>
         {
             jumpKeyDown = true;
             jumpFirstFrame = true;
+            animator.SetBool("isJumping", true);
             OnPlayerJump?.Invoke();
         };
         playerActionControls.Player.Jump.canceled += ctx => jumpKeyDown = false;
@@ -133,7 +166,6 @@ public class PlayerController : MonoBehaviour
             if (jumpKeyDown)
             {
                 rb.velocity = Vector2.up * jumpSpeed;
-                animator.SetBool("isJumping", true);
                 if (jumpFirstFrame)
                 {
                     AudioSource.PlayClipAtPoint(jumpSound, transform.position);
@@ -145,38 +177,13 @@ public class PlayerController : MonoBehaviour
         {
             extraJumps--;
             rb.velocity = Vector2.up * jumpSpeed;
-            animator.SetBool("isJumping", true);
             AudioSource.PlayClipAtPoint(doubleJumpSound, transform.position);
             jumpFirstFrame = false;
         }
 
-        // Read the movement value
-        float movementInput = playerActionControls.Player.Movement.ReadValue<float>();
         // Move the player
-        rb.velocity = new Vector2(movementInput * speed, rb.velocity.y);
+        rb.velocity = new Vector2(movementInput.x * speed, rb.velocity.y);
 
-        //Movement visual effect
-        if (movementInput != 0)
-        {
-            FacingRight = movementInput > 0;
-        }
-        animator.SetFloat("Speed", Mathf.Abs(movementInput));
-
-        //Move sound effect
-        if (movementInput != 0)
-        {
-            if (!moveSound.isPlaying)
-            {
-                moveSound.Play();
-            }
-        }
-        else
-        {
-            if (moveSound.isPlaying)
-            {
-                moveSound.Pause();
-            }
-        }
     }
 
     public void resetExtraJumps(int extraextras = 0)

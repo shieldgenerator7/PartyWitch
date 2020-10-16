@@ -453,6 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12b2b82299483ca42adecb988004beb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charsPerSecond: 20
   dialogueCanvas: {fileID: 1918468029}
   charPortrait: {fileID: 1372897381}
   charName: {fileID: 741595174}

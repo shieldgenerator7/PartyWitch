@@ -14,7 +14,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Screen
   - 
   - 
   - 
@@ -38,9 +38,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: BackgroundLayer3
     uniqueID: 3408514707
     locked: 0
@@ -49,6 +46,9 @@ TagManager:
     locked: 0
   - name: BackgroundLayer1
     uniqueID: 904517443
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: EntityLayer
     uniqueID: 836450723

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
-
+using System.Linq;
 
 public class PlayerController : MonoBehaviour
 {
@@ -96,6 +96,8 @@ public class PlayerController : MonoBehaviour
         Instance = this;
         playerActionControls = new PlayerActionControls();
         rb = GetComponent<Rigidbody2D>();
+        GetComponents<PlayerAbility>().ToList()
+            .ForEach(pa => pa.registerDelegates());
     }
 
     private void OnEnable()

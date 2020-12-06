@@ -552,6 +552,7 @@ GameObject:
   - component: {fileID: 564511824316805580}
   - component: {fileID: 229466780829780606}
   - component: {fileID: 3543721186806005027}
+  - component: {fileID: 5643766277442052826}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Player
@@ -779,6 +780,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activationVariableName: highjump
   newJumpSpeed: 8
+--- !u!114 &5643766277442052826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564511824316805576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ea5a7382aee094b92f4e7b22a9cb75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activationVariableName: doublejump
+  enableExtraJumps: 0
+  extraJumpsValue: 1
+  doubleJumpIndicator: {fileID: 4186428712518619616}
+  noExtraJumpColor: {r: 0.3372549, g: 0.4117647, b: 0.6313726, a: 0.3764706}
 --- !u!1 &564511824523436842
 GameObject:
   m_ObjectHideFlags: 0

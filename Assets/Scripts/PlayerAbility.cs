@@ -6,6 +6,8 @@ public abstract class PlayerAbility : MonoBehaviour
 {
     public string activationVariableName;
 
+    protected PlayerController playerController;
+
     public void registerDelegates()
     {
         ProgressManager progress = FindObjectOfType<DialogueManager>().progressManager;
@@ -21,6 +23,11 @@ public abstract class PlayerAbility : MonoBehaviour
         }
     }
 
-    protected abstract void OnEnable();
+    private void OnEnable()
+    {
+        playerController = GetComponent<PlayerController>();
+        init();
+    }
+    protected abstract void init();
     protected abstract void OnDisable();
 }

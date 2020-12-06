@@ -19,7 +19,8 @@ public class PlayerController : MonoBehaviour
 
     #region Initialization
     private PlayerActionControls playerActionControls;
-    [SerializeField] private float speed, jumpSpeed;
+    [SerializeField] private float speed;
+    public float jumpSpeed;
     [SerializeField] private LayerMask groundLayer;
     [Tooltip("Used for variable jump height")]
     public float lowJumpGravityMultiplier = 2;

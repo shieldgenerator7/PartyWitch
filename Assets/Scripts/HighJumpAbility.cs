@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class HighJumpAbility : PlayerAbility
 {
-    protected override void OnEnable()
+    public float newJumpSpeed = 10;
+
+    private float originalJumpSpeed;
+    protected override void init()
     {
-        Debug.Log("High Jump Enabled");
+        originalJumpSpeed = playerController.jumpSpeed;
+        playerController.jumpSpeed = newJumpSpeed;
     }
     protected override void OnDisable()
     {
-        Debug.Log("High Jump Disabled");
+        playerController.jumpSpeed = originalJumpSpeed;
     }
 }

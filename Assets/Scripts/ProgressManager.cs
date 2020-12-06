@@ -71,4 +71,12 @@ public class ProgressManager
 
     public bool hasActivated(EventTrigger trigger)
         => activatedTriggers.Contains(trigger.IdString);
+
+    public void printVariables()
+    {
+        foreach (KeyValuePair<string,int> pair in data)
+        {
+            Debug.Log("Data[\"" + pair.Key + "\"] = " + pair.Value);
+        }
+    }
 }

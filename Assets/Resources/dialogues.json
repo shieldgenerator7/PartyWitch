@@ -4642,18 +4642,6 @@
       "actions": []
     },
     {
-      "title": "ObservationCrow",
-      "conditions": [],
-      "quotes": [
-        {
-          "characterName": "Jerry",
-          "text": "What a party. I hope my corns is OK",
-          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0013s_0000_Untitled_Artwork-(6)-copy.png"
-        }
-      ],
-      "actions": []
-    },
-    {
       "title": "ObservationSkull",
       "conditions": [],
       "quotes": [
@@ -5133,18 +5121,18 @@
       "actions": []
     },
     {
-      "title": "Dialogue Title",
+      "title": "Ability Highjump",
       "conditions": [],
       "quotes": [
         {
-          "characterName": "",
-          "text": "",
-          "imageFileName": ""
+          "characterName": "Jerry",
+          "text": "hey kid, you look like you could use some highjump",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0013s_0000_Untitled_Artwork-(6)-copy.png"
         }
       ],
       "actions": [
         {
-          "variableName": "hastrophy",
+          "variableName": "highjump",
           "actionType": 1,
           "actionValue": 1
         }
@@ -5473,6 +5461,36 @@
           "actionValue": 1
         }
       ]
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "Jerry",
+          "text": "I changed my mind. Give me back my highjump",
+          "imageFileName": "D:\\Art\\Games\\PartyWitch\\PartyWitch\\Assets\\Resources\\DialogueFaces\\ProfileImages_0013s_0000_Untitled_Artwork-(6)-copy.png"
+        }
+      ],
+      "actions": [
+        {
+          "variableName": "highjump",
+          "actionType": 2,
+          "actionValue": 1
+        }
+      ]
+    },
+    {
+      "title": "Dialogue Title",
+      "conditions": [],
+      "quotes": [
+        {
+          "characterName": "",
+          "text": "",
+          "imageFileName": ""
+        }
+      ],
+      "actions": []
     }
   ]
 }

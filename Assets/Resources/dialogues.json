@@ -3344,7 +3344,13 @@
     },
     {
       "title": "scarecrow",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "crowinvited",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jerry",
@@ -5122,7 +5128,13 @@
     },
     {
       "title": "Ability Highjump",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "highjump",
+          "testType": 0,
+          "testValue": 0
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jerry",
@@ -5464,7 +5476,13 @@
     },
     {
       "title": "Dialogue Title",
-      "conditions": [],
+      "conditions": [
+        {
+          "variableName": "highjump",
+          "testType": 3,
+          "testValue": 1
+        }
+      ],
       "quotes": [
         {
           "characterName": "Jerry",

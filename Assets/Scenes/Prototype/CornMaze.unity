@@ -1329,11 +1329,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288494318}
   m_LocalRotation: {x: -0, y: -0, z: -0.033265356, w: 0.9994466}
-  m_LocalPosition: {x: -18.499998, y: 2.8789997, z: 1}
-  m_LocalScale: {x: 1.6740003, y: 1.6740003, z: 1.674}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1.6740004, y: 1.6740004, z: 1.674}
   m_Children: []
-  m_Father: {fileID: 1836296836}
-  m_RootOrder: 39
+  m_Father: {fileID: 1721940793}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &288494320
 MonoBehaviour:
@@ -1351,7 +1351,6 @@ MonoBehaviour:
   triggerSound: {fileID: 8300000, guid: 53208ed0cc62e8945965c2a7db9d7257, type: 3}
   title: 
   characters:
-  - Jubilee
   - Jerry
 --- !u!61 &288494321
 BoxCollider2D:
@@ -3976,7 +3975,7 @@ Transform:
   m_LocalScale: {x: 4.6749988, y: 128.625, z: 1}
   m_Children: []
   m_Father: {fileID: 1836296836}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.41}
 --- !u!212 &778611865
 SpriteRenderer:
@@ -8580,7 +8579,7 @@ GameObject:
   - component: {fileID: 1721940794}
   - component: {fileID: 1721940795}
   m_Layer: 0
-  m_Name: Crowscare
+  m_Name: Jerry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8594,9 +8593,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721940792}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.499998, y: 2.8789997, z: 0}
+  m_LocalPosition: {x: -18.499998, y: 1.757, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 288494319}
   m_Father: {fileID: 1836296836}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9152,7 +9152,6 @@ Transform:
   - {fileID: 47103084}
   - {fileID: 1407469247}
   - {fileID: 1721940793}
-  - {fileID: 288494319}
   - {fileID: 778611864}
   - {fileID: 2037412688}
   m_Father: {fileID: 0}
@@ -10818,7 +10817,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.35, z: 0.25}
   m_Children: []
   m_Father: {fileID: 1836296836}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2037412689
 BoxCollider2D:

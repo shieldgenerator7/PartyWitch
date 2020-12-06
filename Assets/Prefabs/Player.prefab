@@ -642,7 +642,7 @@ MonoBehaviour:
     m_Bits: 256
   lowJumpGravityMultiplier: 4
   fallGravityMultiplier: 2
-  enableExtraJumps: 1
+  enableExtraJumps: 0
   groundCheck: {fileID: 564511824523436845}
   checkRadius: 0.2
   extraJumpsValue: 100
@@ -778,6 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activationVariableName: highjump
+  newJumpSpeed: 8
 --- !u!1 &564511824523436842
 GameObject:
   m_ObjectHideFlags: 0

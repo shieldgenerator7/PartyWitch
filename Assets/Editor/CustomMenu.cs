@@ -40,7 +40,8 @@ public class CustomMenu
             {
                 bool hasSolidCollider = g.GetComponents<Collider2D>().ToList()
                     .Any(coll => !coll.isTrigger);
-                if (!hasSolidCollider) {
+                if (!hasSolidCollider)
+                {
                     sr_count++;
                     string s = g.name;
                     Transform t = g.transform;
@@ -58,5 +59,45 @@ public class CustomMenu
         {
             FindSortingLayerInGO(childT.gameObject);
         }
+    }
+
+    [MenuItem("Tools/Editor/Set Solid Objects to Ground Layer")]
+    private static void SetSolidObjectsToGroundLayer()
+    {
+        int changeCount = 0;
+        for (int i = 0; i < SceneManager.sceneCount; i++)
+        {
+            Scene s = SceneManager.GetSceneAt(i);
+            if (s.isLoaded)
+            {
+                foreach (GameObject rootGO in s.GetRootGameObjects())
+                {
+                    foreach (Transform t in rootGO.transform)
+                    {
+                        GameObject go = t.gameObject;
+                        bool hasSolidCollider = t.GetComponents<Collider2D>().ToList()
+                            .Any(coll => !coll.isTrigger);
+                        if (hasSolidCollider)
+                        {
+                            if (go.layer != LayerMask.NameToLayer("Ground"))
+                            {
+                                int prevLayer = go.layer;
+                                go.layer = LayerMask.NameToLayer("Ground");
+                                changeCount++;
+                                Debug.Log(
+                                    "Changed object " + go.name
+                                    + " to Ground layer from layer: "
+                                    + LayerMask.LayerToName(prevLayer),
+                                    go
+                                    );
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        Debug.Log(string.Format(
+            "Changed {0} objects to Ground layer.", changeCount
+            ));
     }
 }

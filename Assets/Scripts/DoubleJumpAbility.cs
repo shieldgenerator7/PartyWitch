@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DoubleJumpAbility : PlayerAbility
 {
-    public bool enableExtraJumps = false;
+    [Header("Settings")]
+    public int extraJumpsValue;
     private int _extraJumps;
     private int extraJumps
     {
@@ -17,19 +18,43 @@ public class DoubleJumpAbility : PlayerAbility
                 : noExtraJumpColor;
         }
     }
-    public int extraJumpsValue;
 
+    [Header("Components")]
     public SpriteRenderer doubleJumpIndicator;
     public Color noExtraJumpColor = new Color(1, 1, 1, 0.3f);
 
+    [Header("Sound Effects")]
+    public AudioClip doubleJumpSound;
+
     protected override void init()
     {
-        //playerController.onpl
-        Debug.Log("Double Jump Enabled");
+        extraJumps = extraJumpsValue;
+        PlayerController.OnPlayerJump += DoubleJump;
+        playerController.onGrounded += resetExtraJumps;
     }
 
     protected override void OnDisable()
     {
-        Debug.Log("Double Jump Disabled");
+        PlayerController.OnPlayerJump -= DoubleJump;
+        playerController.onGrounded -= resetExtraJumps;
+    }
+
+    private void DoubleJump()
+    {
+        if (!playerController.isGrounded && extraJumps > 0)
+        {
+            extraJumps--;
+            playerController.Jump(doubleJumpSound);
+        }
+    }
+
+
+    public void resetExtraJumps()
+    {
+        resetExtraJumps(0);
+    }
+    public void resetExtraJumps(int extraextras)
+    {
+        extraJumps = extraJumpsValue + extraextras;
     }
 }

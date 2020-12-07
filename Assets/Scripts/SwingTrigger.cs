@@ -61,7 +61,7 @@ public class SwingTrigger : MonoBehaviour
             {
                 connectToObject(go);
                 PlayerController.OnPlayerJump += disconnectPlayer;
-                go.GetComponent<PlayerController>().resetExtraJumps(1);
+                go.GetComponent<DoubleJumpAbility>().resetExtraJumps(1);
                 Grabbable = false;
             }
         }

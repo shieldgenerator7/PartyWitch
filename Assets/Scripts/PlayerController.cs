@@ -27,29 +27,13 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Used for anti-floaty jumps")]
     public float fallGravityMultiplier = 2;
     private Rigidbody2D rb;
-    public bool enableExtraJumps = false;
 
     public Transform groundCheck;
     public float checkRadius;
-    private bool isGrounded;
-    private int _extraJumps;
-    private int extraJumps
-    {
-        get => _extraJumps;
-        set
-        {
-            _extraJumps = value;
-            doubleJumpIndicator.color = (_extraJumps > 0)
-                ? Color.white
-                : noExtraJumpColor;
-        }
-    }
-    public int extraJumpsValue;
+    public bool isGrounded { get; private set; }
 
 
     public Animator animator;
-    public SpriteRenderer doubleJumpIndicator;
-    public Color noExtraJumpColor = new Color(1, 1, 1, 0.3f);
 
     /// <summary>
     /// For determining which way the player is currently facing.
@@ -86,7 +70,6 @@ public class PlayerController : MonoBehaviour
 
     [Header("Sound Effects")]
     public AudioClip jumpSound;
-    public AudioClip doubleJumpSound;
     public AudioClip landSound;
     public AudioSource moveSound;
 
@@ -103,7 +86,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnEnable()
     {
-        extraJumps = extraJumpsValue;
         playerActionControls.Enable();
         playerActionControls.Player.Movement.performed += ctx =>
         {
@@ -161,31 +143,24 @@ public class PlayerController : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(landSound, transform.position);
             animator.SetBool("isJumping", false);
+            onGrounded?.Invoke();
         }
     }
+    public delegate void OnGrounded();
+    public event OnGrounded onGrounded;
 
     // Update is called once per frame
     void Update()
     {
         if (isGrounded)
         {
-            resetExtraJumps();
             if (jumpFirstFrame)
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-                AudioSource.PlayClipAtPoint(jumpSound, transform.position);
-                jumpFirstFrame = false;
+                Jump(jumpSound);
             }
         }
         else
         {
-            if (jumpFirstFrame && extraJumps > 0 && enableExtraJumps)
-            {
-                extraJumps--;
-                rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-                AudioSource.PlayClipAtPoint(doubleJumpSound, transform.position);
-                jumpFirstFrame = false;
-            }
             //Variable jump height
             if (rb.velocity.y > 0 && !jumpKeyDown)
             {
@@ -209,9 +184,11 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    public void resetExtraJumps(int extraextras = 0)
+    public void Jump(AudioClip jumpSound)
     {
-        extraJumps = extraJumpsValue + extraextras;
+        rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+        AudioSource.PlayClipAtPoint(jumpSound, transform.position);
+        jumpFirstFrame = false;
     }
 
 }

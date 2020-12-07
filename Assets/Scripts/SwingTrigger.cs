@@ -60,8 +60,8 @@ public class SwingTrigger : MonoBehaviour
             if (go.CompareTag("Player"))
             {
                 connectToObject(go);
+                go.GetComponent<PlayerController>().groundedCheck += groundedCheck;
                 PlayerController.OnPlayerJump += disconnectPlayer;
-                go.GetComponent<DoubleJumpAbility>().resetExtraJumps(1);
                 Grabbable = false;
             }
         }
@@ -86,8 +86,11 @@ public class SwingTrigger : MonoBehaviour
         }
     }
 
+    private bool groundedCheck() => true;
+
     private void disconnectPlayer()
     {
+        FindObjectOfType<PlayerController>().groundedCheck -= groundedCheck;
         PlayerController.OnPlayerJump -= disconnectPlayer;
         connectToObject(null, false);
         Grabbable = false;

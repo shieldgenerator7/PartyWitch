@@ -139,6 +139,12 @@ public class PlayerController : MonoBehaviour
         //Do grounded check
         bool wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+        if (!isGrounded && groundedCheck != null)
+        {
+            isGrounded = groundedCheck.GetInvocationList().Any(
+                del => ((GroundedCheck)del).Invoke()
+                );
+        }
         if (!wasGrounded && isGrounded)
         {
             AudioSource.PlayClipAtPoint(landSound, transform.position);
@@ -146,6 +152,8 @@ public class PlayerController : MonoBehaviour
             onGrounded?.Invoke();
         }
     }
+    public delegate bool GroundedCheck();
+    public event GroundedCheck groundedCheck;
     public delegate void OnGrounded();
     public event OnGrounded onGrounded;
 
